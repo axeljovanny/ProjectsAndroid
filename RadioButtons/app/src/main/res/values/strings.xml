@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RadioButtons</string>
+    <string name="heterosexual">Heterosexual</string>
+    <string name="homosexual">Homosexual</string>
+    <string name="bisexual">Bisexual</string>
+    <string name="preferencia">Selecciona tu preferencia sexual:</string>
+</resources>

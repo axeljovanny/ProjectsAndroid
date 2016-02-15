@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txv_remitente"
+    android:textSize="10pt"
+    android:textStyle="bold"
+    android:textColor="@color/colorRemitente"
+    android:text="@string/remitente"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_asunto"
+        android:textColor="@color/colorAsunto"
+        android:textSize="8pt"
+        android:text="@string/asunto"
+        android:textStyle="normal"
+        />
+
+</LinearLayout>

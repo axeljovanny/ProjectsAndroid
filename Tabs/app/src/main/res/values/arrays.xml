@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="profesores">
+        <item>Karla</item>
+        <item>Lila</item>
+        <item>Tacho</item>
+        <item>Viridiana</item>
+        <item>Olivia</item>
+    </string-array>
+    <string-array name="estudiantes">
+        <item>Carmen</item>
+        <item>Paula</item>
+        <item>Erika</item>
+        <item>Veronica</item>
+        <item>Magali</item>
+        <item>Olimpia</item>
+    </string-array>
+    <string-array name="directivos">
+        <item>Fernando</item>
+        <item>Salvador</item>
+        <item>Elida</item>
+        <item>Hugo Alberto</item>
+        <item>Penelope</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PrimerEjercicio</string>
+    <string name="ir_segundo">Ir al segundo</string>
+    <string name="principal">Principal</string>
+    <string name="ir_primero">Ir a primero</string>
+    <string name="ir_tercero">Ir a tercero</string>
+    <string name="saludo">Hola Mundo</string>
+    <string name="segundo">Segundo</string>
+</resources>

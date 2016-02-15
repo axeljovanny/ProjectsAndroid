@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Layout</string>
+    <string name="btn1">Boton 1</string>
+    <string name="btn2">Boton 2</string>
+    <string name="btn3">Boton 3</string>
+    <string name="etiqueta1">Etiqueta 1</string>
+    <string name="etiqueta2">Etiqueta 2</string>
+    <string name="etiqueta3">Etiqueta 3</string>
+    <string name="txt1">Texto 1</string>
+    <string name="txt2">Texto 2</string>
+    <string name="txt3">Texto 3</string>
+    <string name="btn4">Boton 4</string>
+    <string name="btn6">Boton 6</string>
+    <string name="btn5">Boton 5</string>
+    <string name="usuario">Usuario:</string>
+    <string name="clave">Clave:</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+</resources>

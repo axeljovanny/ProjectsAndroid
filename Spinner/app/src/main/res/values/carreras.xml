@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carreras">
+        <item>Selecciona</item>
+        <item>Sistemas Informáticos</item>
+        <item>Multimedia y comercio electrónico</item>
+        <item>Redes y telecomunicaciones</item>
+        <item>Diseño digital</item>
+    </string-array>
+
+</resources>

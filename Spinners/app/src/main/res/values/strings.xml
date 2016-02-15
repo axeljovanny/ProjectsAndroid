@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Spinners</string>
+    <string name="guapa">Selecciona la maestra mas guapa:</string>
+<string name="detalle">
+<![CDATA[
+
+    <h1>primera linea</h1><br>
+    <h2 style="color:red;">segunda linea</h2><br>
+    tercera linea<br><br>
+    <p>lorem ipsum dolor sit amet...</p>
+]]>
+</string>
+</resources>
+

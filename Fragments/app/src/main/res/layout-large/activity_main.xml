@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <fragment
+        android:layout_width="0px"
+        android:layout_weight="30"
+        android:layout_height="match_parent"
+        android:id="@+id/frg_listado"
+       class="mx.edu.utng.fragments.FragmentListado"
+        ></fragment>
+     <fragment
+         android:layout_width="0px"
+         android:layout_weight="70"
+         android:layout_height="match_parent"
+         android:id="@+id/frg_detalle"
+         class="mx.edu.utng.fragments.FragmentDetalle"
+         ></fragment>
+
+</LinearLayout>

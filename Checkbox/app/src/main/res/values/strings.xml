@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Checkbox</string>
+    <string name="da3">Desarrollo de Aplicaciones III</string>
+    <string name="materias">Materias que desea cursar:</string>
+    <string name="is2">Ingeniería de software II</string>
+    <string name="ap">Administración de Proyectos</string>
+    <string name="cds">Calidad en el Desarrollo de Software</string>
+    <string name="i2">Integradora II</string>
+    <string name="i5">Ingles V</string>
+    <string name="eoe2">Expresión Oral y Escrita</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Maestria1</string>
+    <string name="tu_nombre">Teclea tu nombre:</string>
+    <string name="enviar_saludo">Enviar saludo</string>
+</resources>

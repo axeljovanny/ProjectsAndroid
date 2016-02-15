@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Singleton</string>
+    <string name="nombre">Nombre:</string>
+    <string name="host">Host:</string>
+    <string name="puerto">Puerto:</string>
+    <string name="instrucciones">Teclea los siguientes datos
+    de tu unica instancia de Base de datos:</string>
+    <string name="crear_base">Crear BD</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Checkboxes</string>
+    <string name="empresas">Elige las empresas donde desearías trabajar</string>
+    <string name="softek">Softek</string>
+    <string name="ibm">IBM</string>
+    <string name="tata">Tata Consulting</string>
+    <string name="google">Google</string>
+    <string name="cades">CADES</string>
+</resources>

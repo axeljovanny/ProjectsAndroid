@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.layouts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+    <activity android:name=".ExampleFrameActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"></action>
+            <category android:name="android.intent.category.LAUNCHER"></category>
+        </intent-filter>
+    </activity>
+    <activity android:name=".ExampleLinearActivity"></activity>
+    <activity android:name=".ExampleRelativeActivity"></activity>
+    <activity android:name=".ExampleTableActivity"></activity>
+    </application>
+</manifest>

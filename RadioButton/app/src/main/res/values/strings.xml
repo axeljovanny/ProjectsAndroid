@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="select_cuatrimestre">Cuatrimestre a cursar</string>
+    <string name="sep_dic">Septiembre - Diciembre - 2016</string>
+    <string name="ene_abr">Enero - Abril - 2017</string>
+    <string name="may_ago">Mayo - Agosto - 2017</string>
+</resources>

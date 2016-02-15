@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.edu.utng.actionbar.ActionBarActivity"
+    >
+    <item
+        android:id="@+id/mnu_agregar"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/agregar"
+        android:icon="@android:drawable/ic_menu_add"
+        ></item>
+    <item
+        android:id="@+id/mnu_guardar"
+        android:showAsAction="ifRoom"
+       android:title="@string/guardar"
+        android:icon="@android:drawable/ic_menu_save"
+        ></item>
+    <item
+        android:id="@+id/mnu_eliminar"
+        android:showAsAction="ifRoom"
+        android:title="@string/eliminar"
+        android:icon="@android:drawable/ic_delete"
+        ></item>
+    <item
+        android:id="@+id/mnu_configurar"
+        android:showAsAction="never"
+        android:title="@string/configuracion"
+        android:icon="@android:drawable/ic_menu_manage"
+
+        ></item>
+
+
+
+
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragmentos</string>
+    <string name="remitente">Remitente</string>
+    <string name="asunto">Asunto</string>
+</resources>

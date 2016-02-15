@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="numero_uno">Ingresa numero:</string>
+    <string name="sumar">Sumar</string>
+</resources>

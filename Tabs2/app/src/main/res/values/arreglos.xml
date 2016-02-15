@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="videos">
+        <item>Shakira</item>
+        <item>Beyonce</item>
+        <item>Selena Gomez</item>
+        <item>Pink floyd</item>
+        <item>El Komander</item>
+        <item>Paquita la del barrio</item>
+        <item>Peter la anguila</item>
+    </string-array>
+<string-array name="audios">
+        <item>Los velazquez</item>
+        <item>Vagon Chicano</item>
+        <item>Lince</item>
+        <item>Guns and Roses</item>
+        <item>Jenny Rivera</item>
+        <item>Jose Alfredo</item>
+        <item>Prince Royce</item>
+    </string-array>
+
+</resources>

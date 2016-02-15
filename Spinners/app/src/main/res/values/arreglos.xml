@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="maestras_guapas">
+        <item>Seleccione uno</item>
+        <item>Karla Alejandra</item>
+        <item>Lila Sandoval</item>
+        <item>Carolina Hernandez</item>
+        <item>La de la biblioteca</item>
+    </string-array>
+</resources>

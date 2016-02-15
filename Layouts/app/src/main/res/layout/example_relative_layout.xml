@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:id="@+id/edt_usuario"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/clave"
+        android:id="@+id/edt_clave"
+        android:inputType="textPassword"
+        android:layout_below="@id/edt_usuario"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/acceder"
+        android:layout_below="@id/edt_clave"
+        android:id="@+id/btn_acceder"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:id="@+id/btn_cancelar"
+        android:layout_toRightOf="@id/btn_acceder"
+        android:layout_below="@id/edt_clave"
+        />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SegundoEjercicio</string>
+    <string name="asunto">Asunto:</string>
+    <string name="mensaje">Mensaje:</string>
+    <string name="enviar">Enviar</string>
+    <string name="contacto">Contacto</string>
+</resources>

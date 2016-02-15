@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_usuario"
+        android:text="@string/usuario"
+        android:paddingTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_usuario"
+        android:layout_toRightOf="@id/txv_usuario"
+        android:inputType="text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_clave"
+        android:text="@string/clave"
+        android:layout_alignTop="@+id/edt_clave"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_clave"
+        android:layout_toRightOf="@id/txv_clave"
+        android:inputType="textPassword"
+        android:layout_below="@id/edt_usuario"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar"
+            android:id="@+id/btnAceptar"
+            android:layout_below="@+id/edt_clave"
+            android:onClick="autenticar"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar"
+            android:layout_below="@id/edt_clave"
+            android:id="@+id/btnCancelar"
+            android:layout_toRightOf="@id/btnAceptar"
+            android:layout_alignTop="@id/btnAceptar"
+            android:onClick="cancelar"
+        />
+</RelativeLayout>

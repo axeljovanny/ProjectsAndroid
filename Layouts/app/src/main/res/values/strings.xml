@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="col1">columna 1</string>
+    <string name="col2">columna 2</string>
+    <string name="col3">columna 3</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="acceder">Acceder</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="error_autenticar">Usuario y/o contraseña incorrecto(s)</string>
+    <string name="login_valido">utng</string>
+    <string name="clave_valida">123</string>
+</resources>
