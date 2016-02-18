@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo:</string>
+    <string name="anio">Año</string>
+    <string name="agregar">Agregar</string>
+    <string name="actualizar">Actualizar</string>
+</resources>

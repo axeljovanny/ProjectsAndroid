@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BaseDatosInterna</string>
+    <string name="add_university">Agregar universidad</string>
+    <string name="new_element">Agregar aqui la nueva universidad</string>
+    <string name="matricula">Numero de estudiantes</string>
+    <string name="agregar">Agregar</string>
+    <string name="update_name">Nombre a modificar</string>
+    <string name="delete">Eliminar</string>
+    <string name="update">Actualizar</string>
+</resources>
