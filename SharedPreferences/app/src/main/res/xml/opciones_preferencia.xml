@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/conf_basicas">
+    <EditTextPreference
+        android:key="nombre_aplicacion"
+        android:title="@string/nuevo_nombre"
+        android:summary="@string/cambiar_nombre"
+        android:dialogTitle="@string/nuevo_nombre"
+        />
+    <EditTextPreference
+        android:key="ip_bd"
+        android:title="@string/nueva_ip"
+        android:summary="@string/cambio_ip"
+        android:dialogTitle="@string/nueva_ip"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/conf_secundaria"
+        >
+        <CheckBoxPreference
+            android:key="mayor_18"
+            android:title="@string/contenido"
+            android:summary="@string/mayores_edad"
+           />
+        <ListPreference
+            android:key="idioma"
+            android:title="@string/idioma_aplicacion"
+            android:summary="@string/cambia_idioma"
+            android:dialogTitle="@string/idioma_aplicacion"
+            android:entryValues="@array/id_idioma"
+            android:entries="@array/nombre_idioma"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

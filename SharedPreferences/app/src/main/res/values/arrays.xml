@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_idioma">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="nombre_idioma">
+        <item>Español</item>
+        <item>Ingles</item>
+        <item>Italiano</item>
+        <item>Frances</item>
+        <item>Chino Mandarin</item>
+    </string-array>
+</resources>

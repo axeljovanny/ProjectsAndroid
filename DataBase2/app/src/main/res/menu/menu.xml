@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/mnu_regresar"
+        android:id="@+id/mnu_regresar"></item>
+    <item android:title="@string/ir_clientes"
+        android:id="@+id/mnu_clientes"></item>
+    <item android:title="@string/ir_bebidas"
+        android:id="@+id/mnu_bebidas"></item>
+</menu>

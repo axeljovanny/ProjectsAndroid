@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="preferencias">Crear preferencias</string>
+    <string name="nuevo_nombre">Teclea el nuevo nombre de la aplicacion</string>
+    <string name="cambiar_nombre">Cambia el nombre de la aplicacion</string>
+    <string name="cambio_ip">Cada que cambia la ip puedes actualizar</string>
+    <string name="nueva_ip">Teclea nueva IP</string>
+    <string name="conf_basicas">Configuraciones básicas</string>
+    <string name="conf_secundaria">Configuraciones secundarias</string>
+    <string name="contenido">Contenido habilitado para mayores de edad</string>
+    <string name="mayores_edad">Contenido para mayores de edad</string>
+    <string name="idioma_aplicacion">Selecciona el idioma de la aplicacion</string>
+    <string name="cambia_idioma">Cambia el idioma de la aplicacion</string>
+    <string name="listar_preferencias">Listar preferencias</string>
+</resources>

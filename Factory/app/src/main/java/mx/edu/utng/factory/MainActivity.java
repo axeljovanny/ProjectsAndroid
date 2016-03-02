@@ -1,5 +1,6 @@
 package mx.edu.utng.factory;
 
+import android.graphics.Canvas;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     private EditText edtFigura;
     private Button btnCrear;
     private FiguraFactory factory;
+    private LinearLayout layPrincipal;
+    private Figura figura;
+    private Lienzo lienzo;
 
 
     @Override
@@ -27,17 +31,23 @@ public class MainActivity extends AppCompatActivity {
         btnCrear = (Button)findViewById(R.id.btn_crear);
         factory = new FiguraFactory();
 
+        layPrincipal = (LinearLayout)
+                findViewById(R.id.lay_principal);
+
+        lienzo = new Lienzo(MainActivity.this,
+                figura);
+
+        layPrincipal.addView(lienzo);
+
         btnCrear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Figura figura = factory.crearFigura(
-                       edtFigura.getText().toString(), MainActivity.this);
-                LinearLayout layPrincipal = (LinearLayout)
-                        findViewById(R.id.lay_principal);
-                layPrincipal.addView((View) figura);
+                figura = factory.crearFigura(
+                       edtFigura.getText().toString());
 
-
-
+               lienzo.setFigura(figura);
+                lienzo.invalidate();
+               // lienzo.draw(new Canvas());
             }
         });
 

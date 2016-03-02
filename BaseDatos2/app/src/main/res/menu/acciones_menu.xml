@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itm_regresar"
+        android:title="@string/regresar" />
+    <item android:id="@+id/itm_cuestionarios"
+        android:title="@string/ir_cuestionarios" />
+    <item android:id="@+id/itm_publico"
+        android:title="@string/ir_publico" />
+
+</menu>

@@ -8,26 +8,22 @@ import android.view.View;
 /**
  * Created by qas on 12/02/16.
  */
-public class Cuadrado extends View implements Figura{
+public class Cuadrado implements Figura{
 
-    public Cuadrado(Context context) {
-        super(context);
-    }
 
     @Override
-    protected void onDraw(Canvas canvas) {
+    public void dibujar(Canvas canvas) {
         canvas.drawRGB(255,255,255);
         int ancho = canvas.getWidth();
         int alto = canvas.getHeight();
+        int x = (int)(Math.random()*ancho);
+        int y = (int)(Math.random()*alto);
+
         Paint pincel = new Paint();
         pincel.setARGB(255, 255, 0,255);
         pincel.setStyle(Paint.Style.FILL);
-        canvas.drawRect(ancho/4, alto/4, 200, 200, pincel);
+        canvas.drawRect(x, y, x+200, y+200, pincel);
 
-    }
-
-    @Override
-    public void dibujar() {
 
     }
 }

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DataBase2</string>
+    <string name="nombre">Nombre:</string>
+    <string name="descripcion_nombre">Teclea el nombre de la bebida</string>
+    <string name="precio">Precio:</string>
+    <string name="descripcion_precio">Teclea el precio de la bebida</string>
+    <string name="fecha_caducidad">Fecha de caducidad</string>
+    <string name="disponible">Disponble</string>
+    <string name="venta_a">Venta a:</string>
+    <string name="guardar">Guardar</string>
+    <string-array name="clientes">
+        <item>A todo publico</item>
+        <item>Mayores de 18 años</item>
+        <item>Menores</item>
+        <item>Diabeticos</item>
+    </string-array>
+    <string name="opciones">Opciones para: </string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="descripcion_cliente">Teclea el nombre del cliente</string>
+    <string name="descripcion_apellidos">Teclea apellidos de cliente</string>
+    <string name="mnu_regresar">Regresar</string>
+    <string name="ir_clientes">Ir a Clientes</string>
+    <string name="ir_bebidas">Ir a bebidas</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string name="clonar">Clonar</string>
+    <string name="tangas">Mis tangas</string>
+    <string name="raza">Raza</string>
+    <string name="color">Color</string>
+    <string name="peso">Peso</string>
+</resources>
