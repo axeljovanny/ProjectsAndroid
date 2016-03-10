@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GestBaby</string>
+    <string name="wait_please">Por favor espere...</string>
+    <string name="author">Por Tacho Rodríguez García</string>
+    <string name="home_page">Página de inicio</string>
+    <string name="name">Nombre:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Genero:</string>
+    <string name="birthday">Fecha nacimiento:</string>
+    <string name="about_us">Acerca de</string>
+    <string name="help">Ayuda</string>
+    <string name="email_support">Soporte Email</string>
+    <string name="other_contact">Otros</string>
+    <string name="web_site">Ir a univa.mx</string>
+    <string name="avance_search">Busqueda avanzada</string>
+    <string name="favorites">Favoritos</string>
+    <string name="search">Buscar nombres</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="sounds">sonidos</string>
+    <string name="start_with">Iniciar con</string>
+    <string name="ends_with">Terminar con</string>
+    <string name="get_names">Obtener nombre</string>
+    <string name="name_detail">Detalle de nombre</string>
+    <string name="baby_name">Nombre del bebe</string>
+    <string name="add_favorites">Agregar a favoritos</string>
+    <string name="edit_name">Nombre</string>
+    <string name="save">Guardar</string>
+    <string name="favorite_names">Nombres favoritos</string>
+    <string name="add">Agregar</string>
+    <string name="origins">Origenes</string>
+</resources>

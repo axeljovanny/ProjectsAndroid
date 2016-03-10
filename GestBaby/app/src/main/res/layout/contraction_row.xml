@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="80dp" android:layout_height="-2">
+            <TextView android:typeface="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:text="@string/start_time" />
+            <TextView android:textSize="13dp" android:typeface="1" android:textColor="#ba6e87" android:id="@id/startTime" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="80dp" android:layout_height="-2">
+            <TextView android:typeface="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:text="@string/end_time" />
+            <TextView android:typeface="1" android:textColor="#ba6e87" android:id="@id/endTime" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="80dp" android:layout_height="-2">
+            <TextView android:typeface="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:text="@string/duration" />
+            <TextView android:textSize="13dp" android:typeface="1" android:textColor="#ba6e87" android:id="@id/duration" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="80dp" android:layout_height="-2">
+            <TextView android:typeface="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:text="@string/interval" />
+            <TextView android:textSize="14dp" android:typeface="1" android:textColor="#ba6e87" android:id="@id/interval" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/notes" android:paddingLeft="8dp" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:typeface="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:text="@string/notes_c" />
+        <TextView android:typeface="1" android:textColor="#ba6e87" android:id="@id/notesText" android:layout_width="-1" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+</LinearLayout>

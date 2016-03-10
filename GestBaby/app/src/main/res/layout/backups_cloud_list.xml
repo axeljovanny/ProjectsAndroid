@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="1" android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp">
+        <TextView android:textSize="22dp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/cloud_backups" />
+    </LinearLayout>
+    <ListView android:id="0x102000a" android:layout_width="-1" android:layout_height="0dp" android:dividerHeight="0dp" android:layout_weight="1.0" />
+</LinearLayout>

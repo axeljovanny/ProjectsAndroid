@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="0x106000b" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp">
+        <TextView android:textSize="22sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="34dp" android:text="" />
+    </LinearLayout>
+    <Gallery android:id="@id/gallery" android:background="0x106000b" android:padding="0dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+    <include android:layout_width="-1" android:layout_height="50dp" layout="@layout/ad_view" />
+</LinearLayout>

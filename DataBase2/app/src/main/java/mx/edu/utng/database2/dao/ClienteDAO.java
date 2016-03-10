@@ -14,4 +14,6 @@ public interface ClienteDAO {
     void modificar(Cliente cliente, SQLiteDatabase db);
     void eliminar(Cliente cliente, SQLiteDatabase db);
     Cursor listar(SQLiteDatabase db);
+    Cliente autenticar(SQLiteDatabase db, String usuario, String clave);
+
  }

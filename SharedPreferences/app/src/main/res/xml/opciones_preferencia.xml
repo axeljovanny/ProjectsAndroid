@@ -30,8 +30,13 @@
             android:title="@string/idioma_aplicacion"
             android:summary="@string/cambia_idioma"
             android:dialogTitle="@string/idioma_aplicacion"
-            android:entryValues="@array/id_idioma"
+            android:entryValues="@array/nombre_idioma"
             android:entries="@array/nombre_idioma"
+            />
+        <Preference
+            android:title="@string/regresar"
+            android:key="@string/btn_regresar"
+            android:summary="@string/regresar_summary"
             />
     </PreferenceCategory>
 </PreferenceScreen>

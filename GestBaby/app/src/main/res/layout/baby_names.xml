@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RootView"
+    android:layout_width="-1"
+    android:layout_height="-1"
+    android:background="@drawable/background_pink"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="-1"
+        android:layout_height="@dimen/nav_bar_height"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/topbar">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Nombres de Bebes"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/nav_bar_title_text_size"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="-1"
+        android:layout_height="-1"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:addStatesFromChildren="true"
+                android:baselineAligned="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txv_quick_search"
+                    android:layout_width="0dp"
+                    android:layout_height="-2"
+                    android:layout_weight="1.0"
+                    android:hint="Nombre a buscar"
+                    android:paddingLeft="7dp"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/btn_quick_search"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:drawableLeft="@drawable/ic_btn_search" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_avanced_search"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:layout_marginLeft="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginRight="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginTop="@dimen/baby_names_home_button_margin_top"
+                android:background="@drawable/baby_names_home_button"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/baby_names_home_button_padding_top_bottom"
+                android:paddingTop="@dimen/baby_names_home_button_padding_top_bottom">
+
+                <ImageView
+                    android:layout_width="@dimen/baby_names_home_image_button_width"
+                    android:layout_height="@dimen/baby_names_home_image_button_height"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/baby_names_home_image_button_margin_left"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/commerce_search_bkgd" />
+
+                <TextView
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/baby_names_home_text_view_margin_left"
+                    android:gravity="center_vertical"
+                    android:text="@string/avance_search"
+                    android:textColor="@color/community_dark_button_start"
+                    android:textSize="@dimen/baby_names_home_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/favorites_button"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:layout_marginLeft="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginRight="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginTop="@dimen/baby_names_home_button_margin_top"
+                android:background="@drawable/baby_names_home_button"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/baby_names_home_button_padding_top_bottom"
+                android:paddingTop="@dimen/baby_names_home_button_padding_top_bottom">
+
+                <ImageView
+                    android:layout_width="@dimen/baby_names_home_image_button_width"
+                    android:layout_height="@dimen/baby_names_home_image_button_height"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/baby_names_home_image_button_margin_left"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/iv_heart_add_favorite" />
+
+                <TextView
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/baby_names_home_text_view_margin_left"
+                    android:gravity="center_vertical"
+                    android:text="@string/favorites"
+                    android:textColor="@color/community_dark_button_start"
+                    android:textSize="@dimen/baby_names_home_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

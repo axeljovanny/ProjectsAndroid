@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="0x106000b" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="@dimen/nav_bar_height">
+        <TextView android:textSize="@dimen/nav_bar_title_text_size" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/fun_finder" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:orientation="0" android:addStatesFromChildren="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:baselineAligned="false">
+        <EditText android:id="@id/quick_search_edittext" android:paddingLeft="7dp" android:layout_width="0dp" android:layout_height="-2" android:hint="@string/quick_baby_name_search_hint" android:singleLine="true" android:layout_weight="1.0" />
+        <Button android:id="@id/quick_search_button" android:layout_width="-2" android:layout_height="-2" android:drawableLeft="@drawable/ic_btn_search" />
+    </LinearLayout>
+    <WebView android:gravity="11" android:layout_gravity="11" android:id="@id/web_view" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

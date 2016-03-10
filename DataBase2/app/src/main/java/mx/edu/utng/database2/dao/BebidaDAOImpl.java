@@ -31,7 +31,7 @@ public class BebidaDAOImpl implements BebidaDAO {
         values.put(DBHelper.DUE_DATE, bebida.getFechaCaducidad().toString());
         values.put(DBHelper.DISPONIBLE, bebida.isDisponible());
         values.put(DBHelper.CUSTOMER_ID, bebida.getCliente());
-        db.update(DBHelper.TABLE_NAME_2, values, DBHelper.ID+"="+bebida.getIdBebida(),
+        db.update(DBHelper.TABLE_NAME_2, values, DBHelper.ID + "=" + bebida.getIdBebida(),
                 null);
     }
 
@@ -42,6 +42,16 @@ public class BebidaDAOImpl implements BebidaDAO {
 
     @Override
     public Cursor listar(SQLiteDatabase db) {
-        return db.query(DBHelper.TABLE_NAME_2, null, null, null, null, null, null);
+
+        return db.query(
+                DBHelper.TABLE_NAME_2, null, null, null, null, null, null);
+    }
+
+    public Cursor autenticar(SQLiteDatabase db, String usuario, String clave){
+        Cursor findEntry = db.query(
+                DBHelper.TABLE_NAME_2, null,
+                "usuario=? and clave=?",
+                new String[] { usuario , clave}, null, null, null);
+        return findEntry;
     }
 }

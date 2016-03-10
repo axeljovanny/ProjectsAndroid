@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp" android:layout_x="0dp" android:layout_y="0dp">
+        <TextView android:textSize="22dp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/alt12_apps" />
+    </LinearLayout>
+    <WebView android:id="@id/wv" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

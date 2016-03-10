@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/RootView" style="@style/pinkProfileBackground">
+
+    <include layout="@layout/profile_topbar" />
+    <include layout="@layout/profile_view" />
+    <include layout="@layout/ad_view" />
+</LinearLayout>

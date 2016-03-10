@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="1" android:id="@id/lnv_scroll" style="@style/pinkProfileBackground">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:id="@id/lnv_profile" android:background="@drawable/lnv_selected" style="@style/pinkLnvRow">
+            <ImageView android:id="@id/lnv_user_photo" android:src="@drawable/default_white_photo" style="@style/pinkLnvRowIconUser" />
+            <TextView android:id="@id/lnv_user_name" android:text="@string/lnv_user_name" style="@style/pinkLnvRowTextUser" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/pinkLnvHeader">
+            <TextView android:text="@string/lnv_spotlight" style="@style/pinkLnvHeaderText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_shop" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_shop" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_shop" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_pregnancy_info" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_pregnancy_info" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_pergnancy_info" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_groups" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_groups" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_groups" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_my_photos" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_my_photos" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_my_photos" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_messages" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_messages" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_messages" style="@style/pinkLnvRowText" />
+            <LinearLayout android:id="@id/lnv_message_count" android:background="@drawable/lnv_message_count" style="@style/pinkLnvMessageCount">
+                <TextView android:id="@id/lnv_message_count_text" style="@style/pinkLnvMessageCountText" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_friends" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_friends" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_friends" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/pinkLnvHeader">
+            <TextView android:text="@string/lnv_features" style="@style/pinkLnvHeaderText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_journal" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_journal" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_journal" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_baby_names" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_baby_names" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_baby_names" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_kick_counter" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_kick_counter" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_kick_counter" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_contraction" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_contraction" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_contraction_tracker" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_birth_planning" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_birth_planning" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_birth_planning" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_upgrade" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_upgrade" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_more_features" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/pinkLnvHeader">
+            <TextView android:text="@string/lnv_account" style="@style/pinkLnvHeaderText" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lnv_settings" style="@style/pinkLnvRow">
+            <ImageView android:src="@drawable/lnv_settings" style="@style/pinkLnvRowIcon" />
+            <TextView android:text="@string/lnv_settings" style="@style/pinkLnvRowText" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

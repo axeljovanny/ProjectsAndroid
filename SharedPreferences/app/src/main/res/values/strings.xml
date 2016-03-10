@@ -12,4 +12,7 @@
     <string name="idioma_aplicacion">Selecciona el idioma de la aplicacion</string>
     <string name="cambia_idioma">Cambia el idioma de la aplicacion</string>
     <string name="listar_preferencias">Listar preferencias</string>
+    <string name="regresar">Regresar</string>
+    <string name="regresar_summary">Regresar a la principal</string>
+    <string name="btn_regresar">btn_regresar</string>
 </resources>

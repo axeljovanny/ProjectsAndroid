@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp">
+        <TextView android:textSize="22dp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/weekly_notifications" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp">
+        <TextView android:text="@string/new_week_notifications" style="@style/SettingsRowLeftText" />
+        <CheckBox android:id="@id/notifications_checkbox" style="@style/SettingsRightCheckBox" />
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:textColor="@color/pink_theme_grey" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:text="@string/weekly_notifications_instructions" />
+    <View android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="1.0" />
+    <include android:layout_width="-1" android:layout_height="50dp" layout="@layout/ad_view" />
+</LinearLayout>

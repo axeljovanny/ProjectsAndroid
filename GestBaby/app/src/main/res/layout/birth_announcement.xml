@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp" android:layout_x="0dp" android:layout_y="0dp">
+        <TextView android:textSize="22dp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/birth_announcement" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:gravity="1" android:orientation="1" android:paddingTop="20dp" android:layout_width="-1" android:layout_height="-2">
+            <Button android:textStyle="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/birth_date_button" android:background="@drawable/bn_community_round_rect_white_grey_state" android:padding="10dp" android:layout_width="250dp" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="30dp" android:layout_marginRight="15dp" android:text="@string/enter_date" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

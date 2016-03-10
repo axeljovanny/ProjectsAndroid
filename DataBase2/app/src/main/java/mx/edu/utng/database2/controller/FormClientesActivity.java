@@ -78,8 +78,14 @@ public class FormClientesActivity extends Activity implements View.OnClickListen
                 }
                 break;
             case R.id.btn_listar:
+                cliente = dao.autenticar(db, edtNombre.getText().toString(), edtApellidos.getText().toString());
+                if(cliente!=null){
+
+                }else{
+
+                }
                 startActivity(new Intent(FormClientesActivity.this,
-                       ListaClientesActivity.class));
+                        ListaClientesActivity.class));
                 break;
             default:
                 break;

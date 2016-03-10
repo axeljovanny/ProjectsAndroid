@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp" android:layout_x="0dp" android:layout_y="0dp">
+        <TextView android:textSize="22dp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/birth" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/title">
+        <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:gravity="11" android:id="@id/birth_video_imageview" android:background="@drawable/birth_video_thumbnail" android:layout_width="213dp" android:layout_height="160dp" android:layout_marginTop="10dp" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="16sp" android:textColor="#000000" android:gravity="11" android:id="@id/msg_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp" android:text="@string/watch_birth_video" android:layout_centerHorizontal="true" />
+            <Button android:textStyle="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/birth_plan_button" android:background="@drawable/bn_community_round_rect_white_grey_state" android:padding="10dp" android:layout_width="-2" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:text="@string/birth_plan" android:layout_centerHorizontal="true" />
+            <Button android:textStyle="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/newborn_essentials_button" android:background="@drawable/bn_community_round_rect_white_grey_state" android:padding="10dp" android:layout_width="-2" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:text="@string/newborn_essentials" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

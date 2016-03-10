@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp">
+        <TextView android:textSize="22sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/cloud_backups" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:gravity="1" android:orientation="1" android:paddingTop="20dp" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="15sp" android:textColor="#ba6e87" android:gravity="11" android:layout_width="-1" android:layout_height="-2" android:text="@string/current_backup_name" />
+            <EditText android:textSize="14sp" android:id="@id/backupNameEditText" android:layout_width="200dp" android:layout_height="-2" android:layout_marginTop="3dp" android:inputType="2001" />
+            <Button android:textStyle="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/listBackupsButton" android:background="@drawable/bn_community_round_rect_white_grey_state" android:padding="10dp" android:layout_width="250dp" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:text="@string/list_all_backups" />
+            <Button android:textStyle="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/backupNowButton" android:background="@drawable/bn_community_round_rect_white_grey_state" android:padding="10dp" android:layout_width="250dp" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:text="@string/backup_now" />
+            <TextView android:textSize="15sp" android:textColor="#ba6e87" android:gravity="11" android:id="@id/lastBackupTextView" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:text="@string/last_backup_colon_never" />
+            <LinearLayout android:gravity="11" android:orientation="0" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="15sp" android:textColor="#ba6e87" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:text="@string/auto_backups_colon" />
+                <Button android:textSize="12sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:id="@id/autoBackupsOnButton" android:background="@drawable/tableftdefault" android:layout_width="55dp" android:layout_height="26dp" android:text="@string/on" />
+                <Button android:textSize="12sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:id="@id/autoBackupsOffButton" android:background="@drawable/tabrightselected" android:layout_width="55dp" android:layout_height="26dp" android:layout_marginTop="0dp" android:text="@string/off" />
+            </LinearLayout>
+            <Button android:textStyle="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/resetDataButton" android:background="@drawable/bn_community_round_rect_white_grey_state" android:padding="10dp" android:layout_width="250dp" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="30dp" android:layout_marginRight="15dp" android:text="@string/reset_data" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

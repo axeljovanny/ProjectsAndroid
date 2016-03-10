@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidWS</string>
+    <string name="name">Teclea el nombre de la persona</string>
+    <string name="consume_webservice">Consumir servicio web</string>
+    <string name="error_ws">Error de Servicio Web</string>
+    <string name="number_2">Numero 2</string>
+    <string name="number_1">Numero 1</string>
+    <string name="number1">numero1</string>
+    <string name="number2">numero2</string>
+</resources>

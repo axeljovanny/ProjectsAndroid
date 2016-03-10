@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+            <gradient android:startColor="@color/pinkSearchBarButtonStroke" android:endColor="@color/pinkSearchBarStartColor" android:angle="90.0" android:type="linear" android:centerColor="@color/pinkSearchBarButtonStroke" />
+            <stroke android:width="2px" android:color="@color/pinkSearchBarButtonStroke" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+            <gradient android:startColor="@color/pinkSearchBarStartColor" android:endColor="@color/pinkSearchBarCenterColor" android:angle="90.0" android:type="linear" android:centerColor="@color/pinkSearchBarButtonStroke" />
+            <stroke android:width="2px" android:color="@color/pinkSearchBarButtonStroke" />
+        </shape>
+    </item>
+</selector>

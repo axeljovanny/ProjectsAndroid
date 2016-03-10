@@ -39,4 +39,18 @@ public class ClienteDAOImpl implements ClienteDAO {
     public Cursor listar(SQLiteDatabase db) {
         return db.query(DBHelper.TABLE_NAME_1, null, null, null, null, null, null);
     }
+
+    @Override
+    public Cliente autenticar(SQLiteDatabase db, String usuario, String clave) {
+        Cursor cursor = db.query(DBHelper.TABLE_NAME_1, null,"nombre=? and clave=?",new String[]{usuario,clave}, null, null, null);
+        cursor.moveToFirst();
+        Cliente cliente = null;
+        while (cursor.moveToNext()){
+            cliente = new Cliente(
+                    cursor.getInt(cursor.getColumnIndex("_id")),
+                    cursor.getString(1),
+                    cursor.getString(2));
+        }
+        return cliente;
+    }
 }

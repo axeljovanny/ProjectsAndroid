@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/RootView"
+    android:layout_width="-1"
+    android:layout_height="-1"
+    android:background="@drawable/background_pink"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="-1"
+        android:layout_height="44dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/topbar">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/name_detail"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imv_gender"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/femalesymbol" />
+
+        <TextView
+            android:id="@+id/txv_baby_name"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/baby_name"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txv_gender"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txv_origin"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txv_meaning"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:typeface="sans" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" />
+
+    <LinearLayout
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_add_favorites"
+            android:layout_width="-2"
+            android:layout_height="44dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bn_community_round_rect_white_grey_state"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/add_favorites"
+            android:textColor="#ba6e87"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp">
+        <TextView android:textSize="22dp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/backups" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="16sp" android:textColor="#000000" android:gravity="11" android:id="@id/msg_text" android:layout_width="-1" android:layout_height="-2" android:layout_margin="15dp" android:text="@string/backups_sd_card_overview" />
+            <Button android:textStyle="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/backup_button" android:background="@drawable/bn_community_round_rect_white_grey_state" android:padding="10dp" android:layout_width="-2" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:text="@string/backup_to_sd_card" />
+            <Button android:textStyle="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/restore_button" android:background="@drawable/bn_community_round_rect_white_grey_state" android:padding="10dp" android:layout_width="-2" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:layout_marginRight="15dp" android:text="@string/restore_from_sd_card" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

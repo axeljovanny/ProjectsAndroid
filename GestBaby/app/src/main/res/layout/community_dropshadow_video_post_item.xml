@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:background="@drawable/bg_c_community_rect_transparent_grey_state" android:paddingLeft="5dp" android:paddingTop="0dp" android:paddingRight="5dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:paddingLeft="5dp" android:paddingTop="11dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:background="@drawable/bg_container_white" android:paddingLeft="15dp" android:paddingTop="7dp" android:paddingRight="20dp" android:paddingBottom="7dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2"
+                <LinearLayout android:orientation="1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp">
+                    <TextView android:textSize="14sp" android:textColor="@color/community_dark_brown_1" android:gravity="10" android:id="@id/tv_author_username_milestone_date_info" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2" />
+                    <FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="7dp">
+                        <ImageView android:id="@id/iv_videostrip" android:background="@drawable/bg_c_videostrip" android:layout_width="120dp" android:layout_height="120dp" android:scaleType="6" android:adjustViewBounds="true" />
+                        <com.alt12.community.widget.CallbackImageView android:layout_gravity="11" android:id="@id/iv_photo" android:paddingBottom="5dp" android:layout_width="110dp" android:layout_height="90dp" android:scaleType="6" android:adjustViewBounds="true" />
+                        <ImageView android:layout_gravity="11" android:background="@drawable/bn_feed_play_overlay" android:paddingBottom="10dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="100dp" android:layout_height="80dp" android:scaleType="5" android:adjustViewBounds="true" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2"
+                    <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/ll_badge_and_milestone" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-11dp" android:layout_marginBottom="-16dp">
+                        <ImageView android:id="@id/iv_badge" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="0dp" android:scaleType="1" android:adjustViewBounds="true" />
+                        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="0dp">
+                            <TextView android:textSize="16sp" android:textStyle="1" android:textColor="@color/community_dark_brown_2" android:id="@id/tv_milestone_title" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:textSize="16sp" android:textColor="@color/community_dark_brown_2" android:id="@id/tv_post_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginBottom="5dp" android:singleLine="true" />
+                    <TextView android:textSize="12sp" android:textStyle="2" android:textColor="@color/community_dark_brown_3" android:gravity="50" android:id="@id/tv_comment_info" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginBottom="3dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="-2" android:layout_height="-2">
+            <LinearLayout android:paddingTop="8dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-2"
+                <LinearLayout android:gravity="11" android:orientation="1" android:background="@drawable/bg_c_feed_baby_photo" android:layout_width="-2" android:layout_height="-2">
+                    <ImageView android:id="@id/iv_thumbnail" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/iv_community_avatar" android:scaleType="1" android:adjustViewBounds="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="5" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/clip" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

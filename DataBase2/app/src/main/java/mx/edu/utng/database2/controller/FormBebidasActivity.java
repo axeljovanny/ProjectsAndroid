@@ -45,11 +45,12 @@ public class FormBebidasActivity extends Activity implements View.OnClickListene
     private DBHelper dbHelper;
     private BebidaDAOImpl dao;
     private ClienteDAOImpl clienteDAO;
-    private DatePicker dpkFechaCaducidad;
     private Calendar calendar;
     private int anio, mes, dia;
     private Button btnFechaCaducidad;
     private Bundle bebidaBundle;
+    private Intent intentListaBebidas;
+    private Intent intentClientes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +74,10 @@ public class FormBebidasActivity extends Activity implements View.OnClickListene
         btnGuardar.setOnClickListener(this);
         btnListar = (Button)findViewById(R.id.btn_listar);
         btnListar.setOnClickListener(this);
+        intentListaBebidas = new Intent(FormBebidasActivity.this,
+                ListaBebidasActivity.class);
+        intentClientes = new Intent(this,
+                FormClientesActivity.class);
 
 
 
@@ -113,8 +118,7 @@ public class FormBebidasActivity extends Activity implements View.OnClickListene
                 }
                 break;
             case R.id.btn_listar:
-                startActivity(new Intent(FormBebidasActivity.this,
-                       ListaBebidasActivity.class));
+                startActivity(intentListaBebidas);
                 break;
             default:
                 break;
@@ -173,12 +177,10 @@ public class FormBebidasActivity extends Activity implements View.OnClickListene
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.mnu_clientes:
-                startActivity(new Intent(this,
-                        FormClientesActivity.class));
+                startActivity(intentClientes);
+                finish();
                 return true;
             default:
-                startActivity(new Intent(this,
-                        FormBebidasActivity.class));
                 return true;
         }
     }

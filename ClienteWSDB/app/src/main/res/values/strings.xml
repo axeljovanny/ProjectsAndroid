@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ClienteWSDB</string>
+    <string name="book_title">Titulo del libro</string>
+    <string name="book_author">Autor del libro</string>
+    <string name="book_price">Precio del libro</string>
+    <string name="book_editorial">Editorial del libro</string>
+    <string name="categoria_1">Comedia</string>
+    <string name="categoria_2">Drama</string>
+    <string name="categoria_3">Novela</string>
+    <string name="save_and_list">Guardar libro y listar</string>
+    <string name="save">Guardar</string>
+    <string name="list">Listar</string>
+    <string name="record_success">Registro exitoso</string>
+    <string name="record_failed">No se registro el libro</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Preferencias</string>
+    <string name="main_config">Configuraciones principales</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="user_name_title">Teclea tu nombre de usuario:</string>
+    <string name="user_name_summary">Para cambiar el nombre usuario principal de tu aplicación</string>
+    <string name="ip_server">IP de Servidor</string>
+    <string name="ip_server_title">Direccion IP del Servidor</string>
+    <string name="ip_server_summary">Teclea la ip donde se aloga la base de datos</string>
+    <string name="sound_enabled_title">Sonido habilitado</string>
+    <string name="sound_enabled_summary">Marca para habilitar el sonido en tu aplicación</string>
+    <string name="secondaries_config">Configuraciones secundarias</string>
+    <string name="language_title">Idioma de la aplicacion</string>
+    <string name="language_dialog_title">Indicar idioma:</string>
+    <string name="language_summary">Selecciona el idioma a utilizar en tu aplicación</string>
+    <string name="update_preferences">Modificar preferencias</string>
+    <string name="show_preferences">Mostrar Preferencias</string>
+    <string name="user_name_pref">Nombre de usuario:</string>
+    <string name="no_user">No hay usuario</string>
+    <string name="ip">IP</string>
+    <string name="no_language">no lenguaje</string>
+    <string name="regresar">Regresar</string>
+    <string name="back_summary">Regresa a la actividad anterior</string>
+    <string name="btn_back">btn_back</string>
+    <string-array name="languajes">
+        <item>Español</item>
+        <item>Ingles</item>
+        <item>Aleman</item>
+        <item>Chino Mandarin</item>
+    </string-array>
+</resources>

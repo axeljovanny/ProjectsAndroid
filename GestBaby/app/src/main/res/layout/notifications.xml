@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp" android:layout_x="0dp" android:layout_y="0dp">
+        <TextView android:textSize="22dp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/notifications" />
+    </LinearLayout>
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:weightSum="1.0" android:layout_x="10dp" android:layout_y="70dp"
+        <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+            <TextView android:textSize="18sp" android:textColor="#ba6e87" android:layout_width="-2" android:layout_height="-2" android:text="@string/new_day_notifications" />
+            <CheckBox android:id="@id/notificationsEnabled" android:layout_width="-2" android:layout_height="-2" android:checked="false" />
+        </LinearLayout>
+        <TextView android:layout_gravity="1" android:id="@id/notificationTimeTextView" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/notification_time" />
+        <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/notificationTimePickerContainer" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp">
+            <TimePicker android:layout_gravity="1" android:id="@id/notificationTimePicker" android:background="@drawable/colb" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

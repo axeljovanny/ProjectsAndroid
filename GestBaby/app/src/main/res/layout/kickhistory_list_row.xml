@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="13sp" android:typeface="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/date" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+    <TextView android:textSize="13sp" android:typeface="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/startTime" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+    <TextView android:textSize="13sp" android:typeface="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/duration" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+    <TextView android:textSize="13sp" android:typeface="1" android:textColor="#ba6e87" android:gravity="11" android:id="@id/kicks" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+</LinearLayout>

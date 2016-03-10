@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="@dimen/nav_bar_height">
+        <TextView android:textSize="22dp" android:typeface="1" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:text="@string/history" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:paddingLeft="15dp" android:paddingTop="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="17dp" android:typeface="1" android:textColor="#ba6e87" android:layout_width="-1" android:layout_height="-2" android:text="@string/averages" />
+        <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp">
+            <TextView android:textSize="14dp" android:typeface="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:text="@string/contractions_to_average_c" />
+            <TextView android:textSize="14dp" android:typeface="1" android:textColor="#ba6e87" android:layout_width="-2" android:layout_height="-2" android:text="@string/all" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp">
+            <TextView android:textSize="14dp" android:typeface="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:text="@string/average_duration_c" />
+            <TextView android:textSize="14dp" android:typeface="1" android:textColor="#ba6e87" android:id="@id/avg_duration" android:layout_width="-2" android:layout_height="-2" android:text="@string/seconds_30" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp">
+            <TextView android:textSize="14dp" android:typeface="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:text="@string/average_interval_c" />
+            <TextView android:textSize="14dp" android:typeface="1" android:textColor="#ba6e87" android:id="@id/avg_interval" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp">
+            <TextView android:textSize="14dp" android:typeface="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:text="@string/labor_stage_c" />
+            <TextView android:textSize="14dp" android:typeface="1" android:textColor="#ba6e87" android:id="@id/labor_stage" android:layout_width="-2" android:layout_height="-2" android:text="@string/first_stage_early_latent" />
+        </LinearLayout>
+        <TextView android:textSize="18dp" android:typeface="1" android:textColor="#ba6e87" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14dp" android:text="@string/contraction_history" />
+    </LinearLayout>
+    <ListView android:id="@id/history_list" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="4dp" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="0" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="@dimen/nav_bar_height">
+        <ImageView android:layout_gravity="10" android:id="@id/discard_image_view" android:background="@drawable/bn_pp_colb" android:layout_width="@dimen/nav_bar_image_button_width" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_marginLeft="@dimen/nav_bar_button_left_right_margin" android:src="@drawable/ic_action_discard" android:contentDescription="@string/delete" />
+        <View android:background="0x106000d" android:layout_width="0dp" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_marginRight="@dimen/nav_bar_button_left_right_margin" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="10" android:id="@id/share_image_view" android:background="@drawable/bn_pp_colb" android:layout_width="@dimen/nav_bar_image_button_width" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_marginRight="@dimen/nav_bar_button_left_right_margin" android:src="@drawable/ic_action_share" android:contentDescription="@string/email" />
+    </LinearLayout>
+</LinearLayout>

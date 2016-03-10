@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/main_config">
+        <EditTextPreference
+            android:title="@string/user_name"
+            android:dialogTitle="@string/user_name_title"
+            android:key="edp_user_name"
+            android:summary="@string/user_name_summary"
+            ></EditTextPreference>
+        <EditTextPreference
+            android:title="@string/ip_server"
+            android:dialogTitle="@string/ip_server_title"
+            android:key="edp_ip_server"
+            android:summary="@string/ip_server_summary"
+            ></EditTextPreference>
+            <CheckBoxPreference
+                android:key="chp_sound_enabled"
+                android:title="@string/sound_enabled_title"
+                android:summary="@string/sound_enabled_summary"
+                ></CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/secondaries_config">
+        <ListPreference
+            android:key="lsp_languages"
+            android:title="@string/language_title"
+            android:dialogTitle="@string/language_dialog_title"
+            android:summary="@string/language_summary"
+            android:entries="@array/languajes"
+            android:entryValues="@array/languajes"
+            ></ListPreference>
+    </PreferenceCategory>
+    <Preference android:key="@string/btn_back"
+        android:title="@string/regresar"
+        android:summary="@string/back_summary"
+        ></Preference>
+
+</PreferenceScreen>

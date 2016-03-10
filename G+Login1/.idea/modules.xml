@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/G+Login1.iml" filepath="$PROJECT_DIR$/G+Login1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gLogin/gLogin.iml" filepath="$PROJECT_DIR$/gLogin/gLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googleplayservices_lib/googleplayservices_lib.iml" filepath="$PROJECT_DIR$/googleplayservices_lib/googleplayservices_lib.iml" />
+    </modules>
+  </component>
+</project>

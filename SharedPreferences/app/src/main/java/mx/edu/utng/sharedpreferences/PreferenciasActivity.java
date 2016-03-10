@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -16,6 +17,8 @@ public class PreferenciasActivity extends Activity implements
         View.OnClickListener{
     private Button btnPreferencias;
     private Button btnListar;
+    private SharedPreferences preferences;
+    private TextView txvTitulo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +28,10 @@ public class PreferenciasActivity extends Activity implements
     }
 
     private void initComponents(){
+        preferences =
+                PreferenceManager.getDefaultSharedPreferences(this);
+        txvTitulo = (TextView)findViewById(R.id.txv_titulo);
+        txvTitulo.setText(preferences.getString("nombre_aplicacion","Aplicacion sin preferencia"));
         btnPreferencias = (Button)findViewById(
                 R.id.btn_preferencias);
         btnListar = (Button)findViewById(R.id.btn_listar);
@@ -41,11 +48,13 @@ public class PreferenciasActivity extends Activity implements
                    this, SeleccionPreferenciasActivity.class));
        }
         if(v.getId()==R.id.btn_listar){
-            SharedPreferences preferences =
-                    PreferenceManager.getDefaultSharedPreferences(this);
 
             String mensaje =
                     preferences.getBoolean("mayor_18", false)==true?"SI":"NO";
+            mensaje+="\nIdioma: "+preferences.getString("idioma","")
+                    +"\nIP base de datos: "+preferences.getString("ip_bd","")
+                    +"\nNombre de la aplicación: "+preferences.getString("nombre_aplicacion","");
+
             Toast.makeText(this, "Mayores de 18: "+mensaje,
                     Toast.LENGTH_LONG).show();
 

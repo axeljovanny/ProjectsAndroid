@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="1" android:orientation="1" android:id="@id/RootView" android:background="#000" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:orientation="0" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="@dimen/nav_bar_height">
+        <Button android:layout_gravity="10" android:id="@id/down" android:background="@drawable/arrow_left" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" />
+        <TextView android:textSize="22sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="0dp" android:layout_height="34dp" android:text="@string/one_of_four" android:layout_weight="1.0" />
+        <Button android:layout_gravity="10" android:id="@id/up" android:background="@drawable/arrow_right" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="2dp" android:layout_marginRight="5dp" />
+    </LinearLayout>
+    <ImageView android:gravity="11" android:id="@id/mainImage" android:paddingLeft="10dp" android:paddingTop="15dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="51" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textColor="#fff" android:id="@id/bottomText" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textColor="#fff" android:id="@id/caption" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <include android:layout_width="-1" android:layout_height="50dp" layout="@layout/ad_view" />
+    </LinearLayout>
+    <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="0" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="@dimen/nav_bar_height">
+        <ImageView android:layout_gravity="10" android:id="@id/discard_image_view" android:background="@drawable/bn_pp_colb" android:layout_width="@dimen/nav_bar_image_button_width" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_marginLeft="@dimen/nav_bar_button_left_right_margin" android:src="@drawable/ic_action_discard" android:contentDescription="@string/delete" />
+        <View android:background="0x106000d" android:layout_width="0dp" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/nav_bar_button_text_size" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/edit_photo_button" android:background="@drawable/bn_pp_colb" android:layout_width="140dp" android:layout_height="@dimen/nav_bar_image_button_width" android:text="@string/edit_photo_info" />
+        <View android:background="0x106000d" android:layout_width="0dp" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="10" android:id="@id/share_image_view" android:background="@drawable/bn_pp_colb" android:layout_width="@dimen/nav_bar_image_button_width" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_marginRight="@dimen/nav_bar_button_left_right_margin" android:src="@drawable/ic_action_share" android:contentDescription="@string/email" />
+    </LinearLayout>
+</LinearLayout>
