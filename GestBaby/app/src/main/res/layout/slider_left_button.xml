@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/slider_button_left_root" android:visibility="2" android:layout_width="-2" style="@style/sliderButtonContainer">
-    <RelativeLayout android:layout_gravity="10" android:clickable="true" android:layout_width="38dp" android:layout_height="@dimen/sliderButtonHeight">
-        <ImageButton android:id="@id/slider_button_left_back" android:background="@drawable/bn_pp_colb" android:layout_width="-1" android:layout_height="-1" />
-        <ImageView android:id="@id/slider_button_left_icon" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:src="@drawable/lnv_sliding_icon" android:layout_centerHorizontal="true" />
-    </RelativeLayout>
-</LinearLayout>

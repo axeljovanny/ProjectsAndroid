@@ -105,7 +105,18 @@ public class Libro implements KvmSerializable{
                 propertyInfo.type = PropertyInfo.INTEGER_CLASS;
                 propertyInfo.name = "categoria";
                 break;
+            }
+    }
 
-        }
+    @Override
+    public String toString() {
+        return "Libro{" +
+                "idLibro=" + idLibro +
+                ", titulo='" + titulo + '\'' +
+                ", autor='" + autor + '\'' +
+                ", editorial='" + editorial + '\'' +
+                ", precio=" + precio +
+                ", categoria=" + categoria +
+                '}';
     }
 }

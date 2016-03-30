@@ -30,7 +30,7 @@ public class SaludoWSActivity extends Activity implements View.OnClickListener{
     private final SoapSerializationEnvelope envelope =
             new SoapSerializationEnvelope(SoapEnvelope.VER11);
     private final String URL =
-            "http://172.16.2.33:8080/WebService1/services/HolaMundo";
+            "http://10.11.18.90:8080/WebService1/services/HolaMundo";
     private  String METHOD_NAME = "saludar";
     private  String SOAP_ACTION = NAME_SPACE+"/"+METHOD_NAME;
 

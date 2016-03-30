@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
-    <TextView android:textSize="19sp" android:typeface="1" android:textColor="#ff000000" android:gravity="10" android:id="@id/baby_name_textview" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" />
-    <TextView android:textSize="17sp" android:typeface="1" android:textColor="#ba6e87" android:gravity="10" android:id="@id/births_textview" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txv_baby_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:textColor="#ff000000"
+        android:textSize="19sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txv_births"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:textColor="#ba6e87"
+        android:textSize="17sp"
+        android:typeface="sans" />
 </LinearLayout>

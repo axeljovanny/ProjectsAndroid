@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidWSDB</string>
+    <string name="artist_name">Nombre del artista</string>
+    <string name="hits_number">Numero de exitos</string>
+    <string name="save">Guardar</string>
+    <string name="list">Listar</string>
+    <string name="update">Modificar</string>
+    <string name="delete">Eliminar</string>
+    <string name="back">Regresar</string>
+</resources>

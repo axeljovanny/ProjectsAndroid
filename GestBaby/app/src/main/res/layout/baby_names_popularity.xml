@@ -1,15 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
-    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp">
-        <TextView android:textSize="22dp" android:typeface="1" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-1" android:text="@string/baby_names" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/RootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pink"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/topbar">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/baby_names"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:typeface="sans" />
     </LinearLayout>
-    <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_centerHorizontal="true">
-        <Button android:textSize="12sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/male_button" android:background="@drawable/tableftselected" android:layout_width="60dp" android:layout_height="36dp" android:layout_marginLeft="10dp" android:text="@string/male" />
-        <Button android:textSize="12sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/female_button" android:background="@drawable/tabrightdefault" android:layout_width="60dp" android:layout_height="36dp" android:layout_marginTop="0dp" android:text="@string/female" />
-        <Button android:textSize="12sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/popularity_button" android:background="@drawable/tableftselected" android:layout_width="80dp" android:layout_height="36dp" android:layout_marginLeft="10dp" android:text="@string/popularity" />
-        <Button android:textSize="12sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/alpha_button" android:background="@drawable/tabrightdefault" android:layout_width="80dp" android:layout_height="36dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:text="@string/alpha" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_male"
+            android:layout_width="80dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/tableftselected"
+            android:gravity="center"
+            android:text="@string/male"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_female"
+            android:layout_width="70dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/tabrightdefault"
+            android:gravity="center"
+            android:text="@string/female"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_popularity"
+            android:layout_width="90dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/tableftselected"
+            android:gravity="center"
+            android:text="@string/popularity"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_alpha"
+            android:layout_width="80dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/tabrightdefault"
+            android:gravity="center"
+            android:text="@string/alpha"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
     </LinearLayout>
-    <ListView android:id="0x102000a" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0" />
+
+    <ListView
+        android:id="@+id/lsv_baby_names"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" />
 </LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Composite</string>
+    <string name="power_rangers">Power rangers</string>
+    <string name="fight">Pelear</string>
+    <string name="add">Agregar</string>
+    <string-array name="colores">
+        <item>Rosa</item>
+        <item>Amarillo</item>
+        <item>Negro</item>
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Plateado</item>
+    </string-array>
+</resources>

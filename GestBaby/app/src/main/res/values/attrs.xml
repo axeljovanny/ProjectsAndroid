@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="adSize" format="string" />
+    <attr name="adSizes" format="string" />
+    <attr name="adUnitId" format="string" />
+        <attr name="mapType">
+        <enum name="none" value="0" />
+        <enum name="normal" value="1" />
+        <enum name="satellite" value="2" />
+        <enum name="terrain" value="3" />
+        <enum name="hybrid" value="4" />
+    </attr>
+    <attr name="cameraBearing" format="float" />
+    <attr name="cameraTargetLat" format="float" />
+    <attr name="cameraTargetLng" format="float" />
+    <attr name="cameraTilt" format="float" />
+    <attr name="cameraZoom" format="float" />
+    <attr name="liteMode" format="boolean" />
+    <attr name="uiCompass" format="boolean" />
+    <attr name="uiRotateGestures" format="boolean" />
+    <attr name="uiScrollGestures" format="boolean" />
+    <attr name="uiTiltGestures" format="boolean" />
+    <attr name="uiZoomControls" format="boolean" />
+    <attr name="uiZoomGestures" format="boolean" />
+    <attr name="useViewLifecycle" format="boolean" />
+    <attr name="zOrderOnTop" format="boolean" />
+    <attr name="uiMapToolbar" format="boolean" />
+    <attr name="appTheme">
+        <enum name="holo_dark" value="0" />
+        <enum name="holo_light" value="1" />
+    </attr>
+    <attr name="environment">
+        <enum name="production" value="1" />
+        <enum name="sandbox" value="0" />
+        <enum name="strict_sandbox" value="2" />
+    </attr>
+    <attr name="fragmentStyle" format="reference" />
+    <attr name="fragmentMode">
+        <enum name="buyButton" value="1" />
+        <enum name="selectionDetails" value="2" />
+    </attr>
+    <attr name="buyButtonHeight" format="dimension">
+        <enum name="match_parent" value="-1" />
+        <enum name="wrap_content" value="-2" />
+    </attr>
+    <attr name="buyButtonWidth" format="dimension">
+        <enum name="match_parent" value="-1" />
+        <enum name="wrap_content" value="-2" />
+    </attr>
+    <attr name="buyButtonText">
+        <enum name="buy_with_google" value="1" />
+        <enum name="buy_now" value="2" />
+        <enum name="book_now" value="3" />
+        <enum name="donate_with_google" value="4" />
+    </attr>
+    <attr name="buyButtonAppearance">
+        <enum name="classic" value="1" />
+        <enum name="grayscale" value="2" />
+        <enum name="monochrome" value="3" />
+    </attr>
+    <attr name="maskedWalletDetailsTextAppearance" format="reference" />
+    <attr name="maskedWalletDetailsHeaderTextAppearance" format="reference" />
+    <attr name="maskedWalletDetailsBackground" format="reference|color" />
+    <attr name="maskedWalletDetailsButtonTextAppearance" format="reference" />
+    <attr name="maskedWalletDetailsButtonBackground" format="reference|color" />
+    <attr name="maskedWalletDetailsLogoTextColor" format="color" />
+    <attr name="maskedWalletDetailsLogoImageType">
+        <enum name="classic" value="1" />
+        <enum name="monochrome" value="2" />
+    </attr>
+    <attr name="show_pictures" format="boolean" />
+    <attr name="extra_fields" format="string" />
+    <attr name="show_title_bar" format="boolean" />
+    <attr name="title_text" format="string" />
+    <attr name="done_button_text" format="string" />
+    <attr name="title_bar_background" format="reference" />
+    <attr name="done_button_background" format="reference" />
+    <attr name="multi_select" format="boolean" />
+    <attr name="radius_in_meters" format="integer" />
+    <attr name="results_limit" format="integer" />
+    <attr name="search_text" format="string" />
+    <attr name="show_search_box" format="boolean" />
+    <attr name="confirm_logout" format="boolean" />
+    <attr name="fetch_user_info" format="boolean" />
+    <attr name="login_text" format="string" />
+    <attr name="logout_text" format="string" />
+    <attr name="preset_size">
+        <enum name="normal" value="-3" />
+        <enum name="small" value="-2" />
+        <enum name="large" value="-4" />
+    </attr>
+    <attr name="is_cropped" format="boolean" />
+    <attr name="foreground_color" format="color" />
+    <attr name="object_id" format="string" />
+    <attr name="style">
+        <enum name="standard" value="0" />
+        <enum name="button" value="1" />
+        <enum name="box_count" value="2" />
+    </attr>
+    <attr name="auxiliary_view_position">
+        <enum name="bottom" value="0" />
+        <enum name="inline" value="1" />
+        <enum name="top" value="2" />
+    </attr>
+    <attr name="horizontal_alignment">
+        <enum name="center" value="0" />
+        <enum name="left" value="1" />
+        <enum name="right" value="2" />
+    </attr>
+    <attr name="TitleBar" format="reference" />
+    <attr name="TitleShadowText" format="reference" />
+    <attr name="TitleShadowText.Commerce" format="reference" />
+    <attr name="slipBackground" format="reference" />
+    <attr name="slipBackgroundWithPadding" format="reference" />
+    <attr name="ButtonShadowText" format="reference" />
+    <attr name="ButtonShadowTextW" format="reference" />
+    <attr name="ButtonShadowTextThemed" format="reference" />
+    <attr name="ButtonShadowTextThemed.Right" format="reference" />
+    <attr name="ButtonShadowTextThemed.Save" format="reference" />
+    <attr name="SearchButtonShadowTextThemed" format="reference" />
+    <attr name="LeftSegButtonThemed" format="reference" />
+    <attr name="RightSegButtonThemed" format="reference" />
+    <attr name="SearchLeftSegButtonThemed" format="reference" />
+    <attr name="SearchRightSegButtonThemed" format="reference" />
+    <attr name="checkbox" format="reference" />
+    <attr name="checkedtext" format="reference" />
+    <attr name="ttf" format="string" />
+    <attr name="extendLeft" format="dimension" />
+    <attr name="extendRight" format="dimension" />
+    <attr name="extendTop" format="dimension" />
+    <attr name="extendBottom" format="dimension" />
+    <attr name="CategorizedGroupsList" format="reference" />
+    <attr name="CategorizedGroupsListCategoryName" format="reference" />
+    <attr name="SearchTerm" format="reference" />
+    <attr name="SearchBar" format="reference" />
+    <attr name="SearchBarAddPost" format="reference" />
+    <attr name="SearchBarAddPoll" format="reference" />
+    <attr name="SearchBarAddPhoto" format="reference" />
+    <attr name="PostReplyBackground" format="reference" />
+    <attr name="GroupSearchBar" format="reference" />
+    <attr name="GroupButtonsBar" format="reference" />
+    <attr name="MoreGroupsSearchBar" format="reference" />
+    <attr name="MoreGroupsButtonsBar" format="reference" />
+    <attr name="SignUpButton" format="reference" />
+    <attr name="ShareMenuBackground" format="reference" />
+    <attr name="ShareMenuButton" format="reference" />
+    <attr name="HelpBackground" format="reference" />
+    <attr name="HelpBackground.more" format="reference" />
+    <attr name="HelpBoxTop.right" format="reference" />
+    <attr name="HelpBoxTop.left" format="reference" />
+    <attr name="HelpText" format="reference" />
+    <attr name="HelpText.bottom" format="reference" />
+    <attr name="HelpBoxBottom" format="reference" />
+    <attr name="HelpBoxBottomLinear" format="reference" />
+    <attr name="HelpExclamation" format="reference" />
+    <attr name="HelpArrow.right" format="reference" />
+    <attr name="HelpArrow.left" format="reference" />
+    <attr name="HelpBoxTop.right.More" format="reference" />
+    <attr name="HelpBoxTop.left.More" format="reference" />
+    <attr name="HelpBoxTop.right.Feed" format="reference" />
+    <attr name="HelpBoxTop.left.Feed" format="reference" />
+    <attr name="HelpBoxTop.left.AddChild" format="reference" />
+    <attr name="HelpBoxTop.right.Share" format="reference" />
+    <attr name="list_item_bg" format="reference" />
+    <attr name="CommerceBackground" format="reference" />
+    <attr name="CommerceGreenButton" format="reference" />
+    <attr name="CommerceSearchBar" format="reference" />
+    <attr name="CommerceSearchTerm" format="reference" />
+    <attr name="CommerceCartProductImage" format="reference" />
+    <attr name="CommerceCartItemRow" format="reference" />
+    <attr name="CommerceCartItemRowDivider" format="reference" />
+    <attr name="CommerceCartText.Product" format="reference" />
+    <attr name="CommerceCartText.Price" format="reference" />
+    <attr name="CommerceCartText.Color" format="reference" />
+    <attr name="CommerceCartText.Quantity" format="reference" />
+    <attr name="CommerceCartText.QtyPrompt" format="reference" />
+    <attr name="CommercePaperHeaderMap01" format="reference" />
+    <attr name="CommercePaperHeaderMap02" format="reference" />
+    <attr name="CommercePaperHeaderMap03" format="reference" />
+    <attr name="CommercePaperHeaderMap04" format="reference" />
+    <attr name="CommercePaperHeaderMap05" format="reference" />
+    <attr name="CommercePaperHeaderText" format="reference" />
+    <attr name="CommercePaperHeaderText.bold" format="reference" />
+    <attr name="CommerceFormPrompt" format="reference" />
+    <attr name="CommerceFormPrompt.bold" format="reference" />
+    <attr name="CommerceFormPromptContainer" format="reference" />
+    <attr name="CommerceFormPrompt.header" format="reference" />
+    <attr name="CommerceFormPrompt.small" format="reference" />
+    <attr name="CommerceSpacer" format="reference" />
+    <attr name="CommerceSpacer.Cancel" format="reference" />
+    <attr name="CommerceFormRowTop" format="reference" />
+    <attr name="CommerceFormRowMiddle" format="reference" />
+    <attr name="CommerceFormRowMiddle.partial" format="reference" />
+    <attr name="CommerceFormRowDivider" format="reference" />
+    <attr name="CommerceFormRowDivider.Bottom" format="reference" />
+    <attr name="CommerceFormRowBottom" format="reference" />
+    <attr name="CommerceFormRowBottom.partial" format="reference" />
+    <attr name="CommerceFormRowSingle" format="reference" />
+    <attr name="CommerceFormRowSingleNine" format="reference" />
+    <attr name="CommerceFormRowSingleLeft" format="reference" />
+    <attr name="CommerceCheckBox" format="reference" />
+    <attr name="CommerceCancelButton" format="reference" />
+    <attr name="CommerceFacebookButton" format="reference" />
+    <attr name="CommerceProductDetailImage" format="reference" />
+    <attr name="CommerceProductListImage" format="reference" />
+    <attr name="CommerceShopCategories" format="reference" />
+    <attr name="CommerceShippedBy" format="reference" />
+    <attr name="CommerceShippingStatus" format="reference" />
+    <attr name="CommerceShippingOptions" format="reference" />
+    <attr name="CommerceFinePrint" format="reference" />
+    <attr name="CommerceSecurityCode" format="reference" />
+    <attr name="CommerceZip" format="reference" />
+    <attr name="CommerceCardNumber" format="reference" />
+    <attr name="CommerceExpDate" format="reference" />
+    <attr name="CommerceState" format="reference" />
+    <attr name="CommercePodItemText" format="reference" />
+    <attr name="CommercePodItemText.Header" format="reference" />
+    <attr name="CommercePodItemText.Password" format="reference" />
+    <attr name="CommercePodItemText.bold" format="reference" />
+    <attr name="CommercePodItemText.red" format="reference" />
+    <attr name="CommercePodContainer" format="reference" />
+    <attr name="CommercePodContainer.Header" format="reference" />
+    <attr name="CommercePodContainer.Item" format="reference" />
+    <attr name="CommercePodContainer.Bottom" format="reference" />
+    <attr name="CommercePodContainer.Full" format="reference" />
+    <attr name="CommercePodContainer.Password" format="reference" />
+    <attr name="CommercePodEditButton" format="reference" />
+    <attr name="CommerceOptionList.Header" format="reference" />
+    <attr name="CommerceOptionList.Item" format="reference" />
+    <attr name="CommerceOptionListHeaderText" format="reference" />
+    <attr name="CommerceOptionListItemText" format="reference" />
+    <attr name="CommerceOptionListArrow" format="reference" />
+    <attr name="RoundedBox" format="reference" />
+    <attr name="RoundedBox.top" format="reference" />
+    <attr name="RoundedBox.middle" format="reference" />
+    <attr name="RoundedBox.bottom" format="reference" />
+    <attr name="RoundedBoxDivider" format="reference" />
+    <attr name="RoundedBoxDividerVertical" format="reference" />
+    <attr name="RoundedBoxIcon" format="reference" />
+    <attr name="RoundedBoxText" format="reference" />
+    <attr name="RoundedBoxEdit" format="reference" />
+    <attr name="RoundedBoxRadio" format="reference" />
+    <attr name="RoundedBoxArrow" format="reference" />
+    <attr name="WelcomeBackground" format="reference" />
+    <attr name="WelcomeTitle" format="reference" />
+    <attr name="WelcomeClose" format="reference" />
+    <attr name="WelcomeDescription" format="reference" />
+    <attr name="WelcomePrompt" format="reference" />
+    <attr name="WelcomeFacebookText" format="reference" />
+    <attr name="WelcomeAgree" format="reference" />
+    <attr name="WelcomeAgreeContainer" format="reference" />
+    <attr name="WelcomeBirthdate" format="reference" />
+    <attr name="WelcomeGenderContainer" format="reference" />
+    <attr name="WelcomeGender.Female" format="reference" />
+    <attr name="WelcomeGender.Male" format="reference" />
+    <attr name="LnvRow" format="reference" />
+    <attr name="LnvRow.indent" format="reference" />
+    <attr name="LnvRowIcon" format="reference" />
+    <attr name="LnvRowText" format="reference" />
+    <attr name="LnvRowIconUser" format="reference" />
+    <attr name="LnvRowTextUser" format="reference" />
+    <attr name="LnvHeader" format="reference" />
+    <attr name="LnvHeaderText" format="reference" />
+    <attr name="LnvMessageCount" format="reference" />
+    <attr name="LnvMessageCountText" format="reference" />
+    <attr name="LnvRowIconUserKF" format="reference" />
+    <attr name="LnvButtonTop" format="reference" />
+    <attr name="LnvRowPhoto" format="reference" />
+    <attr name="topbar" format="reference" />
+    <attr name="com_text" format="reference" />
+
+    <declare-styleable name="MyGallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">XmlReader</string>
+    <string name="loading">Cargando...</string>
+    <string name="title">Titulo de la noticia</string>
+    <string name="date">Fecha de la noticia</string>
+</resources>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/RootView"
-    android:layout_width="-1"
-    android:layout_height="-1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/background_pink"
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="-1"
+        android:layout_width="match_parent"
         android:layout_height="@dimen/nav_bar_height"
         android:layout_gravity="center_vertical"
         android:background="@drawable/topbar">
 
         <TextView
             android:id="@id/title"
-            android:layout_width="-1"
-            android:layout_height="-2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="Nombres de Bebes"
@@ -25,18 +25,18 @@
     </LinearLayout>
 
     <ScrollView
-        android:layout_width="-1"
-        android:layout_height="-1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:fillViewport="false">
 
         <LinearLayout
-            android:layout_width="-1"
-            android:layout_height="-2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="-1"
-                android:layout_height="-2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
@@ -48,7 +48,7 @@
                 <EditText
                     android:id="@+id/txv_quick_search"
                     android:layout_width="0dp"
-                    android:layout_height="-2"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1.0"
                     android:hint="Nombre a buscar"
                     android:paddingLeft="7dp"
@@ -56,15 +56,15 @@
 
                 <Button
                     android:id="@+id/btn_quick_search"
-                    android:layout_width="-2"
-                    android:layout_height="-2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/ic_btn_search" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/btn_avanced_search"
-                android:layout_width="-1"
-                android:layout_height="-2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/baby_names_home_button_margin_left_right"
                 android:layout_marginRight="@dimen/baby_names_home_button_margin_left_right"
                 android:layout_marginTop="@dimen/baby_names_home_button_margin_top"
@@ -82,8 +82,8 @@
                     android:src="@drawable/commerce_search_bkgd" />
 
                 <TextView
-                    android:layout_width="-2"
-                    android:layout_height="-2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="@dimen/baby_names_home_text_view_margin_left"
                     android:gravity="center_vertical"
@@ -94,8 +94,8 @@
 
             <LinearLayout
                 android:id="@+id/favorites_button"
-                android:layout_width="-1"
-                android:layout_height="-2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/baby_names_home_button_margin_left_right"
                 android:layout_marginRight="@dimen/baby_names_home_button_margin_left_right"
                 android:layout_marginTop="@dimen/baby_names_home_button_margin_top"
@@ -113,8 +113,8 @@
                     android:src="@drawable/iv_heart_add_favorite" />
 
                 <TextView
-                    android:layout_width="-2"
-                    android:layout_height="-2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="@dimen/baby_names_home_text_view_margin_left"
                     android:gravity="center_vertical"

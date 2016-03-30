@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.NETWORK" />
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <meta-data
         android:name="com.google.android.gms.version"
         android:value="@integer/google_play_services_version" />
@@ -15,13 +16,17 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListWeeksActivity">
+        <activity android:name=".gallery_one.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"></action>
                 <category android:name="android.intent.category.LAUNCHER"></category>
             </intent-filter>
         </activity>
+
+        <activity android:name=".ListWeeksActivity"></activity>
         <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".gallery_one.DetailsActivity"></activity>
     </application>
 </manifest>

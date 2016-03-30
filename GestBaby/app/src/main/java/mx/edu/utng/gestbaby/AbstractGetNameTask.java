@@ -3,9 +3,7 @@ package mx.edu.utng.gestbaby;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
-
 import com.google.android.gms.auth.GoogleAuthUtil;
-
 import org.json.JSONException;
 
 import java.io.ByteArrayOutputStream;

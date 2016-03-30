@@ -17,6 +17,7 @@ import java.util.ArrayList;
 public class OvejaAdapter extends ArrayAdapter<Oveja>{
 
     public OvejaAdapter(Context context, ArrayList<Oveja> ovejas) {
+
         super(context,0, ovejas);
     }
 

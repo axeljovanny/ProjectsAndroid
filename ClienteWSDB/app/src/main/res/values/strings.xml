@@ -12,4 +12,9 @@
     <string name="list">Listar</string>
     <string name="record_success">Registro exitoso</string>
     <string name="record_failed">No se registro el libro</string>
+    <string name="remove">Eliminar</string>
+    <string name="change">Modificar</string>
+    <string name="success_update">Modificacion exitosa</string>
+    <string name="update_failed">Error al modificar</string>
+    <string name="back">Regresar</string>
 </resources>

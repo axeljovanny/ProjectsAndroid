@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="7dp" >
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="7dp"
+                android:background="@drawable/background_pink"
+        >
 
     <TextView
         android:id="@+id/txv_title"
@@ -14,16 +15,24 @@
         android:text="@string/home_page"
         android:textSize="24sp" />
 
+    <ImageView
+            android:id="@+id/imv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/txv_title"
+            android:src="@drawable/profile_user_photo_default"
+            />
     <TextView
-        android:id="@+id/txv_name_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+            android:id="@+id/txv_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
-        android:layout_below="@id/txv_title"
-        android:layout_marginTop="15dp"
-        android:layout_toRightOf="@id/imv_logo"
-        android:text="@string/name"
-        android:textSize="18sp" />
+            android:layout_below="@id/txv_title"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/imv_logo"
+            android:text="@string/name"
+            android:textSize="18sp" />
 
     <TextView
         android:id="@+id/txv_name_value"
@@ -101,13 +110,6 @@
         android:text="@string/birthday"
         android:textSize="18sp" />
 
-    <ImageView
-        android:id="@+id/imv_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@+id/txv_title"
-        android:src="@drawable/profile_user_photo_default"
-        />
+
 
 </RelativeLayout>

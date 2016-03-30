@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/background_pink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:id="@+id/welcomeFirstRegisterButton"
+            style="?attr/RoundedBox.top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:src="@drawable/welcome_register_icon"
+                style="@style/slipRoundedBoxIcon"
+                />
+
+        <TextView
+                android:text="@string/weight_lb"
+                android:layout_weight="0.8"
+                style="?attr/RoundedBoxText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <ImageView style="@style/slipRoundedBoxArrow"/>
+    </LinearLayout>
+
+    <View style="?attr/RoundedBoxDivider"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:id="@+id/welcomeFirstSigninButton"
+            style="?attr/RoundedBox.bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:src="@drawable/welcome_signin_icon"
+                style="@style/slipRoundedBoxIcon"/>
+
+        <TextView
+                android:text="@string/signin"
+                android:layout_weight="0.8"
+                style="?attr/RoundedBoxText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <ImageView style="@style/slipRoundedBoxArrow"/>
+    </LinearLayout>
+</LinearLayout>

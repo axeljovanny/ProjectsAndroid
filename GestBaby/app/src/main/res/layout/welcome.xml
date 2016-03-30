@@ -1,16 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/RootView" android:layout_width="-1" android:layout_height="-1" style="?attr/WelcomeBackground">
-    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
-        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
-            <ImageView android:id="@id/welcomeCloseImage" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:layout_marginRight="6dp" android:src="@drawable/welcome_close_button" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-            <View android:id="@id/welcomeClose" android:layout_width="80dp" android:layout_height="50dp" android:layout_marginTop="6dp" android:layout_marginRight="6dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-            <TextView android:textSize="@dimen/welcome_title_text_size" android:textStyle="1" android:textColor="0x106000b" android:gravity="11" android:layout_gravity="1" android:id="@id/welcomeTitle" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30dp" android:shadowDy="-2.0" android:shadowRadius="2.0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/RootView"
+    style="?attr/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/welcomeCloseImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/welcome_close_button" />
+
+            <View
+                android:id="@+id/welcomeClose"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:id="@+id/welcomeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:shadowDy="-1.0"
+                android:shadowRadius="2.0"
+                android:textColor="@drawable/trans"
+                android:textSize="@dimen/welcome_title_text_size"
+                android:textStyle="bold" />
         </RelativeLayout>
-        <ImageView android:layout_gravity="1" android:id="@id/welcomeImage" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/welcome_image_vertical_margin" android:layout_marginBottom="@dimen/welcome_image_vertical_margin" />
-        <TextView android:id="@id/welcomeDescription" style="?attr/WelcomeDescription" />
-        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/welcomeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/welcome_image_vertical_margin"
+            android:layout_marginTop="@dimen/welcome_image_vertical_margin" />
+
+        <TextView
+                android:id="@+id/welcomeDescription"
+                style="?attr/WelcomeDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
             <include layout="@layout/welcome_pod_reg_sign" />
         </LinearLayout>
     </LinearLayout>

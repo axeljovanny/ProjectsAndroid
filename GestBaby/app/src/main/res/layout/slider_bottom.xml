@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/bottom_root" android:background="#ffcccc" android:layout_width="-1" android:layout_height="-1">
-    <TextView android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
-    <Button android:id="@id/bottom_button" android:layout_width="200dp" android:layout_height="-2" android:layout_marginLeft="29dp" android:layout_marginBottom="23dp" android:layout_above="@id/textView1" android:layout_alignParentLeft="true" />
-</RelativeLayout>

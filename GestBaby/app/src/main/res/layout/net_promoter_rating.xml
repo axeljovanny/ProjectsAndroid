@@ -1,34 +1,271 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="1" android:id="@id/RootView" android:layout_width="-1" android:layout_height="-1" style="?attr/slipBackground">
-    <TextView android:textSize="20sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:layout_gravity="1" android:id="@id/net_promoter_title_text_view" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" />
-    <TextView android:textSize="18sp" android:typeface="1" android:textColor="#000000" android:layout_gravity="1" android:id="@id/net_promoter_text_view" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" />
-    <RadioGroup android:layout_gravity="1" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_0" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_1" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_2" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_3" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_4" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_5" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_6" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_7" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_8" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_9" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
-        <RadioButton android:gravity="10" android:id="@id/net_promoter_rb_10" android:focusable="true" android:clickable="true" android:layout_width="26dp" android:layout_height="-2" android:button="@drawable/checkmark" />
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@id/RootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_pink"
+        style="?attr/slipBackground">
+
+    <TextView
+            android:textSize="20sp"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/net_promoter_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    <TextView
+            android:textSize="18sp"
+            android:typeface="sans"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/net_promoter_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    <RadioGroup
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_0"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_1"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_2"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_3"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_4"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_5"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_6"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_7"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_8"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_9"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
+
+        <RadioButton
+                android:gravity="center_vertical"
+                android:id="@+id/net_promoter_rb_10"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkmark"/>
     </RadioGroup>
-    <LinearLayout android:layout_gravity="1" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_0" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_1" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_2" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_3" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_4" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_5" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_6" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_7" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_8" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_9" />
-        <TextView android:textSize="16sp" android:typeface="1" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_width="26dp" android:layout_height="-2" android:text="@string/num_10" />
+
+    <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_0"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_1"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_2"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_3"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_4"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_5"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_6"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_7"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_8"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_9"/>
+
+        <TextView
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:text="@string/num_10"/>
     </LinearLayout>
-    <Button android:textSize="16sp" android:textStyle="1" android:textColor="@color/white_color" android:layout_gravity="1" android:id="@id/net_promoter_ok_button" android:background="@drawable/bn_community_dark" android:layout_width="100dp" android:layout_height="44dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/ok" />
+
+    <Button
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white_color"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/net_promoter_ok_button"
+            android:background="@drawable/bn_community_dark"
+            android:layout_width="100dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/ok"/>
 </LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Feed1</string>
+    <string name="cargar_xml_sax">Cargar XML (SAX)</string>
+    <string name="configuraciones">configuraciones</string>
+</resources>

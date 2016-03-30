@@ -3,16 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity" >
+    tools:context=".SplashActivity"
+        android:background="@drawable/gestbaby_inicio"
+        >
 
     <TextView
         android:id="@+id/txv_wait"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_centerVertical="false"
         android:text="@string/wait_please"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+            android:textColor="@color/com_facebook_blue"
+            />
 
     <ProgressBar
         android:id="@+id/pgb_wait"
@@ -28,6 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
-        android:text="@string/author" />
+        android:text="@string/author"
+            android:textColor="@color/black_color"
+            />
 
 </RelativeLayout>

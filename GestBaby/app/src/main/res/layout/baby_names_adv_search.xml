@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/RootView"
-    android:layout_width="-1"
-    android:layout_height="-1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/background_pink"
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="-1"
+        android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_gravity="center_vertical"
         android:background="@drawable/topbar">
 
         <TextView
             android:id="@id/title"
-            android:layout_width="-1"
-            android:layout_height="-2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/search"
@@ -25,24 +25,24 @@
     </LinearLayout>
 
     <ScrollView
-        android:layout_width="-1"
-        android:layout_height="-2">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:layout_width="-1"
-            android:layout_height="-2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="-2"
-                android:layout_height="-2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center">
 
                 <TextView
                     android:layout_width="100dp"
-                    android:layout_height="-2"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
                     android:gravity="right"
                     android:text="@string/gender"
@@ -77,14 +77,14 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="-2"
-                android:layout_height="-2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:gravity="center">
 
                 <TextView
                     android:layout_width="100dp"
-                    android:layout_height="-2"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
                     android:gravity="right"
                     android:text="@string/sounds"
@@ -93,7 +93,7 @@
 
                 <TextView
                     android:layout_width="30dp"
-                    android:layout_height="-2"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:gravity="right"
                     android:lines="2"
@@ -104,14 +104,14 @@
                 <EditText
                     android:id="@+id/edt_starts_with"
                     android:layout_width="50dp"
-                    android:layout_height="-2"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:inputType="text"
                     android:singleLine="true" />
 
                 <TextView
                     android:layout_width="30dp"
-                    android:layout_height="-2"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:gravity="right"
                     android:lines="2"
@@ -122,14 +122,14 @@
                 <EditText
                     android:id="@+id/edt_ends_with"
                     android:layout_width="50dp"
-                    android:layout_height="-2"
+                    android:layout_height="wrap_content"
                     android:inputType="text"
                     android:singleLine="true" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="-2"
-                android:layout_height="-2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:gravity="center"></LinearLayout>
 

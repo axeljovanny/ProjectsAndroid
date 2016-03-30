@@ -39,7 +39,7 @@ public class FormBookActivity extends Activity
     public static final String NAME_SPACE = "http://ws.utng.edu.mx";
     public static SoapSerializationEnvelope envelope =
             new SoapSerializationEnvelope(SoapEnvelope.VER11);
-    public final static String URL = "http://192.168.1.67:8080/WS/services/LibrosDB";
+    public final static String URL = "http://172.16.2.104:8080/WS/services/LibrosDB";
 
 
     @Override
@@ -67,9 +67,19 @@ public class FormBookActivity extends Activity
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_save:
-                TareaWSInsercion insercion = new TareaWSInsercion();
-                insercion.execute();
+                try {
+                    if(getIntent().getExtras()
+                      .getString("accion")
+                            .equals("modificar")) {
+                        TareaWSActualizacion actualizacion =
+                                new TareaWSActualizacion();
+                        actualizacion.execute();
+                    }
 
+                }catch (Exception e){
+                    TareaWSInsercion insercion = new TareaWSInsercion();
+                    insercion.execute();
+                }
                 break;
             case R.id.btn_list:
                 startActivity(new Intent(this,
@@ -160,5 +170,96 @@ public class FormBookActivity extends Activity
         }
     }
 
+    private class TareaWSActualizacion extends
+            AsyncTask<String, Integer, Boolean>{
 
+        @Override
+        protected Boolean doInBackground(String... params) {
+            boolean result = true;
+            final String METHOD_NAME = "modificar";
+            final String SOAP_ACTION = NAME_SPACE+"/"+METHOD_NAME;
+            SoapObject request = new SoapObject(NAME_SPACE, METHOD_NAME);
+            libro = new Libro();
+            libro.setProperty(0, getIntent()
+                    .getExtras().getString("valor0"));
+            getData();
+
+            PropertyInfo info = new PropertyInfo();
+            info.setName("libro");
+            info.setValue(libro);
+            info.setType(Libro.class);
+
+            request.addProperty(info);
+
+            envelope.setOutputSoapObject(request);
+            envelope.addMapping(NAME_SPACE, "Libro", Libro.class);
+
+            MarshalFloat marshalFloat = new MarshalFloat();
+            marshalFloat.register(envelope);
+
+            HttpTransportSE transporte = new HttpTransportSE(URL);
+            try {
+                transporte.call(SOAP_ACTION, envelope);
+                SoapPrimitive response = (SoapPrimitive)envelope.getResponse();
+                String strResponse = response.toString();
+                if(!strResponse.equals("1")){
+                    result = false;
+                }
+
+            }catch (Exception e){
+                Log.e("Error", e.toString());
+                result = false;
+            }
+            return result;
+        }
+
+        @Override
+        protected void onPostExecute(Boolean result) {
+            if(result){
+                Toast.makeText(getApplicationContext(),
+                        getResources().getString(
+                                R.string.success_update),
+                        Toast.LENGTH_SHORT).show();
+            }else{
+                Toast.makeText(getApplicationContext(),
+                        getResources().getString(
+                                R.string.update_failed),
+                        Toast.LENGTH_SHORT).show();
+            }
+
+        }
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Bundle libroModificar = this.getIntent().getExtras();
+        try{
+            edtTitle.setText(
+                    libroModificar.getString("valor1"));
+            edtAuthor.setText(
+                    libroModificar.getString("valor2"));
+            edtPrice.setText(
+                    libroModificar.getString("valor4"));
+            edtEditorial.setText(
+                    libroModificar.getString("valor3"));
+            switch (libroModificar.getString("valor5")){
+                case "1":
+                    rbtComedia.setChecked(true);
+                    break;
+                case "2":
+                    rbtDrama.setChecked(true);
+                    break;
+                case "3":
+                    rbtNovela.setChecked(true);
+                    break;
+                default:
+                    rgpCategories.clearCheck();
+                    break;
+            }
+
+
+        }catch (Exception e){
+            Log.e("Error al cargar", e.toString());
+        }
+    }
 }

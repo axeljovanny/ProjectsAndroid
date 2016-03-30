@@ -29,4 +29,189 @@
     <string name="favorite_names">Nombres favoritos</string>
     <string name="add">Agregar</string>
     <string name="origins">Origenes</string>
+    <string name="baby_names">Nombres de bebes</string>
+    <string name="popularity">Popularidad</string>
+    <string name="alpha">Alfa</string>
+    <string name="backups">backups</string>
+    <string name="overview">overview</string>
+    <string name="cloud_backups">cloud backups</string>
+    <string name="sd_card_backups">sd card backups</string>
+    <string name="current_backup">nombre del respaldo actual</string>
+    <string name="list_backup">Lista de respaldos</string>
+    <string name="now_backup">Crear respaldo</string>
+    <string name="last_backup">Ultimo respaldo</string>
+    <string name="auto_backup">Respaldos automaticos</string>
+    <string name="on">Encendido</string>
+    <string name="off">Apagado</string>
+    <string name="reset_data">Limpiar datos</string>
+    <string name="sd_backups">respaldos sd</string>
+    <string name="backup_sd">Respaldo en SD Card</string>
+    <string name="restaurar">Restaurar</string>
+    <string name="birth">Nacimiento</string>
+    <string name="birth_video">Ver video nacimiento</string>
+    <string name="birth_plan">Plan de nacimiento</string>
+    <string name="newborn_essentials">Indispensables</string>
+    <string name="fun_finder">Encontrando feliz</string>
+    <string name="description">Descripcion</string>
+    <string name="category">Categoria</string>
+    <string name="select_category">Elegir categoria</string>
+    <string name="search_quick">Busqueda rapida</string>
+    <string name="all">Todos</string>
+    <string name="checked">Marcado</string>
+    <string name="add_element">Agregar elemento</string>
+    <string name="email_list">Lista de correos</string>
+    <string name="history">Historial</string>
+    <string name="avg">Porcentajes</string>
+    <string name="avg_contractions">% de contracciones</string>
+    <string name="avg_duration">Duracion de contracciones</string>
+    <string name="seconds_30">30 segundos</string>
+    <string name="avg_interval">intervalo promedio</string>
+    <string name="stage">labor</string>
+    <string name="contraction_history">historial de contracción</string>
+    <string name="start">Inicio</string>
+    <string name="info_week">configuracion de informacion semanal</string>
+    <string name="current_day">dia actual</string>
+    <string name="info_past">Informacion anterior</string>
+    <string name="complete_info">Informacion semanal completa</string>
+    <string name="current_info">Informacion actual</string>
+    <string name="info_number">numero de información</string>
+    <string name="measures">Medidas</string>
+    <string name="pre_measures">Medidas pre embarazo</string>
+    <string name="weigth">Peso</string>
+    <string name="weight_lb">Libras</string>
+    <string name="weight_kg">Kilogramos</string>
+    <string name="height">Altura</string>
+    <string name="centimeters">Centimetros</string>
+    <string name="inches">Pulgadas</string>
+    <string name="default_settings">Configuraciones por defecto</string>
+    <string name="weight_units">Unidades de peso</string>
+    <string name="contraction_detail">Detalle de ultima contracción</string>
+    <string name="start_time">Tiempo de inicio de contracción</string>
+    <string name="duration_c">Duración de contracción:</string>
+    <string name="seconds">Segundos</string>
+    <string name="interval">Intervalo</string>
+    <string name="notes">Anotaciones</string>
+    <string name="delete">Borrar</string>
+    <string name="today_kicks">Pataditas de hoy</string>
+    <string name="zero_am">0</string>
+    <string name="zero_time">0</string>
+    <string name="kick_number">Numero de pataditas</string>
+    <string name="kick_time">Tiempo de patadita</string>
+    <string name="session_time">Tiempo de sesión</string>
+    <string name="date_and_name">Nombre y fecha</string>
+    <string name="mother_name">Nombre de mamá</string>
+    <string name="date_due">Fecha de vencimiento</string>
+    <string name="lmp">LMP</string>
+    <string name="my_photos">Mis fotos</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="new_notifications">Nuevas noificaciones</string>
+    <string name="notification_time">Tiempo de notificacion</string>
+    <string name="photos">Fotos</string>
+    <string name="no_photos_added">No hay fotos añadidas</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="loading">Loading please wait&#8230;</string>
+    <string name="title">Titulo</string>
+    <string name="date">Fecha</string>
+    <string name="desc">Descripcion</string>
+    <string name="linkLabel">Enlace a web</string>
+    <string name="linkText">Enlaces aqui</string>
+    <string name="cancel">Cancelar</string>
+    <string name="login_facebook">login</string>
+    <string name="shipping">Navegando</string>
+    <string name="welcome_f">Bienvenida</string>
+    <string name="welcome_m">Bienvenido</string>
+    <string name="user">Usuario</string>
+    <string name="email_repeat">Repite email</string>
+    <string name="password">Password</string>
+    <string name="user_or_email">Email</string>
+    <string name="password_repeat">Repite password</string>
+    <string name="choose">Elige</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="end_time">Tiempo fin</string>
+    <string name="gestbaby_faq">GestBaby faq</string>
+    <string name="waist">Cintura</string>
+    <string name="graphs">Graficos</string>
+    <string name="weigth_entered">Pesos capturados</string>
+    <string name="weight_pre_pregnant">Teclea peso antes de embarazo</string>
+    <string name="photo_text">Texto de foto</string>
+    <string name="signin">Registrate</string>
+    <string name="settings">Configuraciones</string>
+    <string name="upgrade">Actualizar</string>
+    <string name="due_date">fecha de nacimiento</string>
+    <string name="kicks">Pataditas</string>
+    <string name="info">Informacion</string>
+    <string name="account">Cuenta</string>
+    <string name="sharing">Compartir</string>
+    <string name="twitter">Twitter</string>
+    <string name="send">Enviar</string>
+    <string name="num_0">0</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="num_10">10</string>
+    <string name="ok">Ok</string>
+    <string name="kick_history">Historial de pataditas</string>
+    <string name="duration">Duracion</string>
+    <string name="lbs">Libras</string>
+    <string name="kg">Kg</string>
+    <string name="length_c">Unidades de cintura</string>
+    <string name="in">Pulgadas</string>
+    <string name="cm">Centimetros</string>
+    <string name="enter_due_date">Fecha estimada de parto</string>
+    <string name="last_mestrual">Basado en el primer dia del ciclo mestrual</string>
+    <string name="done">Hecho</string>
+    <string name="one_of_four">Uno de cuatro</string>
+    <string name="edit_info_photo">Editar informacion de foto</string>
+    <string name="feeds">Bebe Noticias</string>
+    <string name="feed_detail">Detalle noticia</string>
+    <string name="list_weeks">Lista de Semanas</string>
+    <string name="your_body">Tu cuerpo</string>
+    <string-array name="image_ids">
+        <item>@drawable/week2</item>
+        <item>@drawable/week3</item>
+        <item>@drawable/week4</item>
+        <item>@drawable/week5</item>
+        <item>@drawable/week6</item>
+        <item>@drawable/week7</item>
+        <item>@drawable/week8</item>
+        <item>@drawable/week9</item>
+        <item>@drawable/week10</item>
+        <item>@drawable/week11</item>
+        <item>@drawable/week12</item>
+        <item>@drawable/week13</item>
+        <item>@drawable/week14</item>
+        <item>@drawable/week15</item>
+        <item>@drawable/week16</item>
+        <item>@drawable/week17</item>
+        <item>@drawable/week18</item>
+        <item>@drawable/week19</item>
+        <item>@drawable/week20</item>
+        <item>@drawable/week21</item>
+        <item>@drawable/week22</item>
+        <item>@drawable/week23</item>
+        <item>@drawable/week24</item>
+        <item>@drawable/week25</item>
+        <item>@drawable/week26</item>
+        <item>@drawable/week27</item>
+        <item>@drawable/week28</item>
+        <item>@drawable/week29</item>
+        <item>@drawable/week30</item>
+        <item>@drawable/week31</item>
+        <item>@drawable/week32</item>
+        <item>@drawable/week33</item>
+        <item>@drawable/week34</item>
+        <item>@drawable/week35</item>
+        <item>@drawable/week36</item>
+        <item>@drawable/week37</item>
+        <item>@drawable/week38</item>
+        <item>@drawable/week39</item>
+        <item>@drawable/week40</item>
+      </string-array>
+
 </resources>

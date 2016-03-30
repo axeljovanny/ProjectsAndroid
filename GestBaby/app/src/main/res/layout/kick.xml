@@ -1,30 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
-    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp">
-        <TextView android:textSize="22sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="34dp" android:text="@string/kicks_today" />
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@id/RootView"
+        android:background="@drawable/background_pink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+        <TextView
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/title"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="@string/today_kicks"/>
     </LinearLayout>
-    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0"
-        <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="30dp" android:layout_marginTop="15dp">
-            <TextView android:textStyle="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="@string/start_c" />
-            <TextView android:textStyle="1" android:textColor="#ba6e87" android:id="@id/startTime" android:layout_width="100dp" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/zero_am" />
-            <TextView android:textStyle="1" android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="@string/duration_c" />
-            <TextView android:textStyle="1" android:textColor="#ba6e87" android:id="@id/timeElapsed" android:layout_width="70dp" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/zero_time" />
-        </LinearLayout>
-        <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp">
-            <ImageButton android:id="@id/newsession" android:background="@drawable/kicks_record_kick_button" android:layout_width="-2" android:layout_height="-2" />
-        </LinearLayout>
-        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
-            <TextView android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="@string/kick_number" />
-            <TextView android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:text="@string/kick_time" />
-            <TextView android:textColor="#3c3538" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40dp" android:text="@string/session_time" />
-        </LinearLayout>
-        <ListView android:id="@id/list" android:layout_width="-1" android:layout_height="-1" />
+
+    <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0">
+
+    <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp">
+
+        <TextView
+                android:textStyle="bold"
+                android:textColor="#3c3538"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/start"/>
+
+        <TextView
+                android:textStyle="bold"
+                android:textColor="#ba6e87"
+                android:id="@+id/startTime"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/zero_am"/>
+
+        <TextView
+                android:textStyle="bold"
+                android:textColor="#3c3538"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/duration_c"/>
+
+        <TextView
+                android:textStyle="bold"
+                android:textColor="#ba6e87"
+                android:id="@+id/timeElapsed"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/zero_time"/>
     </LinearLayout>
-    <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="0" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="@dimen/nav_bar_height">
-        <ImageView android:layout_gravity="10" android:id="@id/discard_image_view" android:background="@drawable/bn_pp_colb" android:layout_width="@dimen/nav_bar_image_button_width" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_marginLeft="@dimen/nav_bar_button_left_right_margin" android:src="@drawable/ic_action_discard" android:contentDescription="@string/delete" />
-        <View android:background="0x106000d" android:layout_width="0dp" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_marginRight="@dimen/nav_bar_button_left_right_margin" android:layout_weight="1.0" />
-        <ImageView android:layout_gravity="10" android:id="@id/share_image_view" android:background="@drawable/bn_pp_colb" android:layout_width="@dimen/nav_bar_image_button_width" android:layout_height="@dimen/nav_bar_image_button_width" android:layout_marginRight="@dimen/nav_bar_button_left_right_margin" android:src="@drawable/ic_action_share" android:contentDescription="@string/email" />
+
+    <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+        <ImageButton
+                android:id="@+id/newsession"
+                android:background="@drawable/kicks_record_kick_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
     </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+        <TextView
+                android:textColor="#3c3538"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/kick_number"/>
+
+        <TextView
+                android:textColor="#3c3538"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/kick_time"/>
+
+        <TextView
+                android:textColor="#3c3538"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="@string/session_time"/>
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 </LinearLayout>
+<LinearLayout
+android:gravity="center"
+android:layout_gravity="center"
+android:orientation="horizontal"
+android:background="@drawable/topbar"
+android:layout_width="match_parent"
+android:layout_height="@dimen/nav_bar_height">
+<ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/discard_image_view"
+        android:background="@drawable/bn_pp_colb"
+        android:layout_width="@dimen/nav_bar_image_button_width"
+        android:layout_height="@dimen/nav_bar_image_button_width"
+        android:layout_marginLeft="@dimen/nav_bar_button_left_right_margin"
+        android:src="@drawable/ic_action_discard"
+        android:contentDescription="@string/delete"/>
+
+<View
+        android:background="@drawable/trans"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/nav_bar_image_button_width"
+        android:layout_marginRight="@dimen/nav_bar_button_left_right_margin"
+        android:layout_weight="1.0"/>
+
+<ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/share_image_view"
+        android:background="@drawable/bn_pp_colb"
+        android:layout_width="@dimen/nav_bar_image_button_width"
+        android:layout_height="@dimen/nav_bar_image_button_width"
+        android:layout_marginRight="@dimen/nav_bar_button_left_right_margin"
+        android:src="@drawable/ic_action_share"
+        android:contentDescription="@string/email"/>
+</LinearLayout>
+        </LinearLayout>

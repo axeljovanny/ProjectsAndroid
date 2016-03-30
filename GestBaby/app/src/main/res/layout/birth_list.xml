@@ -1,16 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="1" android:id="@id/RootView" android:background="@drawable/background_pink" android:layout_width="-1" android:layout_height="-1">
-    <LinearLayout android:layout_gravity="10" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp">
-        <TextView android:textSize="22sp" android:typeface="1" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:layout_width="0dp" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
-        <Button android:textSize="12sp" android:typeface="1" android:textStyle="1" android:textColor="#ffffff" android:id="@id/all_tasks_button" android:background="@drawable/tableftselected" android:layout_width="60dp" android:layout_height="30dp" android:layout_marginTop="7dp" android:text="@string/all" />
-        <Button android:textSize="12sp" android:typeface="1" android:textStyle="1" android:textColor="#ffffff" android:id="@id/checked_tasks_button" android:background="@drawable/tabrightdefault" android:layout_width="60dp" android:layout_height="30dp" android:layout_marginTop="7dp" android:layout_marginRight="5dp" android:text="@string/checked" />
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@id/RootView"
+        android:background="@drawable/background_pink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+        <TextView
+                android:textSize="22sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:layout_weight="1.0"/>
+
+        <Button
+                android:textSize="12sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:id="@+id/all_tasks_button"
+                android:background="@drawable/tableftselected"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/all"/>
+
+        <Button
+                android:textSize="12sp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:id="@+id/checked_tasks_button"
+                android:background="@drawable/tabrightdefault"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/checked"/>
     </LinearLayout>
-    <ListView android:id="0x102000a" android:layout_width="-1" android:layout_height="-1" android:dividerHeight="0dp" android:layout_weight="1.0" />
-    <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="0" android:background="@drawable/topbar" android:layout_width="-1" android:layout_height="44dp">
-        <Button android:textSize="12sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/add_task_button" android:background="@drawable/bn_pp_colb" android:layout_width="100dp" android:layout_height="36dp" android:layout_marginLeft="10dp" android:text="@string/add_item" />
-        <View android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
-        <Button android:textSize="12sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/email_tasks_button" android:background="@drawable/bn_pp_colb" android:layout_width="100dp" android:layout_height="36dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:text="@string/email_list" />
+
+    <ListView
+            android:id="@+id/lsv_nacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="0dp"
+            android:layout_weight="1.0"/>
+
+    <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+        <Button
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/add_task_button"
+                android:background="@drawable/bn_pp_colb"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/add_element"/>
+
+        <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"/>
+
+        <Button
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/email_tasks_button"
+                android:background="@drawable/bn_pp_colb"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/email_list"/>
     </LinearLayout>
 </LinearLayout>
