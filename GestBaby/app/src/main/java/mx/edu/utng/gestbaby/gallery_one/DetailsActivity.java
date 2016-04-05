@@ -1,5 +1,6 @@
 package mx.edu.utng.gestbaby.gallery_one;
 
+import android.app.Activity;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -7,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import mx.edu.utng.gestbaby.R;
 
-public class DetailsActivity extends ActionBarActivity {
+public class DetailsActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

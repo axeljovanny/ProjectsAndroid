@@ -38,7 +38,7 @@
 
         <Button
                 android:layout_gravity="center_vertical"
-                android:id="@id/up"
+                android:id="@+id/up"
                 android:background="@drawable/arrow_right"
                 android:layout_width="32dp"
                 android:layout_height="32dp"

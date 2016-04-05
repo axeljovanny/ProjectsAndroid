@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="iTitleTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowTitleSize">45.0px</item>
+        <item name="android:windowTitleBackgroundStyle">@style/iWindowTitleBackground</item>
+    </style>
+</resources>

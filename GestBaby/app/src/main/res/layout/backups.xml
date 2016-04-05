@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_pink"
-    android:gravity=""
     android:orientation="vertical">
 
     <LinearLayout
@@ -43,7 +42,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/bn_community_round_rect_white_grey_state"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:padding="10dp"
         android:text="@string/cloud_backups"
         android:textColor="#ba6e87"

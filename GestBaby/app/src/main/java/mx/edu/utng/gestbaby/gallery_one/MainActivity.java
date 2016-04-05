@@ -1,6 +1,8 @@
 package mx.edu.utng.gestbaby.gallery_one;
 
 import java.util.ArrayList;
+
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.content.res.TypedArray;
@@ -13,7 +15,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 import mx.edu.utng.gestbaby.R;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
     private GridView gridView;
     private GridViewAdapter gridAdapter;
 

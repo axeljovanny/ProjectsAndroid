@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+        android:background="@drawable/background_pink"
+        >
 
     <Gallery
         android:id="@+id/gallery1"
