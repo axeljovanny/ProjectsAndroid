@@ -23,35 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a9ea889-a97e-4335-a7e9-697d1fa8f33b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/drawable/otra2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/fragment_gallery_two.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/main_gallery_two.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/values-v21/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../GestBaby/app/libs/android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_two/MyFragmentPagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_two/ScreenSlidePageFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_two/transformers/DepthPageTransformer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_two/transformers/ZoomOutPageTransformer.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/drawable/background_pink_tile_dark.png" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/drawable/background_pink_tile_dark_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../GestBaby/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/build.gradle" afterPath="$PROJECT_DIR$/../GestBaby/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_one/DetailsActivity.java" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_one/DetailsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_one/MainActivity.java" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_one/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_two/MainActivity.java" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/java/mx/edu/utng/gestbaby/gallery_two/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/drawable/background_pink.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/drawable/background_pink.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/about.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/about.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/baby_names.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/baby_names.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/baby_names_adv_search.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/baby_names_adv_search.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/baby_names_detail.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/baby_names_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/backups.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/backups.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/fragment_screen_slide_page.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/fragment_screen_slide_page.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/gallery_embryo.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/gallery_embryo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/photodetail.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/photodetail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/welcome.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/layout/welcome.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GestBaby/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/../GestBaby/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../achartengine" afterPath="$PROJECT_DIR$/../achartengine" />
     </list>
     <ignored path="SendEmail.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -195,42 +167,7 @@
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SendEmail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SendEmail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SendEmail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SendEmail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SendEmail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sendemail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -688,12 +625,12 @@
       <option name="presentableId" value="Default" />
       <updated>1459861532048</updated>
       <workItem from="1459861535596" duration="2743000" />
-      <workItem from="1459870387382" duration="581000" />
+      <workItem from="1459870387382" duration="963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3324000" />
+    <option name="totallyTimeSpent" value="3706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1325" y="-4" width="979" height="772" extended-state="6" />
