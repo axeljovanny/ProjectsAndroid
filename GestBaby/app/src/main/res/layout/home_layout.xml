@@ -20,7 +20,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_toLeftOf="@+id/txv_title"
+            android:layout_toLeftOf="@id/txv_title"
+
             android:src="@drawable/profile_user_photo_default"
             />
     <TextView
@@ -49,8 +50,8 @@
         android:id="@+id/txv_email_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_below="@id/txv_name_label"
+        android:layout_alignLeft="@id/txv_name_label"
         android:padding="5dp"
         android:layout_marginTop="15dp"
         android:text="@string/email"
@@ -72,7 +73,7 @@
         android:id="@+id/txv_gender_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@id/txv_email_label"
         android:layout_below="@id/txv_email_label"
         android:layout_marginTop="15dp"
         android:text="@string/gender"
@@ -91,23 +92,24 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/txv_birthday_label"
+        android:id="@+id/txv_link_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@id/txv_gender_label"
         android:layout_below="@id/txv_gender_label"
         android:layout_marginTop="15dp"
-        android:text="@string/birthday"
+        android:text="@string/link"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/txv_birthday_value"
+        android:id="@+id/txv_link_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@id/txv_birthday_label"
-        android:layout_alignBottom="@id/txv_birthday_label"
-        android:layout_toRightOf="@id/txv_birthday_label"
-        android:text="@string/birthday"
+        android:layout_alignBaseline="@id/txv_link_label"
+        android:layout_alignBottom="@id/txv_link_label"
+        android:layout_toRightOf="@id/txv_link_label"
+        android:layout_alignLeft="@id/txv_gender_value"
+        android:text=""
         android:textSize="18sp" />
 
 

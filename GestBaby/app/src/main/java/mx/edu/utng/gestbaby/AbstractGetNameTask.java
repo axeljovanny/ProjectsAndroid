@@ -1,5 +1,6 @@
 package mx.edu.utng.gestbaby;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
@@ -68,7 +69,7 @@ public abstract class AbstractGetNameTask extends AsyncTask<Void, Void, Void> {
             activity.startActivity(intent);
             activity.finish();
             return;
-         }else if(sc==401){
+        }else if(sc==401){
             Log.e("401", GOOGLE_USER_DATA);
             GoogleAuthUtil.invalidateToken(activity, token);
             onError("Error de autenticación de servidor, favor de intentar nuevamente", null);

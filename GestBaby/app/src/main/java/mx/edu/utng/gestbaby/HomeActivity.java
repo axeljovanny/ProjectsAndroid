@@ -23,8 +23,8 @@ import java.net.URLConnection;
  */
 public class HomeActivity extends Activity {
     ImageView imvProfile;
-    TextView txvName, txvEmail, txvGender, txvBirthday;
-    String strName, strEmail, strGender, strBirthday, strUserImageUrl;
+    TextView txvName, txvEmail, txvGender, txtLink;
+    String strName, strEmail, strGender, strLink, strUserImageUrl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +41,7 @@ public class HomeActivity extends Activity {
         txvName = (TextView) findViewById(R.id.txv_name_value);
         txvEmail = (TextView) findViewById(R.id.txv_email_value);
         txvGender = (TextView) findViewById(R.id.txv_gender_value);
-        txvBirthday = (TextView) findViewById(R.id.txv_birthday_value);
+        txtLink = (TextView) findViewById(R.id.txv_link_value);
 
         Intent intent = getIntent();
         strEmail = intent.getStringExtra("email_id");
@@ -49,6 +49,7 @@ public class HomeActivity extends Activity {
         try {
             JSONObject profileData = new JSONObject(
                     AbstractGetNameTask.GOOGLE_USER_DATA);
+            Log.i("JSON", profileData.toString());
             if (profileData.has("picture")) {
                 strUserImageUrl = profileData.getString("picture");
                 new GetImageFromUrl().execute(strUserImageUrl);
@@ -61,9 +62,9 @@ public class HomeActivity extends Activity {
                 strGender = profileData.getString("gender");
                 txvGender.setText(strGender);
             }
-            if (profileData.has("birthday")) {
-                strBirthday = profileData.getString("birthday");
-                txvBirthday.setText(strBirthday);
+            if (profileData.has("link")) {
+                strLink = profileData.getString("link");
+                txtLink.setText(strLink);
             }
         } catch (JSONException e) {
             e.printStackTrace();

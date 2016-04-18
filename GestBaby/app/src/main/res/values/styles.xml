@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.IAPTheme" parent="@android:style/Theme">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
@@ -8,6 +9,7 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
+
     <style name="WalletFragmentDefaultDetailsTextAppearance">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
@@ -16,9 +18,11 @@
         <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
         <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
     </style>
+
     <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="@style/WalletFragmentDefaultDetailsTextAppearance">
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="WalletFragmentDefaultButtonTextAppearance">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">normal</item>
@@ -38,6 +42,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -47,6 +52,7 @@
         <item name="android:height">44.0dip</item>
         <item name="android:width">205.0dip</item>
     </style>
+
     <style name="tooltip_bubble_text">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textColor">@android:color/white</item>
@@ -61,10 +67,12 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="pbRnvBackground.large" parent="@style/pbRnvBackground">
         <item name="android:background">@drawable/commerce_paper_below_nav</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="pbRnvRow">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">@drawable/commerce_nav1_off</item>
@@ -72,6 +80,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="pbRnvRowIcon">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -79,17 +88,20 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
     <style name="pbRnvFontShadow">
         <item name="android:shadowColor">#dd000000</item>
         <item name="android:shadowDx">0.0</item>
         <item name="android:shadowDy">-1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="pbRnvRowFont" parent="@style/pbRnvFontShadow">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">#ffffffff</item>
         <item name="android:shadowColor">#ff644422</item>
     </style>
+
     <style name="pbRnvRowText" parent="@style/pbRnvRowFont">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -97,23 +109,28 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
     <style name="pbRnvRowText.large" parent="@style/pbRnvRowText">
         <item name="android:textSize">27.0sp</item>
         <item name="android:layout_gravity">center|left</item>
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_marginLeft">0.0dip</item>
-     </style>
+    </style>
+
     <style name="pbRnvOpenSliderLeftFiller">
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">fill_parent</item>
-   </style>
+    </style>
+
     <style name="pbRnvMessageCount" parent="@style/pbRnvRowIcon">
         <item name="android:layout_marginLeft">120.0dip</item>
     </style>
+
     <style name="pbRnvMessageCount.large" parent="@style/pbRnvMessageCount">
         <item name="android:layout_gravity">center|left</item>
         <item name="android:layout_marginLeft">0.0dip</item>
     </style>
+
     <style name="pbRnvMessageCountText">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -122,17 +139,20 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="pbRnvMessageCountText.large" parent="@style/pbRnvMessageCountText">
         <item name="android:textSize">18.0sp</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_width">40.0dip</item>
     </style>
+
     <style name="pbRnvHeader">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">@drawable/commerce_header_1</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="pbRnvHeaderFont" parent="@style/pbRnvFontShadow">
         <item name="android:textSize">13.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -140,6 +160,7 @@
         <item name="android:shadowColor">#fffcc983</item>
         <item name="android:shadowDy">2.0</item>
     </style>
+
     <style name="pbRnvHeaderText" parent="@style/pbRnvHeaderFont">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -155,21 +176,25 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCartCountTextLarge" parent="@style/slipCartCountText">
         <item name="android:textSize">18.0sp</item>
     </style>
+
     <style name="slipCommerceFooter">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">@drawable/commerce_bottom_button_bkgd</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceFooterSpacer">
         <item name="android:background">#00000000</item>
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_weight">1.0</item>
     </style>
+
     <style name="slipCommerceButtonFont">
         <item name="android:textSize">@dimen/slipCommerceButtonFontSize</item>
         <item name="android:typeface">sans</item>
@@ -180,6 +205,7 @@
         <item name="android:shadowDy">-1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="slipCommerceGreenButton" parent="@style/slipCommerceButtonFont">
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/commerce_green_button</item>
@@ -188,26 +214,33 @@
         <item name="android:layout_marginTop">9.0dip</item>
 
     </style>
+
     <style name="slipCommerceGreenButton.large" parent="@style/slipCommerceGreenButton">
         <item name="android:textSize">@dimen/slipCommerceButtonFontSizeLarge</item>
         <item name="android:layout_marginTop">13.0dip</item>
     </style>
-    <style name="slipCommerceGreenButtonLarge" parent="@style/slipCommerceGreenButton.large" />
+
+    <style name="slipCommerceGreenButtonLarge" parent="@style/slipCommerceGreenButton.large"/>
+
     <style name="slipCommercePaymentButton" parent="@style/slipCommerceGreenButton">
         <item name="android:textSize">18.0sp</item>
     </style>
+
     <style name="slipCommercePaymentButtonLarge" parent="@style/slipCommercePaymentButton">
         <item name="android:textSize">27.0sp</item>
     </style>
+
     <style name="slipCommercePaypalButton">
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/commerce_paypal_button</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceCartRowBackground">
         <item name="android:background">#ffffffff</item>
     </style>
+
     <style name="slipCommerceCartItemRow" parent="@style/slipCommerceCartRowBackground">
         <item name="android:orientation">horizontal</item>
         <item name="android:paddingTop">10.0dip</item>
@@ -215,22 +248,27 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceCartItemRow.large" parent="@style/slipCommerceCartItemRow">
         <item name="android:paddingTop">12.0dip</item>
         <item name="android:paddingBottom">12.0dip</item>
     </style>
+
     <style name="slipCommerceCartItemRowDivider">
         <item name="android:background">#ffdddddd</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">1.0dip</item>
     </style>
+
     <style name="slipCommerceCartItemRowDivider.large" parent="@style/slipCommerceCartItemRowDivider">
         <item name="android:layout_height">2.0dip</item>
     </style>
+
     <style name="slipCommerceCartText">
         <item name="android:typeface">sans</item>
         <item name="android:textColor">@color/slipCommerceTextColor</item>
     </style>
+
     <style name="slipCommerceCartText.Product" parent="@style/slipCommerceCartText">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -238,31 +276,38 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">6.0dip</item>
     </style>
+
     <style name="slipCommerceCartText.Product.large" parent="@style/slipCommerceCartText.Product">
         <item name="android:textSize">30.0sp</item>
         <item name="android:layout_marginBottom">8.0dip</item>
     </style>
+
     <style name="slipCommerceCartText.Price" parent="@style/slipCommerceCartText">
         <item name="android:textSize">18.0sp</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceCartText.Price.large" parent="@style/slipCommerceCartText.Price">
         <item name="android:textSize">27.0sp</item>
     </style>
+
     <style name="slipCommerceCartText.Price.Sale" parent="@style/slipCommerceCartText.Price">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#ffff7b22</item>
     </style>
+
     <style name="slipCommerceCartText.Color" parent="@style/slipCommerceCartText">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/slipCommerceTextColorHint</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceCartText.Color.large" parent="@style/slipCommerceCartText.Color">
         <item name="android:textSize">22.0sp</item>
     </style>
+
     <style name="slipCommerceCartText.Quantity" parent="@style/slipCommerceCartText">
         <item name="android:textSize">24.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -278,6 +323,7 @@
         <item name="android:digits">0123456789</item>
         <item name="android:inputType">number</item>
     </style>
+
     <style name="slipCommerceCartText.Quantity.large" parent="@style/slipCommerceCartText.Quantity">
         <item name="android:textSize">30.0sp</item>
         <item name="android:layout_width">75.0dip</item>
@@ -285,6 +331,7 @@
         <item name="android:layout_marginTop">0.0dip</item>
         <item name="android:layout_marginRight">15.0dip</item>
     </style>
+
     <style name="slipCommerceCartText.QtyPrompt" parent="@style/slipCommerceCartText">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">#ffbbb3ae</item>
@@ -294,16 +341,19 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceCartText.QtyPrompt.large" parent="@style/slipCommerceCartText.QtyPrompt">
         <item name="android:textSize">27.0sp</item>
         <item name="android:paddingTop">4.0dip</item>
         <item name="android:paddingBottom">4.0dip</item>
     </style>
+
     <style name="slipCommerceCartPromoText">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textStyle">italic</item>
         <item name="android:textColor">#ffbbb3ae</item>
     </style>
+
     <style name="slipCommerceCartPromoApplyText">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -313,6 +363,7 @@
         <item name="android:shadowDy">-1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="slipCommercePodContainer">
         <item name="android:gravity">center_vertical</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeft</item>
@@ -323,9 +374,11 @@
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeft</item>
         <item name="android:scaleType">fitXY</item>
     </style>
+
     <style name="slipCommercePodContainer.Header" parent="@style/slipCommercePodContainer">
         <item name="android:background">@drawable/commerce_pod_paper_header</item>
     </style>
+
     <style name="slipCommercePodContainer.Header.large" parent="@style/slipCommercePodContainer.Header">
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:paddingRight">@dimen/slipCommerceFormPaddingLeftLarge</item>
@@ -333,9 +386,11 @@
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommercePodContainer.Item" parent="@style/slipCommercePodContainer">
         <item name="android:background">@drawable/commerce_cart_summary_item</item>
     </style>
+
     <style name="slipCommercePodContainer.Item.large" parent="@style/slipCommercePodContainer.Item">
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:paddingRight">@dimen/slipCommerceFormPaddingLeftLarge</item>
@@ -343,9 +398,11 @@
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommercePodContainer.Bottom" parent="@style/slipCommercePodContainer">
         <item name="android:background">@drawable/commerce_cart_summary_bottom</item>
     </style>
+
     <style name="slipCommercePodContainer.Bottom.large" parent="@style/slipCommercePodContainer.Bottom">
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:paddingRight">@dimen/slipCommerceFormPaddingLeftLarge</item>
@@ -353,12 +410,14 @@
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommercePodContainer.Full" parent="@style/slipCommercePodContainer">
         <item name="android:background">@drawable/commerce_pod_blank_bottom</item>
         <item name="android:paddingTop">10.0dip</item>
         <item name="android:paddingBottom">10.0dip</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommercePodContainer.Full.large" parent="@style/slipCommercePodContainer.Full">
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:paddingRight">@dimen/slipCommerceFormPaddingLeftLarge</item>
@@ -366,15 +425,18 @@
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommercePodEditButton">
         <item name="android:background">@drawable/commerce_edit_button</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginRight">10.0dip</item>
     </style>
+
     <style name="slipCommercePodEditButton.large" parent="@style/slipCommercePodEditButton">
         <item name="android:layout_marginRight">15.0dip</item>
     </style>
+
     <style name="slipCommerceSectionSeparator">
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:background">@drawable/commerce_section_separator</item>
@@ -385,41 +447,51 @@
         <item name="android:layout_marginRight">4.0dip</item>
         <item name="android:layout_marginBottom">20.0dip</item>
     </style>
+
     <style name="slipCommerceSectionSeparator.large" parent="@style/slipCommerceSectionSeparator">
         <item name="android:layout_marginLeft">6.0dip</item>
         <item name="android:layout_marginTop">30.0dip</item>
         <item name="android:layout_marginRight">6.0dip</item>
         <item name="android:layout_marginBottom">30.0dip</item>
     </style>
+
     <style name="slipCommercePodItemText">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">@color/slipCommerceTextColorHint</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommercePodItemText.large" parent="@style/slipCommercePodItemText">
         <item name="android:textSize">27.0sp</item>
     </style>
+
     <style name="slipCommercePodItemText.bold" parent="@style/slipCommercePodItemText">
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="slipCommercePodItemText.bold.large" parent="@style/slipCommercePodItemText.bold">
         <item name="android:textSize">27.0sp</item>
     </style>
+
     <style name="slipCommercePodItemText.red" parent="@style/slipCommercePodItemText">
         <item name="android:textColor">#ffff7b22</item>
     </style>
+
     <style name="slipCommercePodItemText.red.large" parent="@style/slipCommercePodItemText.red">
         <item name="android:textSize">27.0sp</item>
     </style>
+
     <style name="slipCommercePodItemText.Password" parent="@style/slipCommercePodItemText">
         <item name="android:password">true</item>
     </style>
+
     <style name="slipCommercePodItemText.Password.large" parent="@style/slipCommercePodItemText.Password">
         <item name="android:textSize">27.0sp</item>
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:password">true</item>
     </style>
+
     <style name="slipCommercePodItemText.Header" parent="@style/slipCommercePodItemText">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#ff694d38</item>
@@ -428,21 +500,25 @@
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="slipCommercePodItemText.Header.large" parent="@style/slipCommercePodItemText.Header">
         <item name="android:textSize">27.0sp</item>
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommerceCartSummaryInfoButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">10.0dip</item>
         <item name="android:src">@drawable/commerce_cart_info_button</item>
     </style>
+
     <style name="slipCommerceFormFont">
         <item name="android:textSize">@dimen/slipCommerceFormFontSize</item>
         <item name="android:textColor">@color/slipCommerceTextColor</item>
         <item name="android:textColorHint">@color/slipCommerceTextColorHint</item>
     </style>
+
     <style name="slipCommerceFormRow" parent="@style/slipCommerceFormFont">
         <item name="android:textStyle">italic</item>
         <item name="android:gravity">center_vertical</item>
@@ -455,6 +531,7 @@
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeft</item>
         <item name="android:singleLine">true</item>
     </style>
+
     <style name="slipCommerceFormRow.large" parent="@style/slipCommerceFormRow">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
@@ -462,9 +539,11 @@
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormRowTop" parent="@style/slipCommerceFormRow">
         <item name="android:background">@drawable/commerce_text_field_top</item>
     </style>
+
     <style name="slipCommerceFormRowTop.large" parent="@style/slipCommerceFormRowTop">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
@@ -472,9 +551,11 @@
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormRowBottom" parent="@style/slipCommerceFormRow">
         <item name="android:background">@drawable/commerce_text_field_bottom</item>
     </style>
+
     <style name="slipCommerceFormRowBottom.large" parent="@style/slipCommerceFormRowBottom">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
@@ -482,17 +563,21 @@
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormRowBottom.partial" parent="@style/slipCommerceFormRowBottom">
         <item name="android:background">@null</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="slipCommerceFormRowBottom.partial.large" parent="@style/slipCommerceFormRowBottom.partial">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
     </style>
+
     <style name="slipCommerceFormRowMiddle" parent="@style/slipCommerceFormRow">
         <item name="android:background">@drawable/commerce_text_field_middle</item>
     </style>
+
     <style name="slipCommerceFormRowMiddle.large" parent="@style/slipCommerceFormRowMiddle">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
@@ -500,72 +585,91 @@
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:layout_marginRight">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormRowMiddle.partial" parent="@style/slipCommerceFormRowMiddle">
         <item name="android:background">@null</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="slipCommerceFormRowMiddle.partial.large" parent="@style/slipCommerceFormRowMiddle.partial">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
     </style>
+
     <style name="slipCommerceFormRowDivider">
         <item name="android:background">#ffdddddd</item>
         <item name="android:layout_width">1.0dip</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="slipCommerceFormRowDivider.large" parent="@style/slipCommerceFormRowDivider">
         <item name="android:layout_width">2.0dip</item>
     </style>
+
     <style name="slipCommerceFormRowDivider.Bottom" parent="@style/slipCommerceFormRowDivider">
         <item name="android:layout_marginBottom">2.0dip</item>
     </style>
+
     <style name="slipCommerceFormRowDivider.Bottom.large" parent="@style/slipCommerceFormRowDivider.Bottom">
         <item name="android:layout_width">2.0dip</item>
         <item name="android:layout_marginBottom">3.0dip</item>
     </style>
+
     <style name="slipCommerceFormRowSingle" parent="@style/slipCommerceFormRow">
         <item name="android:background">@drawable/commerce_text_field_single</item>
     </style>
+
     <style name="slipCommerceFormRowSingle.large" parent="@style/slipCommerceFormRowSingle">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
     </style>
+
     <style name="slipCommerceFormRowSingleNine" parent="@style/slipCommerceFormRowSingle">
         <item name="android:background">@drawable/commerce_text_field_single_nine</item>
     </style>
+
     <style name="slipCommerceFormRowSingleNine.large" parent="@style/slipCommerceFormRowSingleNine">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
     </style>
+
     <style name="slipCommerceFormRowSingleLeft" parent="@style/slipCommerceFormRow">
         <item name="android:background">@drawable/commerce_text_field_single_left</item>
     </style>
+
     <style name="slipCommerceFormRowSingleLeft.large" parent="@style/slipCommerceFormRowSingleLeft">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
     </style>
+
     <style name="slipCommerceFormRowTopLarge" parent="@style/slipCommerceFormRowTop">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormRowBottomLarge" parent="@style/slipCommerceFormRowBottom">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormRowMiddleLarge" parent="@style/slipCommerceFormRowMiddle">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormRowSingleLarge" parent="@style/slipCommerceFormRowSingle">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormRowSingleLeftLarge" parent="@style/slipCommerceFormRowSingleLeft">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormSelect">
         <item name="android:background">@drawable/commerce_select_button</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommercePaperHeaderFont">
         <item name="android:textSize">@dimen/slipCommercePaperHeaderFontSize</item>
         <item name="android:textStyle">bold</item>
@@ -575,90 +679,112 @@
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="slipCommercePaperHeaderText" parent="@style/slipCommercePaperHeaderFont">
         <item name="android:gravity">center</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommercePaperHeaderText.bold" parent="@style/slipCommercePaperHeaderText">
         <item name="android:textSize">20.0sp</item>
         <item name="android:layout_marginTop">8.0sp</item>
     </style>
+
     <style name="slipCommercePaperHeaderText.large" parent="@style/slipCommercePaperHeaderText">
         <item name="android:textSize">25.0sp</item>
     </style>
+
     <style name="slipCommercePaperHeaderText.bold.large" parent="@style/slipCommercePaperHeaderText.bold">
         <item name="android:textSize">34.0sp</item>
         <item name="android:layout_marginTop">12.0sp</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap01" parent="@style/slipCommercePaperHeaderText">
         <item name="android:background">@drawable/commerce_paper_header_map_01</item>
         <item name="android:text">@string/about_us</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap02" parent="@style/slipCommercePaperHeaderText">
         <item name="android:background">@drawable/commerce_paper_header_map_02</item>
         <item name="android:text">@string/about_us</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap03" parent="@style/slipCommercePaperHeaderText">
         <item name="android:background">@drawable/commerce_paper_header_map_03</item>
         <item name="android:text">@string/about_us</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap04" parent="@style/slipCommercePaperHeaderText">
         <item name="android:background">@drawable/commerce_paper_header_map_04</item>
         <item name="android:text">@string/about_us</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap05" parent="@style/slipCommercePaperHeaderText">
         <item name="android:background">@drawable/commerce_paper_header_map_05</item>
         <item name="android:paddingBottom">20.0dip</item>
         <item name="android:text">@string/about_us</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap01.large" parent="@style/slipCommercePaperHeaderMap01">
         <item name="android:textSize">@dimen/slipCommercePaperHeaderFontSizeLarge</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap02.large" parent="@style/slipCommercePaperHeaderMap02">
         <item name="android:textSize">@dimen/slipCommercePaperHeaderFontSizeLarge</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap03.large" parent="@style/slipCommercePaperHeaderMap03">
         <item name="android:textSize">@dimen/slipCommercePaperHeaderFontSizeLarge</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap04.large" parent="@style/slipCommercePaperHeaderMap04">
         <item name="android:textSize">@dimen/slipCommercePaperHeaderFontSizeLarge</item>
     </style>
+
     <style name="slipCommercePaperHeaderMap05.large" parent="@style/slipCommercePaperHeaderMap05">
         <item name="android:textSize">@dimen/slipCommercePaperHeaderFontSizeLarge</item>
         <item name="android:paddingBottom">44.0dip</item>
     </style>
+
     <style name="slipCommerceFormPromptFont">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">@color/slipCommerceTextColor</item>
     </style>
+
     <style name="slipCommerceFormPromptFontShadow" parent="@style/slipCommerceFormPromptFont">
         <item name="android:shadowColor">#ffffffff</item>
         <item name="android:shadowDx">0.0</item>
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="slipCommerceFormPrompt" parent="@style/slipCommerceFormPromptFontShadow">
         <item name="android:gravity">left</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeft</item>
     </style>
+
     <style name="slipCommerceFormPrompt.large" parent="@style/slipCommerceFormPrompt">
         <item name="android:textSize">27.0sp</item>
         <item name="android:layout_marginLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
     </style>
+
     <style name="slipCommerceFormPrompt.bold" parent="@style/slipCommerceFormPrompt">
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="slipCommerceFormPrompt.bold.large" parent="@style/slipCommerceFormPrompt.bold">
         <item name="android:textSize">27.0sp</item>
     </style>
+
     <style name="slipCommerceFormPromptContainer">
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceFormPrompt.header" parent="@style/slipCommerceFormPrompt">
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">top</item>
@@ -668,37 +794,46 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_marginLeft">0.0dip</item>
     </style>
+
     <style name="slipCommerceFormPrompt.header.large" parent="@style/slipCommerceFormPrompt.header">
         <item name="android:textSize">27.0sp</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPromptMarginLeftLarge</item>
         <item name="android:paddingTop">10.0dip</item>
     </style>
+
     <style name="slipCommerceFormPrompt.small" parent="@style/slipCommerceFormPrompt">
         <item name="android:textSize">11.0sp</item>
         <item name="android:padding">5.0dip</item>
         <item name="android:clickable">true</item>
     </style>
+
     <style name="slipCommerceFormPrompt.small.large" parent="@style/slipCommerceFormPrompt.small">
         <item name="android:textSize">22.0sp</item>
         <item name="android:padding">8.0dip</item>
     </style>
+
     <style name="slipCommerceSpacer">
         <item name="android:background">#00000000</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">10.0dip</item>
     </style>
+
     <style name="slipCommerceSpacer.large" parent="@style/slipCommerceSpacer">
         <item name="android:layout_height">15.0dip</item>
     </style>
+
     <style name="slipCommerceSpacerLarge" parent="@style/slipCommerceSpacer">
         <item name="android:layout_height">15.0dip</item>
     </style>
+
     <style name="slipCommerceSpacer.Cancel" parent="@style/slipCommerceSpacer">
         <item name="android:layout_height">60.0dip</item>
     </style>
+
     <style name="slipCommerceSpacer.Cancel.large" parent="@style/slipCommerceSpacer.Cancel">
         <item name="android:layout_height">80.0dip</item>
     </style>
+
     <style name="slipCommerceCancelButton" parent="@style/slipCommerceButtonFont">
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:background">@drawable/commerce_cancel_button</item>
@@ -709,25 +844,30 @@
         <item name="android:text">@string/cancel</item>
         <item name="android:drawablePadding">16.0dip</item>
     </style>
+
     <style name="slipCommerceCancelButtonLarge" parent="@style/slipCommerceCancelButton">
         <item name="android:textSize">@dimen/slipCommerceButtonFontSizeLarge</item>
     </style>
+
     <style name="slipCommerceCancelButton.large" parent="@style/slipCommerceCancelButton">
         <item name="android:textSize">@dimen/slipCommerceButtonFontSizeLarge</item>
         <item name="android:paddingLeft">24.0dip</item>
         <item name="android:paddingRight">24.0dip</item>
         <item name="android:drawablePadding">24.0dip</item>
     </style>
+
     <style name="slipCommerceFacebookButton" parent="@style/slipCommerceCancelButton">
         <item name="android:textSize">16.0sp</item>
         <item name="android:gravity">center|right</item>
         <item name="android:background">@drawable/commerce_login_facebook</item>
         <item name="android:text">@string/login_facebook</item>
     </style>
+
     <style name="slipCommerceFacebookButton.large" parent="@style/slipCommerceFacebookButton">
         <item name="android:textSize">30.0sp</item>
         <item name="android:paddingRight">40.0dip</item>
     </style>
+
     <style name="slipCommerceProductDetailImage">
         <item name="android:paddingBottom">30.0dip</item>
         <item name="android:layout_width">fill_parent</item>
@@ -737,6 +877,7 @@
         <item name="android:layout_marginRight">12.0dip</item>
         <item name="android:layout_marginBottom">6.0dip</item>
     </style>
+
     <style name="slipCommerceProductDetailImage.large" parent="@style/slipCommerceProductDetailImage">
         <item name="android:paddingBottom">45.0dip</item>
         <item name="android:layout_height">448.0dip</item>
@@ -745,6 +886,7 @@
         <item name="android:layout_marginRight">18.0dip</item>
         <item name="android:layout_marginBottom">9.0dip</item>
     </style>
+
     <style name="slipCommerceProductListImage">
         <item name="android:layout_width">100.0dip</item>
         <item name="android:layout_height">100.0dip</item>
@@ -753,6 +895,7 @@
         <item name="android:layout_marginRight">10.0dip</item>
         <item name="android:layout_marginBottom">10.0dip</item>
     </style>
+
     <style name="slipCommerceProductListImage.large" parent="@style/slipCommerceProductListImage">
         <item name="android:layout_width">150.0dip</item>
         <item name="android:layout_height">150.0dip</item>
@@ -761,35 +904,43 @@
         <item name="android:layout_marginRight">15.0dip</item>
         <item name="android:layout_marginBottom">15.0dip</item>
     </style>
+
     <style name="slipCommerceShopCategories" parent="@style/pbRnvHeaderFont">
         <item name="android:textSize">15.0sp</item>
         <item name="android:shadowColor">#ffffffff</item>
         <item name="android:shadowDy">-1.0</item>
     </style>
+
     <style name="slipCommerceShopCategories.large" parent="@style/slipCommerceShopCategories">
         <item name="android:textSize">28.0sp</item>
     </style>
+
     <style name="CustomCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
         <item name="android:button">@drawable/commerce_checkbox</item>
     </style>
+
     <style name="slipCommerceCreditCardIcon">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">10.0dip</item>
         <item name="android:layout_marginRight">10.0dip</item>
     </style>
+
     <style name="slipCommerceCreditCardIconLarge" parent="@style/slipCommerceCreditCardIcon">
         <item name="android:layout_marginLeft">15.0dip</item>
         <item name="android:layout_marginRight">15.0dip</item>
     </style>
+
     <style name="slipCommerceCheckBox">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:button">@drawable/commerce_checkbox</item>
     </style>
+
     <style name="slipCommerceCheckBox.large" parent="@style/slipCommerceCheckBox">
         <item name="android:layout_width">60.0dip</item>
     </style>
+
     <style name="slipCommerceCheckBoxContainer">
         <item name="android:gravity">center_vertical</item>
         <item name="android:layout_gravity">center_horizontal</item>
@@ -799,9 +950,11 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:button">@drawable/commerce_checkbox</item>
     </style>
+
     <style name="slipCommerceCheckBoxContainerLarge" parent="@style/slipCommerceCheckBoxContainer">
         <item name="android:paddingLeft">18.0dip</item>
     </style>
+
     <style name="slipCommerceShippedBy" parent="@style/slipCommerceButtonFont">
         <item name="android:textSize">18.0sp</item>
         <item name="android:gravity">left</item>
@@ -812,24 +965,28 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceShippedBy.large" parent="@style/slipCommerceShippedBy">
         <item name="android:textSize">27.0sp</item>
         <item name="android:paddingLeft">18.0dip</item>
         <item name="android:paddingTop">6.0dip</item>
         <item name="android:paddingBottom">6.0dip</item>
     </style>
+
     <style name="slipCommerceShippingStatus" parent="@style/slipCommerceShippedBy">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">#ff000000</item>
         <item name="android:background">#ffd9e3b4</item>
         <item name="android:shadowColor">#00000000</item>
     </style>
+
     <style name="slipCommerceShippingStatus.large" parent="@style/slipCommerceShippingStatus">
         <item name="android:textSize">24.0sp</item>
         <item name="android:paddingLeft">18.0dip</item>
         <item name="android:paddingTop">6.0dip</item>
         <item name="android:paddingBottom">6.0dip</item>
     </style>
+
     <style name="slipCommerceShippingOptions">
         <item name="android:gravity">center_vertical</item>
         <item name="android:background">@drawable/commerce_shipping_options_back</item>
@@ -837,6 +994,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceFinePrint" parent="@style/CommerceMedGreyText16Sp">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">fill_parent</item>
@@ -844,18 +1002,21 @@
         <item name="android:layout_marginTop">5.0dip</item>
         <item name="android:layout_marginRight">12.0dip</item>
     </style>
+
     <style name="slipCommerceFinePrint.large" parent="@style/slipCommerceFinePrint">
         <item name="android:textSize">24.0sp</item>
         <item name="android:layout_marginLeft">18.0dip</item>
         <item name="android:layout_marginTop">8.0dip</item>
         <item name="android:layout_marginRight">18.0dip</item>
     </style>
+
     <style name="slipCommerceFormRow.partial" parent="@style/slipCommerceFormRow">
         <item name="android:background">@null</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_marginLeft">0.0dip</item>
         <item name="android:layout_marginRight">0.0dip</item>
     </style>
+
     <style name="slipCommerceSecurityCode" parent="@style/slipCommerceFormRow.partial">
         <item name="android:layout_width">150.0dip</item>
         <item name="android:hint"></item>
@@ -864,12 +1025,14 @@
         <item name="android:digits">0123456789</item>
         <item name="android:inputType">number</item>
     </style>
+
     <style name="slipCommerceSecurityCode.large" parent="@style/slipCommerceSecurityCode">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:paddingRight">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:layout_width">240.0dip</item>
     </style>
+
     <style name="slipCommerceZip" parent="@style/slipCommerceFormRow.partial">
         <item name="android:layout_width">150.0dip</item>
         <item name="android:hint">@string/shipping</item>
@@ -878,12 +1041,14 @@
         <item name="android:digits">-0123456789</item>
         <item name="android:inputType">text</item>
     </style>
+
     <style name="slipCommerceZip.large" parent="@style/slipCommerceZip">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:paddingRight">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:layout_width">250.0dip</item>
     </style>
+
     <style name="slipCommerceCardNumber" parent="@style/slipCommerceFormRow.partial">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:hint">@string/about_us</item>
@@ -892,21 +1057,25 @@
         <item name="android:digits">0123456789</item>
         <item name="android:inputType">number</item>
     </style>
+
     <style name="slipCommerceCardNumber.large" parent="@style/slipCommerceCardNumber">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:paddingRight">@dimen/slipCommerceFormPaddingLeftLarge</item>
     </style>
+
     <style name="slipCommerceExpDate" parent="@style/slipCommerceFormRow.partial">
         <item name="android:layout_width">100.0dip</item>
         <item name="android:hint">@string/about_us</item>
     </style>
+
     <style name="slipCommerceExpDate.large" parent="@style/slipCommerceExpDate">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:paddingRight">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:layout_width">150.0dip</item>
     </style>
+
     <style name="slipCommerceState" parent="@style/slipCommerceFormRow.partial">
         <item name="android:layout_width">100.0dip</item>
         <item name="android:hint">@string/shipping</item>
@@ -914,12 +1083,14 @@
         <item name="android:maxLength">2</item>
         <item name="android:inputType">textCapCharacters</item>
     </style>
+
     <style name="slipCommerceState.large" parent="@style/slipCommerceState">
         <item name="android:textSize">@dimen/slipCommerceFormFontSizeLarge</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:paddingRight">@dimen/slipCommerceFormPaddingLeftLarge</item>
         <item name="android:layout_width">150.0dip</item>
     </style>
+
     <style name="slipCommerceOptionList">
         <item name="android:gravity">center_vertical</item>
         <item name="android:paddingLeft">@dimen/slipCommerceFormPromptMarginLeft</item>
@@ -928,41 +1099,51 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceOptionList.Header" parent="@style/slipCommerceOptionList">
         <item name="android:background">#ffbbb3ae</item>
         <item name="android:paddingTop">4.0dip</item>
         <item name="android:paddingBottom">4.0dip</item>
     </style>
+
     <style name="slipCommerceOptionList.Header.large" parent="@style/slipCommerceOptionList.Header">
         <item name="android:paddingTop">14.0dip</item>
         <item name="android:paddingBottom">14.0dip</item>
     </style>
+
     <style name="slipCommerceOptionList.Item" parent="@style/slipCommerceOptionList">
         <item name="android:background">@drawable/commerce_account_option_back</item>
     </style>
-    <style name="slipCommerceOptionList.Item.large" parent="@style/slipCommerceOptionList.Item" />
+
+    <style name="slipCommerceOptionList.Item.large" parent="@style/slipCommerceOptionList.Item"/>
+
     <style name="slipCommerceOptionListHeaderText" parent="@style/slipCommerceButtonFont">
         <item name="android:paddingTop">2.0dip</item>
         <item name="android:paddingBottom">2.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceOptionListHeaderText.large" parent="@style/slipCommerceOptionListHeaderText">
         <item name="android:textSize">@dimen/slipCommerceButtonFontSizeLarge</item>
     </style>
+
     <style name="slipCommerceOptionListItemText" parent="@style/slipCommerceFormPromptFontShadow">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceOptionListItemText.large" parent="@style/slipCommerceOptionListItemText">
         <item name="android:textSize">@dimen/slipCommerceButtonFontSizeLarge</item>
     </style>
+
     <style name="slipCommerceOptionListArrow">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:src">@drawable/iv_grey_arrow</item>
         <item name="android:layout_alignParentRight">true</item>
     </style>
+
     <style name="slipCommerceCartProductImage">
         <item name="android:layout_gravity">top</item>
         <item name="android:layout_width">66.0dip</item>
@@ -972,6 +1153,7 @@
         <item name="android:layout_marginRight">10.0dip</item>
         <item name="android:src">@drawable/commerce_cart_product_image</item>
     </style>
+
     <style name="slipCommerceCartProductImage.large" parent="@style/slipCommerceCartProductImage">
         <item name="android:layout_width">99.0dip</item>
         <item name="android:layout_height">99.0dip</item>
@@ -979,9 +1161,11 @@
         <item name="android:layout_marginTop">15.0dip</item>
         <item name="android:layout_marginRight">15.0dip</item>
     </style>
+
     <style name="pinkLnvBackground">
         <item name="android:background">@drawable/lnv_unselected</item>
     </style>
+
     <style name="pinkLnvRow">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">@drawable/lnv_unselected</item>
@@ -990,19 +1174,24 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-    <style name="pinkLnvRow.large" parent="@style/pinkLnvRow" />
+
+    <style name="pinkLnvRow.large" parent="@style/pinkLnvRow"/>
+
     <style name="pinkLnvRow.indent" parent="@style/pinkLnvRow">
         <item name="android:paddingLeft">32.0dip</item>
     </style>
+
     <style name="pinkLnvRow.indent.large" parent="@style/pinkLnvRow.indent">
         <item name="android:paddingLeft">72.0dip</item>
     </style>
+
     <style name="pinkLnvRowButtons">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">@drawable/lnv_unselected</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="pinkLnvRowIcon">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -1010,28 +1199,35 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
     <style name="pinkLnvRowIcon.large" parent="@style/pinkLnvRowIcon">
         <item name="android:layout_marginLeft">@dimen/pinkLnvMarginLeft.large</item>
     </style>
+
     <style name="pinkLnvRowPhoto" parent="@style/pinkLnvRowIcon">
         <item name="android:layout_width">32.0dip</item>
         <item name="android:layout_height">32.0dip</item>
     </style>
+
     <style name="pinkLnvRowPhoto.large" parent="@style/pinkLnvRowPhoto">
         <item name="android:layout_width">64.0dip</item>
         <item name="android:layout_height">64.0dip</item>
         <item name="android:layout_marginLeft">@dimen/pinkLnvMarginLeft.large</item>
     </style>
+
     <style name="pinkLnvRowPhoto.indent" parent="@style/pinkLnvRowPhoto">
         <item name="android:layout_marginLeft">@dimen/pinkLnvMarginLeftIndent</item>
     </style>
+
     <style name="pinkLnvRowPhoto.indent.large" parent="@style/pinkLnvRowPhoto.large">
         <item name="android:layout_marginLeft">@dimen/pinkLnvMarginLeftIndent.large</item>
     </style>
+
     <style name="pinkLnvRowFont">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">#ff462a0d</item>
     </style>
+
     <style name="pinkLnvRowText" parent="@style/pinkLnvRowFont">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -1039,10 +1235,12 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
     <style name="pinkLnvRowText.large" parent="@style/pinkLnvRowText">
         <item name="android:textSize">27.0sp</item>
         <item name="android:layout_marginLeft">96.0dip</item>
     </style>
+
     <style name="pinkLnvButtonTop">
         <item name="android:textSize">18.0dip</item>
         <item name="android:background">@drawable/lnv_top_button</item>
@@ -1052,30 +1250,36 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_weight">0.4</item>
     </style>
+
     <style name="pinkLnvButtonTop.large" parent="@style/pinkLnvButtonTop">
         <item name="android:textSize">22.0dip</item>
     </style>
+
     <style name="pinkLnvHeader">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">@drawable/lnv_section_separator</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="pinkLnvRowIconUser" parent="@style/pinkLnvRowIcon">
         <item name="android:layout_width">34.0dip</item>
         <item name="android:layout_height">34.0dip</item>
     </style>
+
     <style name="pinkLnvRowTextUser" parent="@style/pinkLnvRowText">
         <item name="android:layout_marginLeft">62.0dip</item>
         <item name="android:layout_marginTop">2.0dip</item>
         <item name="android:layout_marginBottom">2.0dip</item>
     </style>
+
     <style name="pinkLnvRowTextUser.large" parent="@style/pinkLnvRowTextUser">
         <item name="android:textSize">27.0sp</item>
         <item name="android:layout_marginLeft">93.0dip</item>
         <item name="android:layout_marginTop">4.0dip</item>
         <item name="android:layout_marginBottom">4.0dip</item>
     </style>
+
     <style name="kfLnvRowIconUser" parent="@style/pinkLnvRowIcon">
         <item name="android:clickable">true</item>
         <item name="android:duplicateParentState">true</item>
@@ -1083,16 +1287,20 @@
         <item name="android:layout_height">56.0dip</item>
         <item name="android:layout_marginLeft">0.0dip</item>
     </style>
+
     <style name="kfLnvRowIconUser.large" parent="@style/kfLnvRowIconUser">
         <item name="android:layout_width">84.0dip</item>
         <item name="android:layout_height">84.0dip</item>
     </style>
+
     <style name="pinkLnvMessageCount" parent="@style/pinkLnvRowIcon">
         <item name="android:layout_marginLeft">200.0dip</item>
     </style>
+
     <style name="pinkLnvMessageCount.large" parent="@style/pinkLnvMessageCount">
         <item name="android:layout_marginLeft">300.0dip</item>
     </style>
+
     <style name="pinkLnvMessageCountText">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -1101,14 +1309,17 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="pinkLnvMessageCountText.large" parent="@style/pinkLnvMessageCountText">
         <item name="android:textSize">18.0sp</item>
     </style>
+
     <style name="pinkLnvHeaderFont">
         <item name="android:textSize">13.0sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#ff765a42</item>
     </style>
+
     <style name="pinkLnvHeaderText" parent="@style/pinkLnvHeaderFont">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -1116,14 +1327,18 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
     <style name="pinkLnvHeaderText.large" parent="@style/pinkLnvHeaderText">
         <item name="android:textSize">22.0sp</item>
         <item name="android:layout_marginLeft">@dimen/pinkLnvMarginLeft.large</item>
     </style>
+
     <style name="ppPostReplyBackground" parent="@style/slipPostReplyBackground">
         <item name="android:background">@drawable/bg_c_feed_reply_pp</item>
     </style>
-    <style name="ppSignUpButton" parent="@style/caSignUpButton" />
+
+    <style name="ppSignUpButton" parent="@style/caSignUpButton"/>
+
     <style name="ppTextWithShadow">
         <item name="android:typeface">sans</item>
         <item name="android:textStyle">bold</item>
@@ -1133,12 +1348,14 @@
         <item name="android:shadowDy">-1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="ppGlossyButton" parent="@style/ppTextWithShadow">
         <item name="android:background">@drawable/bn_pp_glossy_button</item>
         <item name="android:padding">5.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="ppSearchBarButton" parent="@style/ppTextWithShadow">
         <item name="android:padding">5.0dip</item>
         <item name="android:layout_width">fill_parent</item>
@@ -1147,15 +1364,19 @@
         <item name="android:layout_marginRight">5.0dip</item>
         <item name="android:layout_weight">0.33</item>
     </style>
+
     <style name="ppSearchBarAddPost" parent="@style/ppSearchBarButton">
         <item name="android:text">@string/popularity</item>
     </style>
+
     <style name="ppSearchBarAddPoll" parent="@style/ppSearchBarButton">
         <item name="android:text">@string/popularity</item>
     </style>
+
     <style name="ppSearchBarAddPhoto" parent="@style/ppSearchBarButton">
         <item name="android:text">@string/photos</item>
     </style>
+
     <style name="ppTopBarButtonRight" parent="@style/ppTextWithShadow">
         <item name="android:background">@drawable/bn_pp_colb</item>
         <item name="android:paddingLeft">8.0dip</item>
@@ -1166,27 +1387,35 @@
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
     <style name="ppSearchButtonShadowTextThemed" parent="@style/slipSearchButtonShadowTextThemed">
         <item name="android:background">@drawable/bn_pp_colb</item>
     </style>
+
     <style name="ppTitleBar" parent="@style/slipTitleBar">
         <item name="android:layout_height">42.0dip</item>
     </style>
+
     <style name="pinkButtonShadowTextThemed" parent="@style/slipButtonShadowTextThemed">
         <item name="android:background">@drawable/bn_pp_colb</item>
     </style>
+
     <style name="pinkButtonShadowTextThemed.large" parent="@style/slipButtonShadowTextThemed.large">
         <item name="android:background">@drawable/bn_pp_colb</item>
     </style>
+
     <style name="pinkButtonShadowTextThemed.Right" parent="@style/slipButtonShadowTextThemed.Right">
         <item name="android:background">@drawable/bn_pp_colb</item>
     </style>
+
     <style name="pinkButtonShadowTextThemed.Right.large" parent="@style/slipButtonShadowTextThemed.Right.large">
         <item name="android:background">@drawable/bn_pp_colb</item>
     </style>
+
     <style name="pinkWelcomeBackground" parent="@style/slipWelcomeBackground">
         <item name="android:background">@color/pinkWelcomeBackground</item>
     </style>
+
     <style name="sliderButtonContainer">
         <item name="android:background">#00000000</item>
         <item name="android:paddingLeft">@dimen/sliderButtonPad</item>
@@ -1195,11 +1424,13 @@
         <item name="android:layout_height">@dimen/slipTitleBarHeight</item>
         <item name="android:layout_alignParentTop">true</item>
     </style>
+
     <style name="sliderButtonContainerLarge" parent="@style/sliderButtonContainer">
         <item name="android:layout_height">@dimen/slipTitleBarHeightLarge</item>
         <item name="android:layout_marginLeft">@dimen/sliderButtonPadLarge</item>
         <item name="android:layout_marginRight">@dimen/sliderButtonPadLarge</item>
     </style>
+
     <style name="sliderButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -1207,12 +1438,15 @@
         <item name="android:layout_marginTop">13.0dip</item>
         <item name="android:layout_marginRight">8.0dip</item>
     </style>
+
     <style name="sliderButtonLeft" parent="@style/sliderButton">
         <item name="android:background">@drawable/lnv_sliding_icon</item>
     </style>
+
     <style name="sliderButtonRight" parent="@style/sliderButton">
         <item name="android:background">@drawable/commerce_sliding_icon</item>
     </style>
+
     <style name="ShadowText">
         <item name="android:typeface">sans</item>
         <item name="android:textStyle">bold</item>
@@ -1222,6 +1456,7 @@
         <item name="android:shadowDy">-1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="slipTitleBar">
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/bg_titlebar_full</item>
@@ -1229,14 +1464,17 @@
         <item name="android:paddingBottom">5.0dip</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipTitleShadowText" parent="@style/ShadowText">
         <item name="android:textSize">20.0sp</item>
         <item name="android:gravity">center</item>
         <item name="android:background">@android:color/transparent</item>
     </style>
+
     <style name="slipTitleShadowText.large" parent="@style/slipTitleShadowText">
         <item name="android:textSize">30.0sp</item>
     </style>
+
     <style name="slipTitleShadowText.Commerce" parent="@style/slipTitleShadowText">
         <item name="android:ellipsize">end</item>
         <item name="android:layout_width">fill_parent</item>
@@ -1246,38 +1484,47 @@
         <item name="android:singleLine">true</item>
         <item name="android:layout_alignParentLeft">true</item>
     </style>
+
     <style name="slipTitleShadowText.Commerce.large" parent="@style/slipTitleShadowText.Commerce">
         <item name="android:textSize">30.0sp</item>
         <item name="android:layout_marginLeft">82.0dip</item>
         <item name="android:layout_marginRight">200.0dip</item>
     </style>
+
     <style name="slipTitleShadowText.Commerce.hd" parent="@style/slipTitleShadowText.Commerce">
         <item name="android:textSize">30.0sp</item>
         <item name="android:layout_width">270.0dip</item>
         <item name="android:layout_marginLeft">80.0dip</item>
     </style>
+
     <style name="slipBackground">
         <item name="android:background">@drawable/app_background</item>
     </style>
+
     <style name="slipBackgroundWithPadding" parent="@style/slipBackground">
         <item name="android:padding">10.0dip</item>
     </style>
+
     <style name="ButtonShadowText" parent="@style/ShadowText">
         <item name="android:textSize">13.0sp</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="ButtonShadowTextW" parent="@style/ShadowText">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:shadowColor">@android:color/background_light</item>
     </style>
+
     <style name="slipButtonShadowTextThemed" parent="@style/ButtonShadowText">
         <item name="android:background">@drawable/bn_blue_state</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipButtonShadowTextThemed.large" parent="@style/slipButtonShadowTextThemed">
         <item name="android:textSize">20.0sp</item>
     </style>
+
     <style name="slipButtonShadowTextThemed.Right" parent="@style/slipButtonShadowTextThemed">
         <item name="android:paddingLeft">5.0dip</item>
         <item name="android:paddingRight">5.0dip</item>
@@ -1286,6 +1533,7 @@
         <item name="android:layout_alignParentTop">true</item>
         <item name="android:layout_alignParentRight">true</item>
     </style>
+
     <style name="slipButtonShadowTextThemed.Right.large" parent="@style/slipButtonShadowTextThemed.Right">
         <item name="android:textSize">20.0sp</item>
         <item name="android:paddingLeft">10.0dip</item>
@@ -1293,55 +1541,69 @@
         <item name="android:layout_marginTop">12.0dip</item>
         <item name="android:layout_marginRight">9.0dip</item>
     </style>
+
     <style name="slipButtonShadowTextThemed.Save" parent="@style/slipButtonShadowTextThemed">
         <item name="android:layout_width">60.0dip</item>
         <item name="android:layout_height">40.0dip</item>
         <item name="android:layout_margin">5.0dip</item>
     </style>
+
     <style name="slipButtonShadowTextThemed.Save.large" parent="@style/slipButtonShadowTextThemed.Save">
         <item name="android:textSize">20.0sp</item>
         <item name="android:layout_width">90.0dip</item>
         <item name="android:layout_height">50.0dip</item>
         <item name="android:layout_margin">8.0dip</item>
     </style>
+
     <style name="slipSearchButtonShadowTextThemed" parent="@style/ButtonShadowText">
         <item name="android:background">@drawable/bn_green_state</item>
     </style>
+
     <style name="LeftSegButtonThemed" parent="@style/ShadowText">
         <item name="android:background">@drawable/bn_blue_left_seg</item>
     </style>
+
     <style name="RightSegButtonThemed" parent="@style/ShadowText">
         <item name="android:background">@drawable/bn_blue_right_seg</item>
     </style>
+
     <style name="SearchLeftSegButtonThemed" parent="@style/ShadowText">
         <item name="android:background">@drawable/bn_blue_left_seg_selectable</item>
     </style>
+
     <style name="SearchRightSegButtonThemed" parent="@style/ShadowText">
         <item name="android:background">@drawable/bn_blue_right_seg_selectable</item>
     </style>
+
     <style name="Theme.MilestoneDialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowNoTitle">true</item>
     </style>
+
     <style name="QuickActionAboveAnimation">
         <item name="android:windowEnterAnimation">@anim/quickaction_above_enter</item>
         <item name="android:windowExitAnimation">@anim/quickaction_above_exit</item>
     </style>
+
     <style name="QuickActionBelowAnimation">
         <item name="android:windowEnterAnimation">@anim/quickaction_below_enter</item>
         <item name="android:windowExitAnimation">@anim/quickaction_below_exit</item>
     </style>
+
     <style name="checkbox_spring">
         <item name="android:background">@drawable/trans</item>
         <item name="android:button">@drawable/cb_state_spring</item>
     </style>
+
     <style name="checkview_spring">
         <item name="android:checkMark">@drawable/cb_state_spring</item>
     </style>
+
     <style name="formRow">
         <item name="android:paddingTop">0.0dip</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="formColumnPrompt">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/community_dark_brown_1</item>
@@ -1351,6 +1613,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1.0</item>
     </style>
+
     <style name="formColumnEditField">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/community_dark_brown_1</item>
@@ -1359,6 +1622,7 @@
         <item name="android:singleLine">true</item>
         <item name="android:layout_weight">10.0</item>
     </style>
+
     <style name="formColumnComment">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold|italic</item>
@@ -1370,6 +1634,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1.0</item>
     </style>
+
     <style name="slipHelpBackground">
         <item name="android:orientation">vertical</item>
         <item name="android:background">@null</item>
@@ -1377,42 +1642,51 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="slipHelpBackground.large" parent="@style/slipHelpBackground">
         <item name="android:paddingTop">45.0dip</item>
     </style>
+
     <style name="slipHelpBackground.more" parent="@style/slipHelpBackground">
         <item name="android:paddingTop">120.0dip</item>
     </style>
+
     <style name="slipHelpBackground.more.large" parent="@style/slipHelpBackground.more">
         <item name="android:paddingTop">210.0dip</item>
     </style>
+
     <style name="slipHelpBoxTop">
         <item name="android:background">@null</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentTop">true</item>
     </style>
+
     <style name="slipHelpBoxTop.right" parent="@style/slipHelpBoxTop">
         <item name="android:layout_width">120.0dip</item>
         <item name="android:layout_marginTop">20.0dip</item>
         <item name="android:layout_marginRight">20.0dip</item>
         <item name="android:layout_alignParentRight">true</item>
     </style>
+
     <style name="slipHelpBoxTop.right.large" parent="@style/slipHelpBoxTop.right">
         <item name="android:layout_width">180.0dip</item>
         <item name="android:layout_marginTop">40.0dip</item>
         <item name="android:layout_marginRight">30.0dip</item>
     </style>
+
     <style name="slipHelpBoxTop.left" parent="@style/slipHelpBoxTop">
         <item name="android:layout_width">120.0dip</item>
         <item name="android:layout_marginLeft">20.0dip</item>
         <item name="android:layout_marginTop">20.0dip</item>
         <item name="android:layout_alignParentLeft">true</item>
     </style>
+
     <style name="slipHelpBoxTop.left.large" parent="@style/slipHelpBoxTop.left">
         <item name="android:layout_width">180.0dip</item>
         <item name="android:layout_marginLeft">30.0dip</item>
         <item name="android:layout_marginTop">40.0dip</item>
     </style>
+
     <style name="slipHelpBoxBottom">
         <item name="android:background">@null</item>
         <item name="android:layout_width">fill_parent</item>
@@ -1423,11 +1697,13 @@
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_centerHorizontal">true</item>
     </style>
+
     <style name="slipHelpBoxBottom.large" parent="@style/slipHelpBoxBottom">
         <item name="android:layout_marginLeft">35.0dip</item>
         <item name="android:layout_marginRight">45.0dip</item>
         <item name="android:layout_marginBottom">120.0dip</item>
     </style>
+
     <style name="slipHelpBoxBottomLinear">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">@drawable/help_overlay_greenbox_short</item>
@@ -1435,9 +1711,11 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipHelpBoxBottomLinear.large" parent="@style/slipHelpBoxBottomLinear">
         <item name="android:paddingRight">9.0dip</item>
     </style>
+
     <style name="slipHelpText">
         <item name="android:textSize">12.0dip</item>
         <item name="android:textStyle">normal</item>
@@ -1449,124 +1727,153 @@
         <item name="android:layout_marginTop">30.0dip</item>
         <item name="android:layout_alignParentTop">true</item>
     </style>
+
     <style name="slipHelpText.large" parent="@style/slipHelpText">
         <item name="android:textSize">18.0dip</item>
         <item name="android:padding">15.0dip</item>
         <item name="android:layout_marginTop">30.0dip</item>
     </style>
+
     <style name="slipHelpText.bottom" parent="@style/slipHelpText">
         <item name="android:background">@null</item>
         <item name="android:padding">6.0dip</item>
         <item name="android:layout_marginTop">0.0dip</item>
         <item name="android:layout_marginBottom">0.0dip</item>
     </style>
+
     <style name="slipHelpText.bottom.large" parent="@style/slipHelpText.bottom">
         <item name="android:textSize">18.0dip</item>
         <item name="android:padding">9.0dip</item>
     </style>
+
     <style name="slipHelpArrow">
         <item name="android:layout_width">40.0dip</item>
         <item name="android:layout_height">40.0dip</item>
         <item name="android:layout_alignParentTop">true</item>
     </style>
+
     <style name="slipHelpArrow.right" parent="@style/slipHelpArrow">
         <item name="android:background">@drawable/help_overlay_arrow_right</item>
         <item name="android:layout_marginRight">50.0dip</item>
         <item name="android:layout_alignParentRight">true</item>
     </style>
+
     <style name="slipHelpArrow.right.large" parent="@style/slipHelpArrow.right">
         <item name="android:layout_width">50.0dip</item>
         <item name="android:layout_height">50.0dip</item>
         <item name="android:layout_marginRight">90.0dip</item>
     </style>
+
     <style name="slipHelpArrow.left" parent="@style/slipHelpArrow">
         <item name="android:background">@drawable/help_overlay_arrow_left</item>
         <item name="android:layout_marginLeft">40.0dip</item>
         <item name="android:layout_alignParentLeft">true</item>
     </style>
+
     <style name="slipHelpArrow.left.large" parent="@style/slipHelpArrow.left">
         <item name="android:layout_width">50.0dip</item>
         <item name="android:layout_height">50.0dip</item>
         <item name="android:layout_marginLeft">60.0dip</item>
     </style>
+
     <style name="slipHelpExclamation">
         <item name="android:background">@drawable/help_overlay_exlaimation</item>
         <item name="android:layout_width">20.0dip</item>
         <item name="android:layout_height">20.0dip</item>
     </style>
+
     <style name="slipHelpExclamation.large" parent="@style/slipHelpExclamation">
         <item name="android:layout_width">30.0dip</item>
         <item name="android:layout_height">30.0dip</item>
     </style>
+
     <style name="slipHelpBoxTop.right.More" parent="@style/slipHelpBoxTop.right">
         <item name="android:layout_marginTop">0.0dip</item>
     </style>
+
     <style name="slipHelpBoxTop.right.More.large" parent="@style/slipHelpBoxTop.right.More">
         <item name="android:layout_width">220.0dip</item>
         <item name="android:layout_marginTop">75.0dip</item>
     </style>
+
     <style name="slipHelpBoxTop.left.More" parent="@style/slipHelpBoxTop.left">
         <item name="android:layout_marginTop">0.0dip</item>
     </style>
+
     <style name="slipHelpBoxTop.left.More.large" parent="@style/slipHelpBoxTop.left.More">
         <item name="android:layout_width">180.0dip</item>
         <item name="android:layout_marginTop">75.0dip</item>
     </style>
+
     <style name="kfHelpBoxTop.right.Feed" parent="@style/slipHelpBoxTop.right">
         <item name="android:layout_width">120.0dip</item>
     </style>
+
     <style name="kfHelpBoxTop.right.large.Feed" parent="@style/slipHelpBoxTop.right.large">
         <item name="android:layout_width">254.0dip</item>
     </style>
+
     <style name="kfHelpBoxTop.left.Feed" parent="@style/slipHelpBoxTop.left">
         <item name="android:layout_width">120.0dip</item>
     </style>
+
     <style name="kfHelpBoxTop.left.large.Feed" parent="@style/slipHelpBoxTop.left.large">
         <item name="android:layout_width">254.0dip</item>
     </style>
+
     <style name="kfHelpBoxTop.left.AddChild" parent="@style/slipHelpBoxTop.left">
         <item name="android:layout_marginTop">100.0dip</item>
     </style>
+
     <style name="kfHelpBoxTop.left.large.AddChild" parent="@style/slipHelpBoxTop.left.large">
         <item name="android:layout_marginTop">120.0dip</item>
     </style>
+
     <style name="kfHelpBoxTop.right.Share" parent="@style/slipHelpBoxTop.right">
         <item name="android:layout_width">188.0dip</item>
         <item name="android:layout_marginTop">154.0dip</item>
         <item name="android:layout_marginRight">50.0dip</item>
     </style>
+
     <style name="kfHelpBoxTop.right.large.Share" parent="@style/slipHelpBoxTop.right.large">
         <item name="android:layout_width">380.0dip</item>
         <item name="android:layout_marginTop">150.0dip</item>
         <item name="android:layout_marginRight">50.0dip</item>
     </style>
+
     <style name="caTableColor">
         <item name="android:background">@color/community_form_background</item>
     </style>
+
     <style name="caTableLayout" parent="@style/caTableColor">
         <item name="android:paddingTop">0.0dip</item>
         <item name="android:paddingBottom">10.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="caTableRow">
         <item name="android:background">@color/community_form_border</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="caTableCol" parent="@style/caTableColor">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_marginBottom">1.0dip</item>
     </style>
+
     <style name="caTableCol0" parent="@style/caTableCol">
         <item name="android:layout_width">50.0dip</item>
         <item name="android:layout_span">1</item>
     </style>
+
     <style name="caTableCol0Grey" parent="@style/caTableCol0">
         <item name="android:background">#00000000</item>
         <item name="android:layout_height">44.0dip</item>
     </style>
+
     <style name="caTableCol1" parent="@style/caTableCol">
         <item name="android:gravity">center</item>
         <item name="android:paddingLeft">10.0dip</item>
@@ -1577,34 +1884,42 @@
         <item name="android:layout_span">1</item>
         <item name="android:layout_weight">1.0</item>
     </style>
+
     <style name="caTableCol1_NoPad" parent="@style/caTableCol1">
         <item name="android:paddingLeft">0.0dip</item>
         <item name="android:paddingTop">0.0dip</item>
         <item name="android:paddingRight">0.0dip</item>
         <item name="android:paddingBottom">0.0dip</item>
     </style>
+
     <style name="caTableCol1Span" parent="@style/caTableCol1">
         <item name="android:layout_span">2</item>
     </style>
+
     <style name="caTableCol1SpanNoBorder" parent="@style/caTableCol1Span">
         <item name="android:layout_marginBottom">0.0dip</item>
     </style>
+
     <style name="caTextField">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/community_form_text</item>
     </style>
+
     <style name="caButtonGreen" parent="@style/caTextWhite">
         <item name="android:background">@drawable/inviter_green_button</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="caButtonBlue" parent="@style/caButtonGreen">
         <item name="android:background">@drawable/kidfolio_button_blue3</item>
     </style>
+
     <style name="caScrollView">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="caScrollViewContainer">
         <item name="android:orientation">vertical</item>
         <item name="android:paddingLeft">20.0dip</item>
@@ -1614,6 +1929,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="caDropShadowContainer">
         <item name="android:orientation">vertical</item>
         <item name="android:background">@drawable/bg_dropshadow</item>
@@ -1624,6 +1940,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="caTopTabBlue" parent="@style/caTextWhite">
         <item name="android:background">@drawable/kidfolio_bluetexturetab2</item>
         <item name="android:clickable">false</item>
@@ -1632,35 +1949,44 @@
         <item name="android:layout_marginLeft">16.0dip</item>
         <item name="android:layout_marginRight">16.0dip</item>
     </style>
+
     <style name="caTopTabBlueLarge" parent="@style/caTopTabBlue">
         <item name="android:textSize">24.0sp</item>
         <item name="android:layout_height">45.0dip</item>
     </style>
+
     <style name="caLoginWithFacebookButton">
         <item name="android:background">@drawable/login_with_facebook_normal</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="caLoginButton" parent="@style/caButtonGreen">
         <item name="android:text">@string/login_facebook</item>
     </style>
+
     <style name="caSignUpButton" parent="@style/caButtonBlue">
         <item name="android:text">@string/login_facebook</item>
     </style>
+
     <style name="caLogoutButton" parent="@style/caButtonGreen">
         <item name="android:text">@string/save</item>
     </style>
+
     <style name="caForgotPasswordButton" parent="@style/caLinkStyle">
         <item name="android:text">@string/save</item>
     </style>
+
     <style name="caCreateAccountButton" parent="@style/caButtonGreen">
         <item name="android:text">@string/login_facebook</item>
     </style>
+
     <style name="caTosAgreeCheckBox">
         <item name="android:gravity">center</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="caIcon">
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_width">fill_parent</item>
@@ -1668,52 +1994,65 @@
         <item name="android:scaleType">centerInside</item>
         <item name="android:contentDescription"></item>
     </style>
+
     <style name="caIconUsername" parent="@style/caIcon">
         <item name="android:src">@drawable/account_username_icon</item>
     </style>
+
     <style name="caIconEmail" parent="@style/caIcon">
         <item name="android:src">@drawable/account_email_icon</item>
     </style>
+
     <style name="caIconPassword" parent="@style/caIcon">
         <item name="android:src">@drawable/account_password_icon</item>
     </style>
+
     <style name="caIconBirthdate" parent="@style/caIcon">
         <item name="android:src">@drawable/account_birthdate_icon</item>
     </style>
+
     <style name="caRadioButton">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/community_form_text</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="caTextWhite">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">@color/community_form_text_white</item>
         <item name="android:background">@color/transparent</item>
     </style>
+
     <style name="caTextStyle">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/community_form_text</item>
         <item name="android:background">@color/transparent</item>
     </style>
+
     <style name="caTextView" parent="@style/caTextStyle">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="caTextViewLarge" parent="@style/caTextView">
         <item name="android:textSize">21.0sp</item>
     </style>
+
     <style name="caLinkStyle" parent="@style/caTextStyle">
         <item name="android:textColor">@color/community_form_link</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="caTextViewCenter" parent="@style/caTextView">
         <item name="android:gravity">center</item>
     </style>
+
     <style name="caTextViewCenterLarge" parent="@style/caTextViewCenter">
         <item name="android:textSize">21.0sp</item>
     </style>
+
     <style name="caEditText" parent="@style/caTextStyle">
         <item name="android:typeface">sans</item>
         <item name="android:textColorHint">@color/community_form_text</item>
@@ -1727,37 +2066,47 @@
         <item name="android:singleLine">true</item>
         <item name="android:layout_weight">10.0</item>
     </style>
+
     <style name="caEditText_Username" parent="@style/caEditText">
         <item name="android:hint">@string/user</item>
         <item name="android:inputType">textNoSuggestions</item>
     </style>
+
     <style name="caEditText_Email" parent="@style/caEditText">
         <item name="android:hint">@string/email</item>
         <item name="android:inputType">textEmailAddress</item>
     </style>
+
     <style name="caEditText_EmailRepeat" parent="@style/caEditText_Email">
         <item name="android:hint">@string/email_repeat</item>
     </style>
+
     <style name="caEditText_EmailOrUsername" parent="@style/caEditText_Email">
         <item name="android:hint">@string/user_or_email</item>
     </style>
+
     <style name="caEditText_EmailOrUsernameLarge" parent="@style/caEditText_EmailOrUsername">
         <item name="android:textSize">21.0sp</item>
     </style>
+
     <style name="caEditText_Password" parent="@style/caEditText">
         <item name="android:hint">@string/password</item>
         <item name="android:password">true</item>
         <item name="android:inputType">textPassword</item>
     </style>
+
     <style name="caEditText_PasswordLarge" parent="@style/caEditText_Password">
         <item name="android:textSize">21.0sp</item>
     </style>
+
     <style name="caEditText_PasswordRepeat" parent="@style/caEditText_Password">
         <item name="android:hint"></item>
     </style>
+
     <style name="caEditText_PasswordRepeatLarge" parent="@style/caEditText_PasswordRepeat">
         <item name="android:textSize">21.0sp</item>
     </style>
+
     <style name="caEditText_BirthDate" parent="@style/caEditText">
         <item name="android:clickable">true</item>
         <item name="android:hint">@string/birthday</item>
@@ -1765,6 +2114,7 @@
         <item name="android:editable">false</item>
         <item name="android:inputType">none</item>
     </style>
+
     <style name="caTextField_Gender" parent="@style/caTextField">
         <item name="android:gravity">center</item>
         <item name="android:paddingRight">10.0dip</item>
@@ -1772,32 +2122,39 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:text">@string/gender</item>
     </style>
+
     <style name="caRadioButton_Male" parent="@style/caRadioButton">
         <item name="android:paddingRight">10.0dip</item>
         <item name="android:text">@string/male</item>
     </style>
+
     <style name="caRadioButton_Female" parent="@style/caRadioButton">
         <item name="android:text">@string/female</item>
     </style>
+
     <style name="caRadioGroup_Gender">
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="caTextView_ChooseWisely" parent="@style/caTextView">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:text">@string/choose</item>
     </style>
+
     <style name="caTextView_AgreeDesc" parent="@style/caTextView">
         <item name="android:clickable">true</item>
         <item name="android:text">@string/create_account</item>
     </style>
+
     <style name="caTextRow" parent="@style/caTableCol1">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">0.0dip</item>
         <item name="android:layout_weight">0.0</item>
     </style>
+
     <style name="searchBarOptionButton">
         <item name="android:clickable">true</item>
         <item name="android:layout_width">wrap_content</item>
@@ -1805,12 +2162,14 @@
         <item name="android:layout_marginLeft">5.0dip</item>
         <item name="android:layout_marginRight">5.0dip</item>
     </style>
+
     <style name="slipCategorizedGroupsList">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:divider">@drawable/trans</item>
         <item name="android:dividerHeight">0.0dip</item>
     </style>
+
     <style name="slipCategorizedGroupsListCategoryName">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -1821,6 +2180,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipSearchTerm">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
@@ -1834,6 +2194,7 @@
         <item name="android:drawableLeft">@drawable/ic_community_search</item>
         <item name="android:imeOptions">actionSearch</item>
     </style>
+
     <style name="slipSearchBar">
         <item name="android:gravity">center_vertical</item>
         <item name="android:orientation">vertical</item>
@@ -1842,35 +2203,45 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-    <style name="slipGroupSearchBar" parent="@style/slipSearchBar" />
-    <style name="slipGroupButtonsBar" parent="@style/slipSearchBar" />
+
+    <style name="slipGroupSearchBar" parent="@style/slipSearchBar"/>
+
+    <style name="slipGroupButtonsBar" parent="@style/slipSearchBar"/>
+
     <style name="slipSearchBarAddPost" parent="@style/searchBarOptionButton">
         <item name="android:background">@drawable/dropdownnav_addpost_button</item>
     </style>
+
     <style name="slipSearchBarAddPoll" parent="@style/searchBarOptionButton">
         <item name="android:background">@drawable/dropdownnav_addpoll_button</item>
     </style>
+
     <style name="slipSearchBarAddPhoto" parent="@style/searchBarOptionButton">
         <item name="android:background">@drawable/dropdownnav_addphoto_button</item>
     </style>
+
     <style name="slipPostReplyBackground">
         <item name="android:background">@drawable/bg_c_feed_reply</item>
     </style>
+
     <style name="slipMoreGroupsSearchBar">
         <item name="android:background">@drawable/bg_c_community_search</item>
         <item name="android:padding">5.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipMoreGroupsButtonsBar">
         <item name="android:background">@drawable/bg_c_community_search</item>
         <item name="android:padding">5.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipAlertTheme" parent="@android:style/Theme.Dialog">
         <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical_alt12</item>
     </style>
+
     <style name="slipCommerceSearchBar">
         <item name="android:gravity">center_vertical</item>
         <item name="android:orientation">vertical</item>
@@ -1879,9 +2250,11 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipCommerceSearchBar.large" parent="@style/slipCommerceSearchBar">
         <item name="android:padding">8.0dip</item>
     </style>
+
     <style name="slipCommerceSearchTerm">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
@@ -1895,10 +2268,12 @@
         <item name="android:drawableLeft">@drawable/ic_community_search</item>
         <item name="android:imeOptions">actionSearch</item>
     </style>
+
     <style name="slipCommerceSearchTerm.large" parent="@style/slipCommerceSearchTerm">
         <item name="android:textSize">21.0sp</item>
         <item name="android:padding">8.0dip</item>
     </style>
+
     <style name="slipShareMenuBackground">
         <item name="android:gravity">center</item>
         <item name="android:orientation">vertical</item>
@@ -1908,9 +2283,11 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">10.0dip</item>
     </style>
+
     <style name="slipShareMenuBackground.large" parent="@style/slipShareMenuBackground">
         <item name="android:layout_width">200.0dip</item>
     </style>
+
     <style name="slipShareMenuButton">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textColor">#ffffffff</item>
@@ -1924,6 +2301,7 @@
         <item name="android:layout_marginBottom">4.0dip</item>
         <item name="android:drawablePadding">6.0dip</item>
     </style>
+
     <style name="slipShareMenuButton.large" parent="@style/slipShareMenuButton">
         <item name="android:textSize">30.0sp</item>
         <item name="android:layout_marginLeft">6.0dip</item>
@@ -1932,54 +2310,67 @@
         <item name="android:layout_marginBottom">4.0dip</item>
         <item name="android:drawablePadding">6.0dip</item>
     </style>
+
     <style name="CommerceWhiteShadow">
         <item name="android:shadowColor">#ffffffff</item>
         <item name="android:shadowDx">0.0</item>
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="CommerceMedGreyText" parent="@style/CommerceWhiteShadow">
         <item name="android:typeface">sans</item>
         <item name="android:textColor">#ff625e5a</item>
     </style>
+
     <style name="CommerceMedGreyText22Sp" parent="@style/CommerceMedGreyText">
         <item name="android:textSize">22.0sp</item>
     </style>
+
     <style name="CommerceMedGreyText16Sp" parent="@style/CommerceMedGreyText">
         <item name="android:textSize">16.0sp</item>
     </style>
+
     <style name="CommerceBoldMedGreyText16Sp" parent="@style/CommerceMedGreyText">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="CommerceBoldMedGreyText20Sp" parent="@style/CommerceMedGreyText">
         <item name="android:textSize">22.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="CommerceBoldMedGreyText22Sp" parent="@style/CommerceMedGreyText">
         <item name="android:textSize">22.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="CommerceBoldMedGreyText18Sp" parent="@style/CommerceMedGreyText">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="CommerceMedGreyText20Sp" parent="@style/CommerceMedGreyText">
         <item name="android:textSize">20.0sp</item>
     </style>
+
     <style name="CommerceOrangeText20Sp" parent="@style/CommerceMedGreyText20Sp">
         <item name="android:textColor">#ffff7b22</item>
     </style>
+
     <style name="CommerceLightGreyText" parent="@style/CommerceWhiteShadow">
         <item name="android:textSize">16.0sp</item>
         <item name="android:typeface">sans</item>
         <item name="android:textColor">#ff97928e</item>
     </style>
+
     <style name="CommerceLightGreyTextTwoLines" parent="@style/CommerceWhiteShadow">
         <item name="android:textColor">#ff625e5a</item>
         <item name="android:ellipsize">end</item>
         <item name="android:lines">2</item>
     </style>
+
     <style name="slipRoundedBox">
         <item name="android:gravity">center_vertical</item>
         <item name="android:orientation">horizontal</item>
@@ -1989,15 +2380,19 @@
         <item name="android:layout_marginLeft">@dimen/slipRoundedBoxMargin</item>
         <item name="android:layout_marginRight">@dimen/slipRoundedBoxMargin</item>
     </style>
+
     <style name="slipRoundedBox.top" parent="@style/slipRoundedBox">
         <item name="android:background">@drawable/rounded_box_top</item>
     </style>
+
     <style name="slipRoundedBox.middle" parent="@style/slipRoundedBox">
         <item name="android:background">@drawable/rounded_box_middle</item>
     </style>
+
     <style name="slipRoundedBox.bottom" parent="@style/slipRoundedBox">
         <item name="android:background">@drawable/rounded_box_bottom</item>
     </style>
+
     <style name="slipRoundedBoxDivider">
         <item name="android:background">@color/slipRoundedBoxTextColor</item>
         <item name="android:layout_width">fill_parent</item>
@@ -2005,47 +2400,57 @@
         <item name="android:layout_marginLeft">@dimen/slipRoundedBoxMargin</item>
         <item name="android:layout_marginRight">@dimen/slipRoundedBoxMargin</item>
     </style>
+
     <style name="slipRoundedBoxDivider.large" parent="@style/slipRoundedBoxDivider">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">2.0dip</item>
         <item name="android:layout_marginLeft">@dimen/slipRoundedBoxMargin.large</item>
         <item name="android:layout_marginRight">@dimen/slipRoundedBoxMargin.large</item>
     </style>
+
     <style name="slipRoundedBoxDividerVertical" parent="@style/slipRoundedBoxDivider">
         <item name="android:layout_width">1.0dip</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_marginLeft">0.0dip</item>
         <item name="android:layout_marginRight">0.0dip</item>
     </style>
+
     <style name="slipRoundedBoxDividerVertical.large" parent="@style/slipRoundedBoxDividerVertical">
         <item name="android:layout_width">2.0dip</item>
     </style>
+
     <style name="slipRoundedBox.top.large" parent="@style/slipRoundedBox.top">
         <item name="android:layout_marginLeft">@dimen/slipRoundedBoxMargin.large</item>
         <item name="android:layout_marginRight">@dimen/slipRoundedBoxMargin.large</item>
     </style>
+
     <style name="slipRoundedBox.middle.large" parent="@style/slipRoundedBox.middle">
         <item name="android:layout_marginLeft">@dimen/slipRoundedBoxMargin.large</item>
         <item name="android:layout_marginRight">@dimen/slipRoundedBoxMargin.large</item>
     </style>
+
     <style name="slipRoundedBox.bottom.large" parent="@style/slipRoundedBox.bottom">
         <item name="android:layout_marginLeft">@dimen/slipRoundedBoxMargin.large</item>
         <item name="android:layout_marginRight">@dimen/slipRoundedBoxMargin.large</item>
     </style>
+
     <style name="slipRoundedBoxIcon">
         <item name="android:layout_width">24.0dip</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:scaleType">center</item>
         <item name="android:layout_weight">0.1</item>
     </style>
+
     <style name="slipRoundedBoxIcon.large" parent="@style/slipRoundedBoxIcon">
         <item name="android:layout_width">36.0dip</item>
     </style>
+
     <style name="slipRoundedBoxFont">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/slipRoundedBoxTextColor</item>
     </style>
+
     <style name="slipRoundedBoxText" parent="@style/slipRoundedBoxFont">
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">wrap_content</item>
@@ -2053,30 +2458,37 @@
         <item name="android:layout_marginBottom">@dimen/slipRoundedBoxPadding</item>
         <item name="android:layout_weight">0.9</item>
     </style>
+
     <style name="slipRoundedBoxText.large" parent="@style/slipRoundedBoxText">
         <item name="android:textSize">28.0sp</item>
         <item name="android:layout_marginTop">@dimen/slipRoundedBoxPadding.large</item>
         <item name="android:layout_marginBottom">@dimen/slipRoundedBoxPadding.large</item>
     </style>
+
     <style name="slipRoundedBoxEdit" parent="@style/slipRoundedBoxText">
         <item name="android:background">@null</item>
     </style>
+
     <style name="slipRoundedBoxEdit.large" parent="@style/slipRoundedBoxText.large">
         <item name="android:background">@null</item>
     </style>
+
     <style name="slipRoundedBoxRadio" parent="@style/slipRoundedBoxFont">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipRoundedBoxRadio.large" parent="@style/slipRoundedBoxRadio">
         <item name="android:textSize">28.0sp</item>
     </style>
+
     <style name="slipRoundedBoxArrow">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:src">@drawable/arrow_right_shaded</item>
         <item name="android:layout_weight">0.1</item>
     </style>
+
     <style name="slipWelcomeBackground">
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:orientation">vertical</item>
@@ -2084,6 +2496,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="slipWelcomeTitle" parent="@style/slipTitleShadowText">
         <item name="android:textSize">24.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -2093,9 +2506,11 @@
         <item name="android:shadowRadius">2.0</item>
         <item name="android:layout_centerHorizontal">true</item>
     </style>
+
     <style name="slipWelcomeTitle.large" parent="@style/slipWelcomeTitle">
         <item name="android:textSize">36.0sp</item>
     </style>
+
     <style name="slipWelcomeClose">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -2104,9 +2519,11 @@
         <item name="android:layout_alignParentTop">true</item>
         <item name="android:layout_alignParentRight">true</item>
     </style>
+
     <style name="slipWelcomeClose.large" parent="@style/slipWelcomeClose">
         <item name="android:visibility">visible</item>
     </style>
+
     <style name="slipWelcomeDescription" parent="@style/slipTitleShadowText">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -2118,11 +2535,13 @@
         <item name="android:layout_marginRight">8.0dip</item>
         <item name="android:layout_marginBottom">8.0dip</item>
     </style>
+
     <style name="slipWelcomeDescription.large" parent="@style/slipWelcomeDescription">
         <item name="android:textSize">24.0sp</item>
         <item name="android:layout_marginTop">0.0dip</item>
         <item name="android:layout_marginBottom">10.0dip</item>
     </style>
+
     <style name="slipWelcomePrompt" parent="@style/slipWelcomeTitle">
         <item name="android:textSize">20.0sp</item>
         <item name="android:layout_gravity">left</item>
@@ -2130,17 +2549,21 @@
         <item name="android:layout_marginTop">10.0dip</item>
         <item name="android:layout_marginBottom">6.0dip</item>
     </style>
+
     <style name="slipWelcomeFacebookText" parent="@style/slipRoundedBoxText">
         <item name="android:textSize">16.0sp</item>
     </style>
+
     <style name="slipWelcomeFacebookText.large" parent="@style/slipWelcomeFacebookText">
         <item name="android:textSize">28.0sp</item>
     </style>
+
     <style name="slipWelcomePrompt.large" parent="@style/slipWelcomePrompt">
         <item name="android:textSize">30.0sp</item>
         <item name="android:layout_marginTop">15.0dip</item>
         <item name="android:layout_marginBottom">9.0dip</item>
     </style>
+
     <style name="slipWelcomeAgree" parent="@style/slipTitleShadowText">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
@@ -2153,27 +2576,33 @@
         <item name="android:layout_marginRight">0.0dip</item>
         <item name="android:layout_marginBottom">0.0dip</item>
     </style>
+
     <style name="slipWelcomeAgree.large" parent="@style/slipWelcomeAgree">
         <item name="android:textSize">21.0sp</item>
         <item name="android:layout_marginTop">15.0dip</item>
     </style>
+
     <style name="slipWelcomeAgreeContainer">
         <item name="android:paddingLeft">24.0dip</item>
         <item name="android:paddingRight">20.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="slipWelcomeAgreeContainer.large" parent="@style/slipWelcomeAgreeContainer">
         <item name="android:paddingLeft">60.0dip</item>
         <item name="android:paddingRight">60.0dip</item>
     </style>
+
     <style name="slipWelcomeBirthdate" parent="@style/slipRoundedBoxText">
         <item name="android:textStyle">italic</item>
         <item name="android:layout_weight">0.45</item>
     </style>
+
     <style name="slipWelcomeBirthdate.large" parent="@style/slipRoundedBoxText.large">
         <item name="android:layout_weight">0.35</item>
     </style>
+
     <style name="slipWelcomeGenderContainer">
         <item name="android:gravity">center_vertical</item>
         <item name="android:orientation">horizontal</item>
@@ -2181,27 +2610,34 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_weight">0.45</item>
     </style>
+
     <style name="slipWelcomeGenderContainer.large" parent="@style/slipWelcomeGenderContainer">
         <item name="android:layout_weight">0.55</item>
     </style>
-    <style name="slipWelcomeGender" parent="@style/slipRoundedBoxRadio" />
+
+    <style name="slipWelcomeGender" parent="@style/slipRoundedBoxRadio"/>
+
     <style name="slipWelcomeGender.Female" parent="@style/slipWelcomeGender">
         <item name="android:text">@string/welcome_f</item>
     </style>
+
     <style name="slipWelcomeGender.Male" parent="@style/slipWelcomeGender">
         <item name="android:text">@string/welcome_m</item>
     </style>
+
     <style name="slipWelcomeGender.Female.large" parent="@style/slipWelcomeGender.Female">
         <item name="android:textSize">28.0sp</item>
         <item name="android:text">@string/welcome_f</item>
     </style>
+
     <style name="slipWelcomeGender.Male.large" parent="@style/slipWelcomeGender.Male">
         <item name="android:textSize">28.0sp</item>
         <item name="android:text">@string/welcome_m</item>
     </style>
 
 
-    <style name="AppBaseTheme" parent="AppTheme.NoActionBar" />
+    <style name="AppBaseTheme" parent="AppTheme.NoActionBar"/>
+
     <style name="pinkLnvRowLarge">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">@drawable/lnv_unselected</item>
@@ -2209,6 +2645,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="pinkLnvRowIconLarge">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -2216,10 +2653,12 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
     <style name="pinkLnvRowFontLarge">
         <item name="android:textSize">27.0sp</item>
         <item name="android:textColor">#ff462a0d</item>
     </style>
+
     <style name="pinkLnvRowTextLarge" parent="@style/pinkLnvRowFontLarge">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -2227,22 +2666,27 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
     <style name="pinkLnvHeaderLarge">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">@drawable/lnv_section_separator</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="pinkLnvRowIconUserLarge" parent="@style/pinkLnvRowIconLarge">
         <item name="android:layout_width">68.0dip</item>
         <item name="android:layout_height">68.0dip</item>
     </style>
+
     <style name="pinkLnvRowTextUserLarge" parent="@style/pinkLnvRowTextLarge">
         <item name="android:layout_marginLeft">102.0dip</item>
     </style>
+
     <style name="pinkLnvMessageCountLarge" parent="@style/pinkLnvRowIconLarge">
         <item name="android:layout_marginLeft">300.0dip</item>
     </style>
+
     <style name="pinkLnvMessageCountTextLarge">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -2251,11 +2695,13 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="pinkLnvHeaderFontLarge">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#ff765a42</item>
     </style>
+
     <style name="pinkLnvHeaderTextLarge" parent="@style/pinkLnvHeaderFontLarge">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -2263,11 +2709,13 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
     <style name="InfoButton">
         <item name="android:background">@drawable/info_button_44x44</item>
         <item name="android:layout_width">44.0dip</item>
         <item name="android:layout_height">44.0dip</item>
     </style>
+
     <style name="SettingsRowLeftText" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -2277,6 +2725,7 @@
         <item name="android:layout_height">38.0dip</item>
         <item name="android:layout_marginLeft">20.0dip</item>
     </style>
+
     <style name="SettingsRowRightText" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">13.0dip</item>
         <item name="android:typeface">sans</item>
@@ -2286,6 +2735,7 @@
         <item name="android:layout_height">38.0dip</item>
         <item name="android:layout_marginRight">15.0dip</item>
     </style>
+
     <style name="SettingsRightCheckBox">
         <item name="android:gravity">center|right</item>
         <item name="android:layout_width">40.0dip</item>
@@ -2293,6 +2743,7 @@
         <item name="android:layout_marginLeft">70.0dip</item>
         <item name="android:layout_marginRight">20.0dip</item>
     </style>
+
     <style name="parentTopbarOld">
         <item name="android:typeface">sans</item>
         <item name="android:textStyle">bold</item>
@@ -2306,11 +2757,13 @@
         <item name="android:layout_marginTop">0.0dip</item>
         <item name="android:layout_alignParentLeft">true</item>
     </style>
+
     <style name="bbTopbar">
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">44.0dip</item>
     </style>
+
     <style name="bbTopbarText">
         <item name="android:textSize">22.0sp</item>
         <item name="android:typeface">sans</item>
@@ -2322,102 +2775,134 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_weight">1.0</item>
     </style>
+
     <style name="bbTopbarTextLarge" parent="@style/bbTopbarText">
         <item name="android:textSize">33.0sp</item>
     </style>
-    <style name="Widget" parent="@android:style/Widget" />
+
+    <style name="Widget" parent="@android:style/Widget"/>
+
     <style name="Widget.TextView" parent="@style/Widget">
         <item name="android:background">@android:color/transparent</item>
     </style>
+
     <style name="iWindowTitleBackground">
         <item name="android:background">@drawable/community_title_bar</item>
     </style>
+
     <style name="pinkCategorizedGroupsList" parent="@style/slipCategorizedGroupsList">
         <item name="android:background">@drawable/background_pink</item>
     </style>
+
     <style name="pinkCategorizedGroupsListCategoryName" parent="@style/slipCategorizedGroupsListCategoryName">
         <item name="android:textColor">@color/ListTextColor</item>
     </style>
+
     <style name="pinkSearchBar" parent="@style/slipSearchBar">
         <item name="android:background">@drawable/pink_search_bar_gradient</item>
     </style>
-    <style name="pinkSearchTerm" parent="@style/slipSearchTerm" />
+
+    <style name="pinkSearchTerm" parent="@style/slipSearchTerm"/>
+
     <style name="pinkSearchBarAddPost" parent="@style/ppSearchBarAddPost">
         <item name="android:background">@drawable/pink_group_button</item>
     </style>
+
     <style name="pinkSearchBarAddPoll" parent="@style/ppSearchBarAddPoll">
         <item name="android:background">@drawable/pink_group_button</item>
     </style>
+
     <style name="pinkSearchBarAddPhoto" parent="@style/ppSearchBarAddPhoto">
         <item name="android:background">@drawable/pink_group_button</item>
     </style>
+
     <style name="pinkTitleBar" parent="@style/slipTitleBar">
         <item name="android:background">@drawable/pink_topbar</item>
         <item name="android:paddingTop">8.0dip</item>
         <item name="android:paddingBottom">8.0dip</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-    <style name="pinkTitleShadowText" parent="@style/slipTitleShadowText" />
-    <style name="pinkTitleShadowText.large" parent="@style/slipTitleShadowText.large" />
-    <style name="pinkTitleShadowText.Commerce" parent="@style/slipTitleShadowText.Commerce" />
-    <style name="pinkTitleShadowText.Commerce.large" parent="@style/slipTitleShadowText.Commerce.large" />
-    <style name="pinkTitleShadowText.Commerce.hd" parent="@style/slipTitleShadowText.Commerce.hd" />
+
+    <style name="pinkTitleShadowText" parent="@style/slipTitleShadowText"/>
+
+    <style name="pinkTitleShadowText.large" parent="@style/slipTitleShadowText.large"/>
+
+    <style name="pinkTitleShadowText.Commerce" parent="@style/slipTitleShadowText.Commerce"/>
+
+    <style name="pinkTitleShadowText.Commerce.large" parent="@style/slipTitleShadowText.Commerce.large"/>
+
+    <style name="pinkTitleShadowText.Commerce.hd" parent="@style/slipTitleShadowText.Commerce.hd"/>
+
     <style name="pinkGroupSearchBar" parent="@style/slipGroupSearchBar">
         <item name="android:background">@drawable/pink_search_bar_gradient</item>
     </style>
+
     <style name="pinkGroupButtonsBar" parent="@style/slipGroupButtonsBar">
         <item name="android:background">@drawable/pink_group_buttons_bar_gradient</item>
     </style>
+
     <style name="pinkGlossyButton" parent="@style/ppGlossyButton">
         <item name="android:background">@drawable/pink_group_button</item>
     </style>
+
     <style name="ProfileTextShadow">
         <item name="android:shadowColor">#ffffffff</item>
         <item name="android:shadowDx">0.0</item>
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="ProfileText" parent="@style/ProfileTextShadow">
         <item name="android:typeface">sans</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="ProfileTitle" parent="@style/ProfileText">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="ProfileTitleLarge" parent="@style/ProfileTitle">
         <item name="android:textSize">30.0sp</item>
     </style>
+
     <style name="ProfileMedium" parent="@style/ProfileText">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="ProfileMediumLarge" parent="@style/ProfileMedium">
         <item name="android:textSize">27.0sp</item>
     </style>
+
     <style name="ProfileCopy" parent="@style/ProfileText">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
     </style>
+
     <style name="ProfileCopyLarge" parent="@style/ProfileCopy">
         <item name="android:textSize">21.0sp</item>
     </style>
+
     <style name="profileProgressBar">
         <item name="android:layout_width">@dimen/profileProgressWidth</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">12.0dip</item>
     </style>
+
     <style name="profileProgressBarLarge" parent="@style/profileProgressBar">
         <item name="android:layout_width">@dimen/profileProgressWidthLarge</item>
         <item name="android:layout_marginTop">24.0dip</item>
     </style>
+
     <style name="profileProgressKnobShadow">
         <item name="android:shadowColor">#ff000000</item>
         <item name="android:shadowDx">0.0</item>
         <item name="android:shadowDy">-1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
+
     <style name="profileProgressKnobText" parent="@style/profileProgressKnobShadow">
         <item name="android:typeface">sans</item>
         <item name="android:textColor">#ffffffff</item>
@@ -2426,32 +2911,39 @@
         <item name="android:layout_alignParentTop">true</item>
         <item name="android:layout_centerHorizontal">true</item>
     </style>
+
     <style name="profileProgressKnobTextWk" parent="@style/profileProgressKnobText">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="profileProgressKnobTextWkLarge" parent="@style/profileProgressKnobTextWk">
         <item name="android:textSize">24.0sp</item>
     </style>
+
     <style name="profileProgressKnobTextNumber" parent="@style/profileProgressKnobText">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="profileProgressKnobTextNumberLarge" parent="@style/profileProgressKnobTextNumber">
         <item name="android:textSize">30.0sp</item>
     </style>
+
     <style name="profileUserPhoto">
         <item name="android:layout_width">@dimen/profileUserPhotoDim</item>
         <item name="android:layout_height">@dimen/profileUserPhotoDim</item>
         <item name="android:layout_margin">@dimen/profileUserPhotoFrameDim</item>
         <item name="android:scaleType">centerCrop</item>
     </style>
+
     <style name="profileUserPhotoLarge">
         <item name="android:layout_width">@dimen/profileUserPhotoDimLarge</item>
         <item name="android:layout_height">@dimen/profileUserPhotoDimLarge</item>
         <item name="android:layout_margin">@dimen/profileUserPhotoFrameDimLarge</item>
         <item name="android:scaleType">centerCrop</item>
     </style>
+
     <style name="profileWeekImage">
         <item name="android:background">#ffd6d2cd</item>
         <item name="android:padding">1.0dip</item>
@@ -2459,43 +2951,53 @@
         <item name="android:layout_height">@dimen/profileWeekPhotoHeight</item>
         <item name="android:layout_marginLeft">@dimen/profileMarginLeft</item>
     </style>
+
     <style name="profileWeekImageLarge" parent="@style/profileWeekImage">
         <item name="android:padding">2.0dip</item>
         <item name="android:layout_width">@dimen/profileWeekPhotoWidthLarge</item>
         <item name="android:layout_height">@dimen/profileWeekPhotoHeightLarge</item>
     </style>
+
     <style name="profileMyPhotoImage">
         <item name="android:layout_width">@dimen/profileMyPhotoDim</item>
         <item name="android:layout_height">@dimen/profileMyPhotoDim</item>
         <item name="android:layout_margin">@dimen/profileMyPhotoFrameDim</item>
         <item name="android:scaleType">centerCrop</item>
     </style>
+
     <style name="profileMyPhotoImageLarge" parent="@style/profileMyPhotoImage">
         <item name="android:layout_width">@dimen/profileMyPhotoDimLarge</item>
         <item name="android:layout_height">@dimen/profileMyPhotoDimLarge</item>
         <item name="android:layout_margin">@dimen/profileMyPhotoFrameDimLarge</item>
     </style>
+
     <style name="profileMyPhotoTextWk" parent="@style/profileProgressKnobText">
         <item name="android:textSize">9.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="profileMyPhotoTextWkLarge" parent="@style/profileMyPhotoTextWk">
         <item name="android:textSize">18.0sp</item>
     </style>
+
     <style name="profileMyPhotoTextNumber" parent="@style/profileProgressKnobText">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="profileMyPhotoTextNumberLarge" parent="@style/profileMyPhotoTextNumber">
         <item name="android:textSize">28.0sp</item>
     </style>
+
     <style name="ProfileFreeUpsellBanner">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">@dimen/adViewUpsellButtonHeight</item>
     </style>
+
     <style name="ProfileFreeUpsellBannerLarge" parent="@style/ProfileFreeUpsellBanner">
         <item name="android:layout_height">@dimen/adViewUpsellButtonHeightLarge</item>
     </style>
+
     <style name="profileUpgradeToProText" parent="@style/profileProgressKnobText">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -2503,72 +3005,92 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="profileUpgradeToProTextLarge" parent="@style/profileUpgradeToProText">
         <item name="android:textSize">27.0sp</item>
     </style>
+
     <style name="ProfileBackground">
         <item name="android:gravity">center_horizontal</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
+
     <style name="pinkProfileTitle" parent="@style/ProfileTitle">
         <item name="android:textColor">@color/pinkProfileTitle</item>
     </style>
+
     <style name="pinkProfileTitleLarge" parent="@style/ProfileTitleLarge">
         <item name="android:textColor">@color/pinkProfileTitle</item>
     </style>
+
     <style name="pinkProfileMedium" parent="@style/ProfileMedium">
         <item name="android:textColor">@color/pinkProfileTitle</item>
     </style>
+
     <style name="pinkProfileMediumLarge" parent="@style/ProfileMediumLarge">
         <item name="android:textColor">@color/pinkProfileTitle</item>
     </style>
+
     <style name="pinkProfileTitleHighlight" parent="@style/pinkProfileTitle">
         <item name="android:textColor">@color/pinkProfileHighlight</item>
     </style>
+
     <style name="pinkProfileTitleHighlightLarge" parent="@style/pinkProfileTitleLarge">
         <item name="android:textColor">@color/pinkProfileHighlight</item>
     </style>
+
     <style name="pinkProfileCopy" parent="@style/ProfileCopy">
         <item name="android:textColor">@color/pinkProfileCopy</item>
     </style>
+
     <style name="pinkProfileCopyLarge" parent="@style/ProfileCopyLarge">
         <item name="android:textColor">@color/pinkProfileCopy</item>
     </style>
+
     <style name="pinkProfileCopyHighlight" parent="@style/ProfileCopy">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/pinkProfileHighlight</item>
     </style>
+
     <style name="pinkProfileCopyHighlightLarge" parent="@style/ProfileCopyLarge">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/pinkProfileHighlight</item>
     </style>
+
     <style name="pinkProfileFreeUpsellBanner" parent="@style/ProfileFreeUpsellBanner">
         <item name="android:background">@drawable/pink_free_upsell_banner</item>
     </style>
+
     <style name="pinkProfileFreeUpsellBannerLarge" parent="@style/ProfileFreeUpsellBannerLarge">
         <item name="android:background">@drawable/pink_free_upsell_banner</item>
     </style>
+
     <style name="pinkTopbar" parent="@style/bbTopbar">
         <item name="android:background">@drawable/topbar</item>
     </style>
+
     <style name="pinkTopbarLarge" parent="@style/pinkTopbar">
         <item name="android:layout_height">66.0dip</item>
     </style>
+
     <style name="pinkComTextColor">
         <item name="android:textColor">#ff9f4075</item>
     </style>
+
     <style name="pinkProfileBackground" parent="@style/ProfileBackground">
         <item name="android:background">@drawable/background_pink</item>
         <item name="android:tileMode">repeat</item>
     </style>
+
     <style name="iTitleTheme" parent="@android:style/Theme">
         <item name="android:windowContentOverlay">@android:color/transparent</item>
         <item name="android:windowTitleSize">45.0px</item>
         <item name="android:windowTitleBackgroundStyle">@style/iWindowTitleBackground</item>
     </style>
-    <style name="Theme" parent="@android:style/Theme" />
+
+    <style name="Theme" parent="@android:style/Theme"/>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -2582,9 +3104,9 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
 
 </resources>

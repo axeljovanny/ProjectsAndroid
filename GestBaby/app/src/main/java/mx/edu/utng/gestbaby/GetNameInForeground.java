@@ -30,7 +30,7 @@ public class GetNameInForeground extends AbstractGetNameTask {
         }catch (UserRecoverableAuthException e){
             activity.startActivityForResult(e.getIntent(), requestCode);
         }catch (GoogleAuthException e){
-          onError("Error irrecuperable"+e.getMessage(), e);
+            onError("Error irrecuperable"+e.getMessage(), e);
         }
         return null;
     }

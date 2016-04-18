@@ -172,6 +172,7 @@
     <string name="feed_detail">Detalle noticia</string>
     <string name="list_weeks">Lista de Semanas</string>
     <string name="your_body">Tu cuerpo</string>
+    <string name="embryo_gallery">Galeria de Feto</string>
     <string-array name="image_ids">
         <item>@drawable/week2</item>
         <item>@drawable/week3</item>
@@ -212,6 +213,32 @@
         <item>@drawable/week38</item>
         <item>@drawable/week39</item>
         <item>@drawable/week40</item>
-      </string-array>
+    </string-array>
+    <string name="copiant">Copiando base de datos.</string>
+    <string name="errorcopiantsemana">Ha habido problemas inciando la base de datos</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="carcontenido">Cargando contenido</string>
+    <string name="errorcargardatos">Error al cargar los datos. Inténtelo más tarde. Si el problema persiste reinstale la aplicación</string>
+    <string name="title_activity_main_home">MainHomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Tags">
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JavaScript</item>
+        <item>Angular JS</item>
+        <item>Python</item>
+        <item>Ruby on Rails</item>
+    </string-array>
+
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="headlines">Encabezados de</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="link">Link: </string>
 
 </resources>

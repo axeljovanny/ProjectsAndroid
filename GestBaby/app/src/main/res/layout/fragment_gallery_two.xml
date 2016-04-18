@@ -1,17 +1,178 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:background="@drawable/background_pink"
-    tools:context="mx.edu.utng.gestbaby.gallery_two.MainActivity$PlaceholderFragment">
+                tools:context=".gallery_two.GalleryTwoFragment$PlaceholderFragment">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/topbar"
+            android:id="@+id/layout_title"
+            >
+
+        <TextView
+                android:id="@id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/embryo_gallery"
+                android:textColor="#ffffff"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/layout_title"
+            android:orientation="horizontal"
+            android:id="@+id/layout_semana"
+            android:background="@drawable/bg_titlebar_full"
+            android:layout_marginBottom="10dp"
+            >
+        <TextView
+                android:id="@+id/semanaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Semana:"
+                android:textColor="#890e34"
+                android:textSize="6pt"
+                android:textStyle="bold"
+                />
+    </LinearLayout>
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView1"/>
+            android:layout_below="@id/layout_semana"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView1"
+            android:layout_centerInParent="true"
+            android:background="@drawable/widget_unisex"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            />
 
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scroller"
+            android:layout_below="@id/imageView1"
+            >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginRight="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginTop="@dimen/baby_names_home_button_margin_top"
+                android:background="@drawable/baby_names_home_button"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/baby_names_home_button_padding_top_bottom"
+                android:paddingTop="@dimen/baby_names_home_button_padding_top_bottom">
+            <TextView
+                    android:id="@+id/estadoBebeTit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Estado del Bebe"
+                    android:textColor="#890e34"
+                    android:textSize="6pt"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/estadoBebeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Descripcion de estado del Bebe"
+                    android:textColor="#890e34"
+                    android:textSize="6pt"
+                    android:textStyle="bold"
+                    />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginRight="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginTop="@dimen/baby_names_home_button_margin_top"
+                android:background="@drawable/baby_names_home_button"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/baby_names_home_button_padding_top_bottom"
+                android:paddingTop="@dimen/baby_names_home_button_padding_top_bottom">
+
+            <TextView
+                    android:id="@+id/estadoMadreTit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Estado de la Madre"
+                    android:textColor="#890e34"
+                    android:textSize="6pt"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/estadoMadreText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Descripcion de estado del Madre"
+                    android:textColor="#890e34"
+                    android:textSize="6pt"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/estadoMadreTit"
+                    />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginRight="@dimen/baby_names_home_button_margin_left_right"
+                android:layout_marginTop="@dimen/baby_names_home_button_margin_top"
+                android:background="@drawable/baby_names_home_button"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/baby_names_home_button_padding_top_bottom"
+                android:paddingTop="@dimen/baby_names_home_button_padding_top_bottom">
+
+            <TextView
+                    android:id="@+id/consejosTit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Consejos"
+                    android:textColor="#890e34"
+                    android:textSize="6pt"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/consejosText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Descripcion de los consejos"
+                    android:textColor="#890e34"
+                    android:textSize="6pt"
+                    android:textStyle="bold"
+                    />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

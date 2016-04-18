@@ -2,32 +2,43 @@ package mx.edu.utng.gestbaby;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import mx.edu.utng.gestbaby.parser.DOMParser;
 import mx.edu.utng.gestbaby.parser.RSSFeed;
 
-public class SplashActivity2 extends Activity {
+public class SplashFragment extends Fragment {
 
 	private String RSSFEEDURL = "http://www.vidaysalud.com/tema/diario/bebes/feed/";
 	RSSFeed feed;
 
+	@Nullable
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+		return inflater.inflate(R.layout.splash, container, false);
+	}
 
-		setContentView(R.layout.splash);
+	@Override
+	public void onStart() {
+		super.onStart();
 
-		ConnectivityManager conMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+		//setContentView(R.layout.splash);
+
+		ConnectivityManager conMgr = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
 		if (conMgr.getActiveNetworkInfo() == null
 				&& !conMgr.getActiveNetworkInfo().isConnected()
 				&& !conMgr.getActiveNetworkInfo().isAvailable()) {
 			// No connectivity - Show alert
-			AlertDialog.Builder builder = new AlertDialog.Builder(this);
+			AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 			builder.setMessage(
 					"Unable to reach server, \nPlease check your connectivity.")
 					.setTitle("TD RSS Reader")
@@ -37,7 +48,7 @@ public class SplashActivity2 extends Activity {
 								@Override
 								public void onClick(DialogInterface dialog,
 										int id) {
-									finish();
+									getActivity().finish();
 								}
 							});
 
@@ -72,12 +83,12 @@ public class SplashActivity2 extends Activity {
 			bundle.putSerializable("feed", feed);
 
 			// launch List activity
-			Intent intent = new Intent(SplashActivity2.this, ListActivity.class);
+			Intent intent = new Intent(getActivity(), ListActivity.class);
 			intent.putExtras(bundle);
 			startActivity(intent);
 
 			// kill this activity
-			finish();
+			getActivity().finish();
 		}
 
 	}

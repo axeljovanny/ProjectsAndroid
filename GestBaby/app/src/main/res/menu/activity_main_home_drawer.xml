@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_gallery_one"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Galeria de Mama"/>
+        <item
+                android:id="@+id/nav_gallery_two"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Galeria de Bebe"/>
+        <item
+                android:id="@+id/nav_feed"
+                android:icon="@drawable/community_reply"
+                android:title="Noticias"/>
+        <item
+                android:id="@+id/nav_google"
+                android:icon="@drawable/community_notifications_email_on"
+                android:title="Autenticación con Google"/>
+    </group>
+
+    <item android:title="Agenda de contactos">
+        <menu>
+            <item
+                    android:id="@+id/nav_registro"
+                    android:icon="@android:drawable/ic_menu_save"
+                    android:title="Libreta de Direcciones"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Envio de correos"/>
+        </menu>
+    </item>
+
+</menu>
