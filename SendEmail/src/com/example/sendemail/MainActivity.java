@@ -43,7 +43,9 @@ public class MainActivity extends Activity implements OnClickListener{
         Button login = (Button) findViewById(R.id.btn_submit);
         reciep = (EditText) findViewById(R.id.et_to);
         sub = (EditText) findViewById(R.id.et_sub);
-        msg = (EditText) findViewById(R.id.et_text);
+
+		msg = (EditText) findViewById(R.id.et_text);
+
         
         login.setOnClickListener(this);
     }
@@ -80,7 +82,7 @@ public class MainActivity extends Activity implements OnClickListener{
 			
 			try{
 				Message message = new MimeMessage(session);
-				message.setFrom(new InternetAddress("crackiman@gmail.com"));
+				message.setFrom(new InternetAddress("testutng@gmail.com"));
 				message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(rec));
 				message.setSubject(subject);
 				message.setContent(textMessage, "text/html; charset=utf-8");
