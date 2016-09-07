@@ -43,7 +43,6 @@ public class Automovil {
     }
     public void restaurarMemento(Memento m) {
         color = m.getColor();
-        System.out.println("Automovil: Estado restaurado del Memento: "+color);
     }
 
     public void setColor(int color) {
