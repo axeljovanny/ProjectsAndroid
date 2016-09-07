@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Singleton</string>
+    <string name="escribe_universidad">Escribe tu Universidad:</string>
+    <string name="crear_universidad">Crear universidad</string>
+</resources>

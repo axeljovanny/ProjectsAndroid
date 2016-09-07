@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hola Mundo</string>
+    <string name="number_1">Numero 1:</string>
+    <string name="number_2">Numero 2:</string>
+</resources>

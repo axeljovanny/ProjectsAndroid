@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="fragment_1">Este es el framento 1</string>
+    <string name="fragment_2">Este es el fragmento 2</string>
+    <string name="fragment_3">Este es el fragment 3</string>
+    <string name="section_1">Seccion 1</string>
+    <string name="section_2">Sección 2</string>
+    <string name="section_3">Sección 3</string>
+    <string name="opciones">Opciones de archivo:</string>
+    <string name="abrir">Abrir</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="guardar">Guardar</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string name="nombre">Nombre</string>
+    <string name="tamanio">Tamaño</string>
+    <string name="extension">Extensión</string>
+    <string name="clonar">Clonar</string>
+    <string name="documento">Documento</string>
+</resources>

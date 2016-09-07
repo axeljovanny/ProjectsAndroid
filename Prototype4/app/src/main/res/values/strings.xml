@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string name="clonar">Clonar</string>
+    <string name="vencimiento">Teclea fecha de vencimiento</string>
+    <string name="titular">Teclea el titular</string>
+    <string name="numero">Teclea el numero de tarjeta</string>
+</resources>

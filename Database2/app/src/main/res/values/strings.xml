@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="add_employee">Agregar empleado</string>
+    <string name="name">Ingresa el nombre del empleado</string>
+    <string name="rfc">Teclea tu RFC</string>
+    <string name="add">Agregar</string>
+    <string name="save">Guardar</string>
+    <string name="update">Actualizar</string>
+    <string name="delete">Eliminar</string>
+    <string name="phone">Telefono</string>
+</resources>

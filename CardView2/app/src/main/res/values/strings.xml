@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CardView</string>
+    <string name="tarjeta">Tarjeta</string>
+    <string name="tarjeta_2">Tarjeta 2</string>
+</resources>
